@@ -1,0 +1,17 @@
+* text=auto
+*.cs text eol=lf
+*.ino text eol=lf
+*.h text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.ps1 text eol=crlf
+*.meta text eol=lf
+*.unity text eol=lf
+*.prefab text eol=lf
+*.asset text eol=lf
+*.png binary
+*.jpg binary
+*.mp4 binary
+*.wav binary
+*.fbx binary
+*.ttf binary

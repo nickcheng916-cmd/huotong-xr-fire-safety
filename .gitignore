@@ -1,0 +1,41 @@
+# Unity generated files (at any module depth)
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+.vs/
+.idea/
+.vscode/
+*.csproj
+*.sln
+*.suo
+*.user
+*.pidb
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.apk
+*.aab
+*.unitypackage
+# Credentials and machine-local configuration
+.env
+.env.*
+!.env.example
+config.h
+*.pem
+*.key
+*.pfx
+*.keystore
+*.jks
+# Local test / tool output
+work/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

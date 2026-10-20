@@ -1,0 +1,62 @@
+[
+  {
+    "module": "mixed-reality-fire",
+    "from": "Assets\\FlameParticleAudio.cs",
+    "to": "Assets\\NewBehaviourScript.cs"
+  },
+  {
+    "module": "mixed-reality-fire",
+    "from": "Assets\\NewBehaviourScript.cs",
+    "to": "Assets\\FlameParticleAudio.cs"
+  },
+  {
+    "module": "mixed-reality-fire",
+    "from": "Assets\\NewBehaviourScript1.cs",
+    "to": "Assets\\SmokeCeilingTrigger.cs"
+  },
+  {
+    "module": "mixed-reality-fire",
+    "from": "Assets\\SmokeCeilingTrigger.cs",
+    "to": "Assets\\NewBehaviourScript1.cs"
+  },
+  {
+    "module": "posture-tracking-feedback",
+    "from": "Assets\\FlameParticleAudio.cs",
+    "to": "Assets\\NewBehaviourScript.cs"
+  },
+  {
+    "module": "posture-tracking-feedback",
+    "from": "Assets\\NewBehaviourScript.cs",
+    "to": "Assets\\FlameParticleAudio.cs"
+  },
+  {
+    "module": "posture-tracking-feedback",
+    "from": "Assets\\SmokeCeilingTrigger.cs",
+    "to": "Assets\\NewBehaviourScript1.cs"
+  },
+  {
+    "module": "posture-tracking-feedback",
+    "from": "Assets\\scripts\\KinectFirePostureEvaluatorKinectFirePostureEvaluatorKinectFirePostureEvaluator.cs",
+    "to": "Assets\\scripts\\KinectFirePostureEvaluator.cs"
+  },
+  {
+    "module": "smoke-posture-guidance",
+    "from": "Assets\\FlameParticleAudio.cs",
+    "to": "Assets\\NewBehaviourScript.cs"
+  },
+  {
+    "module": "smoke-posture-guidance",
+    "from": "Assets\\NewBehaviourScript.cs",
+    "to": "Assets\\FlameParticleAudio.cs"
+  },
+  {
+    "module": "smoke-posture-guidance",
+    "from": "Assets\\NewBehaviourScript1.cs",
+    "to": "Assets\\SmokeCeilingTrigger.cs"
+  },
+  {
+    "module": "smoke-posture-guidance",
+    "from": "Assets\\SmokeCeilingTrigger.cs",
+    "to": "Assets\\NewBehaviourScript1.cs"
+  }
+]

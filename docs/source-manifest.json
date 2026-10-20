@@ -1,0 +1,5884 @@
+[
+  {
+    "source_file": "姿势识别分数反馈+位置读取+心率实时反馈.unitypackage",
+    "sha256": "feb914b111f7fd9caafff50428f6c6f24645e65beddfabe6324cc37fddd8126f",
+    "module": "posture-tracking-feedback",
+    "asset_count": 174,
+    "assets": [
+      {
+        "guid": "009fbf49e77db344db366a646868e02d",
+        "path": "Assets/res/ParticleSystems/Scripts/ExplosionFireAndDebris.cs",
+        "size": 2384
+      },
+      {
+        "guid": "00c3c865782347f41b6358d9fba14b48",
+        "path": "Assets/res/CrossPlatformInput/Scripts/Joystick.cs",
+        "size": 3260
+      },
+      {
+        "guid": "039587c051912eb4ead9e58344c5f3ce",
+        "path": "Assets/res/ParticleSystems/Scripts/ParticleSystemMultiplier.cs",
+        "size": 819
+      },
+      {
+        "guid": "05ec5cf00ca181d45a42ba1870e148c3",
+        "path": "Assets/res/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs",
+        "size": 9841
+      },
+      {
+        "guid": "07d0c4db854619a43992675e89c6a1c3",
+        "path": "Assets/res/FireStarter.cs",
+        "size": 383
+      },
+      {
+        "guid": "0ac1691131a8c844dafe8b6ace6a172a",
+        "path": "Assets/res/ParticleSystems/Scripts/ExplosionPhysicsForce.cs",
+        "size": 1202
+      },
+      {
+        "guid": "0d2f50a8e0bb841a5aaa90ae55db8849",
+        "path": "Assets/res/Environment/Water (Basic)/Scripts/WaterBasic.cs",
+        "size": 934
+      },
+      {
+        "guid": "0ee93b05fb5e21b4094432c5b1a4cd1f",
+        "path": "Assets/scripts/EmergencyMotionBridge.cs",
+        "size": 5894
+      },
+      {
+        "guid": "0f57aeb1b8dce3342bea5c28ac17db24",
+        "path": "Assets/res/CrossPlatformInput/Scripts/VirtualInput.cs",
+        "size": 4832
+      },
+      {
+        "guid": "103e0a6a1d404693b9fb1a5173e0e979",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A.cs",
+        "size": 6825
+      },
+      {
+        "guid": "1312ae25639a4bae8e25ae223209cc50",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventHandler.cs",
+        "size": 9303
+      },
+      {
+        "guid": "13e3e45088e68834999c82ca6f025949",
+        "path": "Assets/res/ParticleSystems/Scripts/ExtinguishableParticleSystem.cs",
+        "size": 599
+      },
+      {
+        "guid": "1a7eb92a01ed499a987bde9def05fbce",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_DigitValidator.cs",
+        "size": 726
+      },
+      {
+        "guid": "1b878b2bd27dca747855179c7ca76010",
+        "path": "Assets/res/Vehicles/Aircraft/Scripts/JetParticleEffect.cs",
+        "size": 2866
+      },
+      {
+        "guid": "1caf40fc8bebb6b43b2550c05ca791d6",
+        "path": "Assets/res/CrossPlatformInput/Scripts/TouchPad.cs",
+        "size": 4541
+      },
+      {
+        "guid": "1dfa22e5547fb4a4585ba225887d89dd",
+        "path": "Assets/res/Editor/Water/Water4/GerstnerDisplaceEditor.cs",
+        "size": 5886
+      },
+      {
+        "guid": "1e6816f87c665e541abd303ef19d93a1",
+        "path": "Assets/SmokeParticleDriver.cs",
+        "size": 2057
+      },
+      {
+        "guid": "1ee34fdb2d383a84e9ef60c30fc2778e",
+        "path": "Assets/res/Vehicles/Aircraft/Scripts/AeroplaneControlSurfaceAnimator.cs",
+        "size": 5346
+      },
+      {
+        "guid": "20fa55eb64c5cea4aa3c71ae19c434bf",
+        "path": "Assets/res/Vehicles/Car/Scripts/CarAudio.cs",
+        "size": 9089
+      },
+      {
+        "guid": "21256c5b62f346f18640dad779911e20",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextInfoDebugTool.cs",
+        "size": 30811
+      },
+      {
+        "guid": "21369fc05ef071c45bc46d02ff2cba37",
+        "path": "Assets/Flammable.cs",
+        "size": 8179
+      },
+      {
+        "guid": "22bbf57ec543cee42a5aa0ec2dd9e457",
+        "path": "Assets/res/Utility/FPSCounter.cs",
+        "size": 1090
+      },
+      {
+        "guid": "235a6615124795442b98c1f03500003e",
+        "path": "Assets/res/Vehicles/Aircraft/Scripts/AeroplaneController.cs",
+        "size": 13379
+      },
+      {
+        "guid": "246cc59c7a84ea44f87f6b70acfe30c5",
+        "path": "Assets/res/Utility/FollowTarget.cs",
+        "size": 360
+      },
+      {
+        "guid": "24b0dc2d1d494adbbec1f4db26b4cf83",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs",
+        "size": 4881
+      },
+      {
+        "guid": "2787a46a4dc848c1b4b7b9307b614bfd",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs",
+        "size": 1353
+      },
+      {
+        "guid": "29014cd42b6d273408e0ceefd336c0b3",
+        "path": "Assets/res/Utility/ParticleSystemDestroyer.cs",
+        "size": 1826
+      },
+      {
+        "guid": "29eae08c930612f439391378832711f3",
+        "path": "Assets/scripts/PicoMotionTrackerReader.cs",
+        "size": 13407
+      },
+      {
+        "guid": "2a91e8dd37cdd41efb4859b65aced7a2",
+        "path": "Assets/res/Environment/Water/Water/Scripts/WaterTile.cs",
+        "size": 1555
+      },
+      {
+        "guid": "2d687537154440a3913a9a3c7977978c",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/CameraController.cs",
+        "size": 10637
+      },
+      {
+        "guid": "2d79772cda0b4b6409070163fcab05da",
+        "path": "Assets/res/ParticleSystems/Scripts/WaterHoseParticles.cs",
+        "size": 1458
+      },
+      {
+        "guid": "2e498d1c8094910479dc3e1b768306a4",
+        "path": "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset",
+        "size": 9633
+      },
+      {
+        "guid": "2ed57967c52645d390a89dcf8f61ba73",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexJitter.cs",
+        "size": 7113
+      },
+      {
+        "guid": "2f82989cc52547043b3bfd40a74560f6",
+        "path": "Assets/SmokeCeilingTrigger.cs",
+        "size": 321
+      },
+      {
+        "guid": "33f51eb21122c4ca6a199d561065ae30",
+        "path": "Assets/res/Editor/Water/Water4/SpecularLightingEditor.cs",
+        "size": 2017
+      },
+      {
+        "guid": "37e60a97f2c87ae41b6cdc1055d78cb9",
+        "path": "Assets/res/Characters/FirstPersonCharacter/Scripts/MouseLook.cs",
+        "size": 3586
+      },
+      {
+        "guid": "37fac21d1f093d344816942d1abce94e",
+        "path": "Assets/res/Utility/TimedObjectDestructor.cs",
+        "size": 582
+      },
+      {
+        "guid": "3997e2241185407d80309a82f9148466",
+        "path": "Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc",
+        "size": 2843
+      },
+      {
+        "guid": "3a7cedf246fca744f90cbdc9dbe41166",
+        "path": "Assets/res/Utility/TimedObjectActivator.cs",
+        "size": 7058
+      },
+      {
+        "guid": "3b4a8229be06b874e8751c4b6785d202",
+        "path": "Assets/scripts/PicoScoreUdpReceiver.cs",
+        "size": 10613
+      },
+      {
+        "guid": "3ea65b38d485c374caa584a03f1de571",
+        "path": "Assets/res/Vehicles/Car/Scripts/CarController.cs",
+        "size": 13921
+      },
+      {
+        "guid": "41247fd1564541341a9ec66b3b3a5153",
+        "path": "Assets/scripts/KinectFirePostureEvaluatorKinectFirePostureEvaluatorKinectFirePostureEvaluator.cs",
+        "size": 7536
+      },
+      {
+        "guid": "4185bc77c7194462ca3b1097ef4a5de0",
+        "path": "Assets/res/Environment/Water/Water/Scripts/PlanarReflection.cs",
+        "size": 9468
+      },
+      {
+        "guid": "42476824c1030164fa5d3f85b1fb56f0",
+        "path": "Assets/SmokeZone.cs",
+        "size": 3349
+      },
+      {
+        "guid": "42e7f46d0e5a84171a3909479c1646ba",
+        "path": "Assets/res/Environment/Water/Water/Scripts/GerstnerDisplace.cs",
+        "size": 196
+      },
+      {
+        "guid": "433e9c8d0293ac4429eaf19bff2b58cf",
+        "path": "Assets/res/ParticleSystems/Scripts/Explosive.cs",
+        "size": 2087
+      },
+      {
+        "guid": "43bcd35a1c0c40ccb6d472893fe2093f",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs",
+        "size": 3782
+      },
+      {
+        "guid": "4414ab7cd3d674b449d233db0d583605",
+        "path": "Assets/res/ParticleSystems/Scripts/SmokeParticles.cs",
+        "size": 440
+      },
+      {
+        "guid": "459cec5b068041e44a60a6e3b6abb0eb",
+        "path": "Assets/res/Vehicles/Car/Scripts/Mudguard.cs",
+        "size": 750
+      },
+      {
+        "guid": "476cc7d7cd9874016adc216baab94a0a",
+        "path": "Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs",
+        "size": 6677
+      },
+      {
+        "guid": "492f54f4accf00440828ffcb9e4fcc19",
+        "path": "Assets/res/Utility/CurveControlledBob.cs",
+        "size": 1969
+      },
+      {
+        "guid": "4f19c7f94c794c5097d8bd11e39c750d",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin.cs",
+        "size": 2133
+      },
+      {
+        "guid": "521b611700410be45810047f0a74e899",
+        "path": "Assets/res/Characters/ThirdPersonCharacter/Scripts/ThirdPersonUserControl.cs",
+        "size": 2876
+      },
+      {
+        "guid": "52ec835d14bd486f900952b77698b7eb",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs",
+        "size": 8548
+      },
+      {
+        "guid": "53d91f98a2664f5cb9af11de72ac54ec",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs",
+        "size": 1332
+      },
+      {
+        "guid": "58650e15a2607e44daa0f150e0061d89",
+        "path": "Assets/res/Utility/DragRigidbody.cs",
+        "size": 3156
+      },
+      {
+        "guid": "58cb183e16853564e9ed457f8a296db1",
+        "path": "Assets/res/Cameras/Scripts/PivotBasedCameraRig.cs",
+        "size": 815
+      },
+      {
+        "guid": "5c2d84226fbbaf94e9c1451f1c39b06a",
+        "path": "Assets/res/CrossPlatformInput/Scripts/TiltInput.cs",
+        "size": 4613
+      },
+      {
+        "guid": "5d44a238286f6904198ab78e914c229d",
+        "path": "Assets/res/ParticleSystems/Scripts/AfterburnerPhysicsForce.cs",
+        "size": 2946
+      },
+      {
+        "guid": "5d8238cc53530b64fbb7828c3d3bb591",
+        "path": "Assets/res/2D/Scripts/Camera2DFollow.cs",
+        "size": 1774
+      },
+      {
+        "guid": "5fcc8a933569ca34293c109f6c1cb16e",
+        "path": "Assets/SeethroughManager.cs",
+        "size": 480
+      },
+      {
+        "guid": "6045a93fb05b9c74884821030da2c46c",
+        "path": "Assets/res/Utility/FOVKick.cs",
+        "size": 2476
+      },
+      {
+        "guid": "643c971818f68d3439e84b5d8bdafe07",
+        "path": "Assets/res/Utility/ObjectResetter.cs",
+        "size": 1604
+      },
+      {
+        "guid": "64629143ce0000147a2761528f555ad6",
+        "path": "Assets/scripts/PicoFireDistanceUdpSender.cs",
+        "size": 3593
+      },
+      {
+        "guid": "66329fe4ad8cd59478fffdc10131da1c",
+        "path": "Assets/res/Vehicles/Aircraft/Scripts/AeroplaneAudio.cs",
+        "size": 5997
+      },
+      {
+        "guid": "686ec78b56aa445795335fbadafcfaa4",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_FrameRateCounter.cs",
+        "size": 5150
+      },
+      {
+        "guid": "69b69a5b0e0a85b4aa97a7edc40c37d1",
+        "path": "Assets/res/Utility/SimpleActivatorMenu.cs",
+        "size": 1113
+      },
+      {
+        "guid": "6ac1ce5a5adfd9f46adbf5b6f752a47c",
+        "path": "Assets/res/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs",
+        "size": 6546
+      },
+      {
+        "guid": "6d13f3a38bf4f15428f3d30f4e8da8a3",
+        "path": "Assets/scripts/KinectUdpReceiver.cs",
+        "size": 3828
+      },
+      {
+        "guid": "6f2c5b59b6874405865e2616e4ec276a",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01.cs",
+        "size": 2122
+      },
+      {
+        "guid": "6f947e56d54f4274896478766fef616c",
+        "path": "Assets/res/Vehicles/Aircraft/Scripts/AeroplaneAiControl.cs",
+        "size": 6090
+      },
+      {
+        "guid": "6ff581920b0c33e4baf22b1b111cdbd0",
+        "path": "Assets/NewBehaviourScript.cs",
+        "size": 6444
+      },
+      {
+        "guid": "7028cba082f628947b6a9deda01ccfd6",
+        "path": "Assets/scripts/FireDistanceToKinectPostureBridge.cs",
+        "size": 941
+      },
+      {
+        "guid": "70852dc981465ea48bb527b9e33a87fd",
+        "path": "Assets/res/Utility/WaypointCircuit.cs",
+        "size": 13276
+      },
+      {
+        "guid": "71398ce7fbc3a5b4fa50b50bd54317a7",
+        "path": "Assets/res/CrossPlatformInput/Scripts/MobileControlRig.cs",
+        "size": 2448
+      },
+      {
+        "guid": "723274b822865ed4d9ed2a504c0ca79d",
+        "path": "Assets/res/ParticleSystems/Scripts/FireLight.cs",
+        "size": 1155
+      },
+      {
+        "guid": "76c11bbcfddf44e0ba17d6c2751c8d84",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshSpawner.cs",
+        "size": 2780
+      },
+      {
+        "guid": "790744c462254b7ba8038e6ed28b3db2",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs",
+        "size": 5999
+      },
+      {
+        "guid": "7d3269566d48b8447bb48d2259e28f8b",
+        "path": "Assets/res/CrossPlatformInput/Scripts/InputAxisScrollbar.cs",
+        "size": 353
+      },
+      {
+        "guid": "81c9795a96c094f4cbde4d65546aa9b2",
+        "path": "Assets/res/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs",
+        "size": 9414
+      },
+      {
+        "guid": "83680ab1a69f4102ac67d1459fe76e1f",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_PhoneNumberValidator.cs",
+        "size": 3521
+      },
+      {
+        "guid": "83c81407209f85e4c87c0cda8b32868e",
+        "path": "Assets/res/Characters/FirstPersonCharacter/Scripts/HeadBob.cs",
+        "size": 2235
+      },
+      {
+        "guid": "84aaf699bc8991245a1331f0dad62324",
+        "path": "Assets/scripts/PicoScoreUIAutoBuilder.cs",
+        "size": 16827
+      },
+      {
+        "guid": "8566902b50d5bfb4fb7f8b89f9cdbe8b",
+        "path": "Assets/res/Utility/DynamicShadowSettings.cs",
+        "size": 1650
+      },
+      {
+        "guid": "85bf3be603548374ca46f521a3aa7fda",
+        "path": "Assets/res/CrossPlatformInput/Scripts/ButtonHandler.cs",
+        "size": 922
+      },
+      {
+        "guid": "89a534d869bfccd49bebf7cb6fb244b6",
+        "path": "Assets/res/Cameras/Scripts/AbstractTargetFollower.cs",
+        "size": 3594
+      },
+      {
+        "guid": "8c5335f0882fe4d478883cc8c58ce906",
+        "path": "Assets/res/Characters/ThirdPersonCharacter/Scripts/AICharacterControl.cs",
+        "size": 1486
+      },
+      {
+        "guid": "8ef7be1c625941f7ba8ed7cc71718c0d",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs",
+        "size": 4573
+      },
+      {
+        "guid": "8f586378b4e144a9851e7b34d9b748ee",
+        "path": "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset",
+        "size": 2256862
+      },
+      {
+        "guid": "915950f1f73ea9e429d92b7226238623",
+        "path": "Assets/res/ParticleSystems/Scripts/Hose.cs",
+        "size": 1050
+      },
+      {
+        "guid": "91b8ba3d52e041fab2d0e0f169855539",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexColorCycler.cs",
+        "size": 3127
+      },
+      {
+        "guid": "94b04ec3bda6b7747aa53936ef3b0ae2",
+        "path": "Assets/res/Cameras/Scripts/ProtectCameraFromWallClip.cs",
+        "size": 6066
+      },
+      {
+        "guid": "951d74f7d57bed84cb623c62436bd064",
+        "path": "Assets/res/Environment/Water/Water/Scripts/MeshContainer.cs",
+        "size": 511
+      },
+      {
+        "guid": "96468c245ae8e0d4f8f1c7a7b8b0542e",
+        "path": "Assets/res/Vehicles/Car/Scripts/CarUserControl.cs",
+        "size": 905
+      },
+      {
+        "guid": "9703d53e47195aa4190acd11369ccd1b",
+        "path": "Assets/res/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs",
+        "size": 3489
+      },
+      {
+        "guid": "971f44ba24a74294294daed00507d80e",
+        "path": "Assets/res/Utility/AlphaButtonClickMask.cs",
+        "size": 1817
+      },
+      {
+        "guid": "995c36b996cecf743b2f615f37376d70",
+        "path": "Assets/SmokeExposureController.cs",
+        "size": 2717
+      },
+      {
+        "guid": "9961032f4f02c4f41997c3ea399d2f22",
+        "path": "Assets/res/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs",
+        "size": 2340
+      },
+      {
+        "guid": "9ab98b66288df7b4fa182075f2f12bd6",
+        "path": "Assets/res/CrossPlatformInput/Scripts/AxisTouchButton.cs",
+        "size": 2376
+      },
+      {
+        "guid": "9b5b13b7a19cfe24b9512e7c31c32663",
+        "path": "Assets/PlayerMovement.cs",
+        "size": 1035
+      },
+      {
+        "guid": "9b886447cba80f74e820adb3c9e70c76",
+        "path": "Assets/res/Utility/ForcedReset.cs",
+        "size": 536
+      },
+      {
+        "guid": "9c0578910bbe00d43919a92c7b9893fe",
+        "path": "Assets/res/Utility/EventSystemChecker.cs",
+        "size": 542
+      },
+      {
+        "guid": "9c2c627f6fe3945b39581fc103d32251",
+        "path": "Assets/res/Editor/Water/Water4/WaterBaseEditor.cs",
+        "size": 9986
+      },
+      {
+        "guid": "9c4978ff6447f9040b84acc89b0bbdc8",
+        "path": "Assets/res/Utility/AutoMobileShaderSwitch.cs",
+        "size": 7298
+      },
+      {
+        "guid": "9ce3a3a1349a5774b94761844e652a65",
+        "path": "Assets/res/Vehicles/Car/Scripts/SkidTrail.cs",
+        "size": 538
+      },
+      {
+        "guid": "9da79cd46c2e3d34fa55f9910bae086f",
+        "path": "Assets/scripts/PicoIndependentTrackerReader.cs",
+        "size": 10911
+      },
+      {
+        "guid": "9db865986f75ee44eba89ace4646af65",
+        "path": "Assets/res/Vehicles/Car/Scripts/CarSelfRighting.cs",
+        "size": 1443
+      },
+      {
+        "guid": "9ec1e45165d1f2544bff59f5a80db8ab",
+        "path": "Assets/res/Vehicles/Car/Scripts/Suspension.cs",
+        "size": 864
+      },
+      {
+        "guid": "9ee710472a26a4947a40d3c34cba7977",
+        "path": "Assets/SmokeUIController.cs",
+        "size": 9333
+      },
+      {
+        "guid": "9eff140b25d64601aabc6ba32245d099",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs",
+        "size": 1826
+      },
+      {
+        "guid": "a05dcd8be7ec4ccbb35c26219884aa37",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_B.cs",
+        "size": 24604
+      },
+      {
+        "guid": "a1347817507220a4384f3ff6f7c24546",
+        "path": "Assets/res/Utility/AutoMoveAndRotate.cs",
+        "size": 1156
+      },
+      {
+        "guid": "a1da353243062479a9b31c85074a796b",
+        "path": "Assets/res/Environment/Water/Water/Scripts/WaterBase.cs",
+        "size": 2214
+      },
+      {
+        "guid": "a3d3ef1a5bbfb4e0a910fbbe5830b1f9",
+        "path": "Assets/res/Environment/Water/Water/Scripts/Water.cs",
+        "size": 17234
+      },
+      {
+        "guid": "a4b6f99e8bc54541bbd149b014ff441c",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs",
+        "size": 1160
+      },
+      {
+        "guid": "a4d4c76e63944cba8c7d00f56334b98c",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText.cs",
+        "size": 9123
+      },
+      {
+        "guid": "a62942d9af3f36d448094c6ed1f214dd",
+        "path": "Assets/res/Cameras/Scripts/TargetFieldOfView.cs",
+        "size": 3250
+      },
+      {
+        "guid": "a73109742c8d47ac822895a473300c29",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark03.cs",
+        "size": 3696
+      },
+      {
+        "guid": "a8d3968294210ba4a9d2bb96dfa74a16",
+        "path": "Assets/res/Cameras/Scripts/AutoCam.cs",
+        "size": 5852
+      },
+      {
+        "guid": "a91402a5d9d56cd4fbb67efa3f2dd5b8",
+        "path": "Assets/scripts/UserPositionProvider.cs",
+        "size": 3710
+      },
+      {
+        "guid": "a9dfad760b6e9455593192a6d869f7ed",
+        "path": "Assets/res/2D/Scripts/CameraFollow.cs",
+        "size": 3112
+      },
+      {
+        "guid": "ac1eb05af6d391b4eb0f4c070a99f1d0",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/DropdownSample.cs",
+        "size": 507
+      },
+      {
+        "guid": "b06f0e6c1dfa4356ac918da1bb32c603",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Prefabs/Text Popup.prefab",
+        "size": 7583
+      },
+      {
+        "guid": "b140406ce2cd8ac458c8b13c96fd367c",
+        "path": "Assets/scripts/KinectPostureFollowPanel.cs",
+        "size": 14475
+      },
+      {
+        "guid": "b27507c5d0efbbd47ac8c1de9a1a0a35",
+        "path": "Assets/res/Utility/PlatformSpecificContent.cs",
+        "size": 2891
+      },
+      {
+        "guid": "b297a60c0ddf0ee4dabefaf158fb097d",
+        "path": "Assets/res/Vehicles/Aircraft/Scripts/AeroplaneUserControl2Axis.cs",
+        "size": 2651
+      },
+      {
+        "guid": "b4c4c1106cbcf5846aeee9bf408f8fe9",
+        "path": "Assets/FlameFollower.cs",
+        "size": 3248
+      },
+      {
+        "guid": "b517765e10445bd44a807604dd5a5b25",
+        "path": "Assets/scripts/EmergencyZone.cs",
+        "size": 2985
+      },
+      {
+        "guid": "b821cfe117414d14ea5ad71c5b3c503f",
+        "path": "Assets/res/Vehicles/Aircraft/Scripts/AeroplaneUserControl4Axis.cs",
+        "size": 2498
+      },
+      {
+        "guid": "bf6c56c7f8c75ca4c99450be5aca5ace",
+        "path": "Assets/res/Vehicles/Aircraft/Scripts/LandingGear.cs",
+        "size": 1773
+      },
+      {
+        "guid": "c1bbfafbde15c854681023b9e01e12dd",
+        "path": "Assets/res/Utility/LerpControlledBob.cs",
+        "size": 1126
+      },
+      {
+        "guid": "c2ff55ab2b3e7cb4eb4d118dd6fe71eb",
+        "path": "Assets/scripts/KinectPosePacket.cs",
+        "size": 296
+      },
+      {
+        "guid": "c3c1afeda5e545e0b19add5373896d2e",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TMPro_InstructionOverlay.cs",
+        "size": 3329
+      },
+      {
+        "guid": "c3d7b34a3bb2d4e4b926e7e729d3d410",
+        "path": "Assets/res/2D/Scripts/Platformer2DUserControl.cs",
+        "size": 1105
+      },
+      {
+        "guid": "c512a45eaea4ac645b4750bf1296890b",
+        "path": "Assets/scripts",
+        "size": 0
+      },
+      {
+        "guid": "c5cb22d331ef7d64796f917c6a455a32",
+        "path": "Assets/res/Utility/WaypointProgressTracker.cs",
+        "size": 6736
+      },
+      {
+        "guid": "c62479c3465024b48b42983b1b2eeaaf",
+        "path": "Assets/res/Vehicles/Car/Scripts/WheelEffects.cs",
+        "size": 2590
+      },
+      {
+        "guid": "c62b7d87755b447919138e67f8e22e0c",
+        "path": "Assets/res/Environment/Water/Water/Scripts/Displace.cs",
+        "size": 806
+      },
+      {
+        "guid": "c8634e062924929664361c08745211fb",
+        "path": "Assets/res/Utility/ActivateTrigger.cs",
+        "size": 3557
+      },
+      {
+        "guid": "cadd54e4832aeef4b9359f44cbe335cd",
+        "path": "Assets/res/Utility/SimpleMouseRotator.cs",
+        "size": 4568
+      },
+      {
+        "guid": "ce7a80d520cacc042b5fe14f373d8173",
+        "path": "Assets/res/Characters/ThirdPersonCharacter/Scripts/ThirdPersonCharacter.cs",
+        "size": 7420
+      },
+      {
+        "guid": "cfe1af4c37e1c3a4a99ad0720b055787",
+        "path": "Assets/ParticleRepulsion.cs",
+        "size": 1980
+      },
+      {
+        "guid": "d08f91df3bd212f429df17f53ce2f364",
+        "path": "Assets/res/2D/Scripts/PlatformerCharacter2D.cs",
+        "size": 5203
+      },
+      {
+        "guid": "d1e2e7a54dcc8694ab1eca46d072f264",
+        "path": "Assets/res/Utility/CameraRefocus.cs",
+        "size": 1335
+      },
+      {
+        "guid": "d412675cfb3441efa3bf8dcd9b7624dc",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/SkewTextExample.cs",
+        "size": 6837
+      },
+      {
+        "guid": "d70571215a27f5440a999b945299ae9e",
+        "path": "Assets/scripts/EmergencyScenarioController.cs",
+        "size": 11866
+      },
+      {
+        "guid": "d736ce056cf444ca96e424f4d9c42b76",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventCheck.cs",
+        "size": 2664
+      },
+      {
+        "guid": "d947636a9390f6a46a121124154e6e3f",
+        "path": "Assets/res/Cameras/Scripts/HandHeldCam.cs",
+        "size": 1160
+      },
+      {
+        "guid": "d963df58504b69045b8d0d746ba6f777",
+        "path": "Assets/res/Vehicles/Car/Scripts/CarAIControl.cs",
+        "size": 13589
+      },
+      {
+        "guid": "daa7e0829bc72c94babd728cc0466196",
+        "path": "Assets/res/Characters/RollerBall/Scripts/BallUserControl.cs",
+        "size": 2325
+      },
+      {
+        "guid": "db7667203062c644ea1877077e30ebd6",
+        "path": "Assets/res/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs",
+        "size": 5154
+      },
+      {
+        "guid": "dc20866c0d5e413ab7559440e15333ae",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs",
+        "size": 3094
+      },
+      {
+        "guid": "dcf956e366f26fe46bf77e61671616e9",
+        "path": "Assets/FlameParticleAudio.cs",
+        "size": 320
+      },
+      {
+        "guid": "de2ab2b9ac93bb544b9552e49030371b",
+        "path": "Assets/res/Environment/Water/Water/Scripts/SpecularLighting.cs",
+        "size": 832
+      },
+      {
+        "guid": "e004fefca5c7ba44d9c5ffd46fdee2ed",
+        "path": "Assets/res/Characters/RollerBall/Scripts/Ball.cs",
+        "size": 1836
+      },
+      {
+        "guid": "e053b0a94752146e79954ce4df1b5565",
+        "path": "Assets/res/2D/Scripts/Restarter.cs",
+        "size": 395
+      },
+      {
+        "guid": "e3265ab4bf004d28a9537516768c1c75",
+        "path": "Assets/TextMesh Pro/Fonts/LiberationSans.ttf",
+        "size": 350200
+      },
+      {
+        "guid": "e32c266ee6204b21a427753cb0694c81",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TeleType.cs",
+        "size": 2820
+      },
+      {
+        "guid": "e44af8091779fcb40801d5b284353dbe",
+        "path": "Assets/res/Cameras/Scripts/FreeLookCam.cs",
+        "size": 5147
+      },
+      {
+        "guid": "e4e0d9ccee5f4950be8979268c9014e0",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs",
+        "size": 8724
+      },
+      {
+        "guid": "e8538afcddc14efbb5d9e94b7ae50197",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs",
+        "size": 3611
+      },
+      {
+        "guid": "f2ec2b96de5640e42a622fc3064f1c80",
+        "path": "Assets/res/Cameras/Scripts/LookatTarget.cs",
+        "size": 2809
+      },
+      {
+        "guid": "f44946a1344df7744903cc821a3f6bb5",
+        "path": "Assets/SmokeUIBuilder.cs",
+        "size": 12215
+      },
+      {
+        "guid": "f67f2bac30f824d4f8270bb8bb0779df",
+        "path": "Assets/res/Editor/Water/Water4/WaterEditorUtility.cs",
+        "size": 2664
+      },
+      {
+        "guid": "f76806479d916a64aa03f8e3eba7912f",
+        "path": "Assets/res/Utility/SmoothFollow.cs",
+        "size": 1828
+      },
+      {
+        "guid": "f7cfa58e417a46ea8889989684c2522e",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA.cs",
+        "size": 6846
+      },
+      {
+        "guid": "f970ea55f9f84bf79b05dab180b8c125",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs",
+        "size": 4314
+      },
+      {
+        "guid": "f9e1bae8535eed74491c82a2ef8a7593",
+        "path": "Assets/scripts/RuntimeTrackerUI.cs",
+        "size": 12820
+      },
+      {
+        "guid": "f9ecaf2fdd488e348b3be3788f094b62",
+        "path": "Assets/UDPReceiver_BPMOnly.cs",
+        "size": 19345
+      },
+      {
+        "guid": "fb9e837aae6395d48b1182bee201f814",
+        "path": "Assets/res/Vehicles/Aircraft/Scripts/AeroplanePropellerAnimator.cs",
+        "size": 3606
+      },
+      {
+        "guid": "fcf7219bab7fe46a1ad266029b2fee19",
+        "path": "Assets/TutorialInfo/Scripts/Readme.cs",
+        "size": 302
+      },
+      {
+        "guid": "fe393ace9b354375a9cb14cdbbc28be4",
+        "path": "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader",
+        "size": 7674
+      },
+      {
+        "guid": "ff3b0e14a61014f50be83e1a18c6d43e",
+        "path": "Assets/res/Editor/Water/Water4/PlanarReflectionEditor.cs",
+        "size": 2282
+      },
+      {
+        "guid": "fffafd711dc1dbc478a49705cfe1ce3d",
+        "path": "Assets/res/Vehicles/Car/Scripts/BrakeLight.cs",
+        "size": 589
+      }
+    ]
+  },
+  {
+    "source_file": "烟雾浓度检测+姿势指引.unitypackage",
+    "sha256": "cd338d05da29762e1f5f8a5fd66eb6d94e1facd963c215dc8ad658207f575623",
+    "module": "smoke-posture-guidance",
+    "asset_count": 419,
+    "assets": [
+      {
+        "guid": "009fbf49e77db344db366a646868e02d",
+        "path": "Assets/res/ParticleSystems/Scripts/ExplosionFireAndDebris.cs",
+        "size": 2384
+      },
+      {
+        "guid": "00c3c865782347f41b6358d9fba14b48",
+        "path": "Assets/res/CrossPlatformInput/Scripts/Joystick.cs",
+        "size": 3260
+      },
+      {
+        "guid": "01571ba68fb2dad46aa03094ab219579",
+        "path": "Assets/res/PhysicsMaterials/Metal.physicmaterial",
+        "size": 469
+      },
+      {
+        "guid": "0161d805a3764c089bef00bfe00793f5",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset",
+        "size": 7951
+      },
+      {
+        "guid": "031d08f52af1daa4f929b85221519426",
+        "path": "Assets/res/ParticleSystems/Prefabs/Explosion.prefab",
+        "size": 1015218
+      },
+      {
+        "guid": "039587c051912eb4ead9e58344c5f3ce",
+        "path": "Assets/res/ParticleSystems/Scripts/ParticleSystemMultiplier.cs",
+        "size": 819
+      },
+      {
+        "guid": "03d0538de6e24c0f819bfc9ce084dfa9",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Vertical (Color).jpg",
+        "size": 11336
+      },
+      {
+        "guid": "03ec435d4b7140e9b2d87f79136d8374",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/07 - Superscript & Subscript Example.unity",
+        "size": 10533
+      },
+      {
+        "guid": "03f9d74cec8e4b94a29d2dfd177c821b",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/18 - ScrollRect & Masking & Layout.unity",
+        "size": 276567
+      },
+      {
+        "guid": "0438351a6e6422d43a09930e9be00ee9",
+        "path": "Assets/res/ParticleSystems/Prefabs/Flare.prefab",
+        "size": 349771
+      },
+      {
+        "guid": "05e2a40e5834bfd4e8e5670f53020584",
+        "path": "Assets/res/ParticleSystems/Scripts",
+        "size": 0
+      },
+      {
+        "guid": "05ec5cf00ca181d45a42ba1870e148c3",
+        "path": "Assets/res/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs",
+        "size": 9841
+      },
+      {
+        "guid": "07d0c4db854619a43992675e89c6a1c3",
+        "path": "Assets/res/FireStarter.cs",
+        "size": 383
+      },
+      {
+        "guid": "0851605490a599b46b6ac5cb681d93ea",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/26 - Dropdown Placeholder Example.unity",
+        "size": 97009
+      },
+      {
+        "guid": "08572ab7713642c8a60789750f0bce5c",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/12a - Text Interactions.unity",
+        "size": 24418
+      },
+      {
+        "guid": "09a99b10658931c46a438c586a49ec65",
+        "path": "Assets/res/ParticleSystems/Materials/ParticleWaterSpray.mat",
+        "size": 1024
+      },
+      {
+        "guid": "0a0bf1a70bac80b4a81b7faf5a45587a",
+        "path": "Assets/EnlargeAndReduce.cs",
+        "size": 1761
+      },
+      {
+        "guid": "0ac1691131a8c844dafe8b6ace6a172a",
+        "path": "Assets/res/ParticleSystems/Scripts/ExplosionPhysicsForce.cs",
+        "size": 1202
+      },
+      {
+        "guid": "0ac312a9e7f7a8f47b9158ac268ba565",
+        "path": "Assets/res",
+        "size": 0
+      },
+      {
+        "guid": "0b84c16c0765ddd4e911334fc1486c0a",
+        "path": "Assets/res/Editor/Water/Water4",
+        "size": 0
+      },
+      {
+        "guid": "0d2f50a8e0bb841a5aaa90ae55db8849",
+        "path": "Assets/res/Environment/Water (Basic)/Scripts/WaterBasic.cs",
+        "size": 934
+      },
+      {
+        "guid": "0f57aeb1b8dce3342bea5c28ac17db24",
+        "path": "Assets/res/CrossPlatformInput/Scripts/VirtualInput.cs",
+        "size": 4832
+      },
+      {
+        "guid": "1032d41f900276c40a9dd24f55b7d420",
+        "path": "Assets/res/Prototyping/Materials/NavySmooth.mat",
+        "size": 4399
+      },
+      {
+        "guid": "103e0a6a1d404693b9fb1a5173e0e979",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A.cs",
+        "size": 6825
+      },
+      {
+        "guid": "10c49fcd9c64421db7c0133e61e55f97",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Circle.psd",
+        "size": 32696
+      },
+      {
+        "guid": "115b7971887db074ca81e8f612daa3bc",
+        "path": "Assets/res/Editor/Water",
+        "size": 0
+      },
+      {
+        "guid": "11fa60a4f5bdba144a008a674f32eb19",
+        "path": "Assets/res/Prototyping/Materials",
+        "size": 0
+      },
+      {
+        "guid": "1234dc2ea460f394eaec0d32e1428665",
+        "path": "Assets/res/ParticleSystems",
+        "size": 0
+      },
+      {
+        "guid": "125cb55b44b24c4393181402bc6200e6",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset",
+        "size": 7894
+      },
+      {
+        "guid": "128e987d567d4e2c824d754223b3f3b0",
+        "path": "Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader",
+        "size": 3499
+      },
+      {
+        "guid": "1312ae25639a4bae8e25ae223209cc50",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventHandler.cs",
+        "size": 9303
+      },
+      {
+        "guid": "13e3e45088e68834999c82ca6f025949",
+        "path": "Assets/res/ParticleSystems/Scripts/ExtinguishableParticleSystem.cs",
+        "size": 599
+      },
+      {
+        "guid": "14aa93acbb234d16aaef0e8b46814db6",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/DropCap Numbers.asset",
+        "size": 9803
+      },
+      {
+        "guid": "14eb328de4b8eb245bb7cea29e4ac00b",
+        "path": "Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader",
+        "size": 12000
+      },
+      {
+        "guid": "15135e86e52ab4b038dcbd61d7549e9f",
+        "path": "Assets/res/ParticleSystems/Prefabs",
+        "size": 0
+      },
+      {
+        "guid": "153c77e0022ff3148beba89b18de3476",
+        "path": "Assets/res/Prototyping",
+        "size": 0
+      },
+      {
+        "guid": "15ee41a6e438777408647ae5fe5b340a",
+        "path": "Assets/res/CrossPlatformInput",
+        "size": 0
+      },
+      {
+        "guid": "16177da2e3254cee91944756d5f8ddd3",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/Benchmark (Floating Text).unity",
+        "size": 11380
+      },
+      {
+        "guid": "174090ae7f9eff84abe76f0ff062efac",
+        "path": "Assets/res/CrossPlatformInput/Prefabs/CarTiltControls.prefab",
+        "size": 14707
+      },
+      {
+        "guid": "17c350171f7a3ca479f830547c66d187",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg",
+        "size": 273488
+      },
+      {
+        "guid": "180149b1a35449044a27b451e816d2de",
+        "path": "Assets/res/ParticleSystems/Prefabs/Fireworks.prefab",
+        "size": 797768
+      },
+      {
+        "guid": "1a7eb92a01ed499a987bde9def05fbce",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_DigitValidator.cs",
+        "size": 726
+      },
+      {
+        "guid": "1b878b2bd27dca747855179c7ca76010",
+        "path": "Assets/res/Vehicles/Aircraft/Scripts/JetParticleEffect.cs",
+        "size": 2866
+      },
+      {
+        "guid": "1b8d251f9af63b746bf2f7ffe00ebb9b",
+        "path": "Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf",
+        "size": 694398
+      },
+      {
+        "guid": "1caf40fc8bebb6b43b2550c05ca791d6",
+        "path": "Assets/res/CrossPlatformInput/Scripts/TouchPad.cs",
+        "size": 4541
+      },
+      {
+        "guid": "1cdc5b506b1a4a33a53c30669ced1f51",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg",
+        "size": 150089
+      },
+      {
+        "guid": "1dfa22e5547fb4a4585ba225887d89dd",
+        "path": "Assets/res/Editor/Water/Water4/GerstnerDisplaceEditor.cs",
+        "size": 5886
+      },
+      {
+        "guid": "1e3b057af24249748ff873be7fafee47",
+        "path": "Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader",
+        "size": 3549
+      },
+      {
+        "guid": "1e6816f87c665e541abd303ef19d93a1",
+        "path": "Assets/SmokeParticleDriver.cs",
+        "size": 2057
+      },
+      {
+        "guid": "1ee34fdb2d383a84e9ef60c30fc2778e",
+        "path": "Assets/res/Vehicles/Aircraft/Scripts/AeroplaneControlSurfaceAnimator.cs",
+        "size": 5346
+      },
+      {
+        "guid": "1f7aa4d40edff6e48b549003cad031e1",
+        "path": "Assets/res/ParticleSystems/Prefabs/DustStorm.prefab",
+        "size": 112326
+      },
+      {
+        "guid": "1ff33f1422a3af1488f81dbb03ff60cc",
+        "path": "Assets/TutorialInfo/Scripts",
+        "size": 0
+      },
+      {
+        "guid": "20fa55eb64c5cea4aa3c71ae19c434bf",
+        "path": "Assets/res/Vehicles/Car/Scripts/CarAudio.cs",
+        "size": 9089
+      },
+      {
+        "guid": "21256c5b62f346f18640dad779911e20",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextInfoDebugTool.cs",
+        "size": 30811
+      },
+      {
+        "guid": "21369fc05ef071c45bc46d02ff2cba37",
+        "path": "Assets/Flammable.cs",
+        "size": 8179
+      },
+      {
+        "guid": "2169821f0567671499a5c10104c69c24",
+        "path": "Assets/res/CrossPlatformInput/Prefabs/DualTouchControls.prefab",
+        "size": 19928
+      },
+      {
+        "guid": "21a509e1d3cd49978623fa564adb6f02",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/03 - Line Justification.unity",
+        "size": 24596
+      },
+      {
+        "guid": "22262639920f43d6be32430e4e58350d",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat",
+        "size": 2975
+      },
+      {
+        "guid": "225843b6084e75440a6ea970a17c93aa",
+        "path": "Assets/res/ParticleSystems/Materials/ParticleSmokeVertlit.mat",
+        "size": 4477
+      },
+      {
+        "guid": "22a2fba786ad4c40ac0ba09f0b933100",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/14 - Multi Font & Sprites.unity",
+        "size": 14912
+      },
+      {
+        "guid": "22bbf57ec543cee42a5aa0ec2dd9e457",
+        "path": "Assets/res/Utility/FPSCounter.cs",
+        "size": 1090
+      },
+      {
+        "guid": "235a6615124795442b98c1f03500003e",
+        "path": "Assets/res/Vehicles/Aircraft/Scripts/AeroplaneController.cs",
+        "size": 13379
+      },
+      {
+        "guid": "243e06394e614e5d99fab26083b707fa",
+        "path": "Assets/TextMesh Pro/Resources",
+        "size": 0
+      },
+      {
+        "guid": "246cc59c7a84ea44f87f6b70acfe30c5",
+        "path": "Assets/res/Utility/FollowTarget.cs",
+        "size": 360
+      },
+      {
+        "guid": "24b0dc2d1d494adbbec1f4db26b4cf83",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs",
+        "size": 4881
+      },
+      {
+        "guid": "251716609f634449bfe8ce75c0ed78fe",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/02 - Multi-line TextMesh Pro.unity",
+        "size": 10445
+      },
+      {
+        "guid": "269490de66e33a34dad45a50e3d4c168",
+        "path": "Assets/res/ParticleSystems/Textures/Spark.png",
+        "size": 871
+      },
+      {
+        "guid": "26ea534dcd83fe14c9173a52e151cce8",
+        "path": "Assets/res/ParticleSystems/Materials/ParticleFireball.mat",
+        "size": 887
+      },
+      {
+        "guid": "2787a46a4dc848c1b4b7b9307b614bfd",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs",
+        "size": 1353
+      },
+      {
+        "guid": "283f897e4925411ebbaa758b4cb13fc2",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg",
+        "size": 71537
+      },
+      {
+        "guid": "289b47a65b777e742b68853f6bb9209e",
+        "path": "Assets/TutorialInfo/Scripts/Editor",
+        "size": 0
+      },
+      {
+        "guid": "29014cd42b6d273408e0ceefd336c0b3",
+        "path": "Assets/res/Utility/ParticleSystemDestroyer.cs",
+        "size": 1826
+      },
+      {
+        "guid": "2909cb28371e6664b88130f37d454605",
+        "path": "Assets/res/ParticleSystems/ParticleSystemsGuidelines.txt",
+        "size": 2714
+      },
+      {
+        "guid": "2a91e8dd37cdd41efb4859b65aced7a2",
+        "path": "Assets/res/Environment/Water/Water/Scripts/WaterTile.cs",
+        "size": 1555
+      },
+      {
+        "guid": "2ac8cf212df6445e8aebbe3cb832e993",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/01-  Single Line TextMesh Pro.unity",
+        "size": 10375
+      },
+      {
+        "guid": "2b5e9ae96c5644d8bae932f8b4ca68a2",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Quad.psd",
+        "size": 34433
+      },
+      {
+        "guid": "2c32987c2bc01844a94adfb917dd677d",
+        "path": "Assets/res/ParticleSystems/Prefabs/WildFire.prefab",
+        "size": 340816
+      },
+      {
+        "guid": "2ce5c55e85304b819a1826ecbc839aa5",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Diagonal (Color).jpg",
+        "size": 11688
+      },
+      {
+        "guid": "2d687537154440a3913a9a3c7977978c",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/CameraController.cs",
+        "size": 10637
+      },
+      {
+        "guid": "2d79772cda0b4b6409070163fcab05da",
+        "path": "Assets/res/ParticleSystems/Scripts/WaterHoseParticles.cs",
+        "size": 1458
+      },
+      {
+        "guid": "2df95ad5240009f44aa4181cfab943be",
+        "path": "Assets/res/Characters/ThirdPersonCharacter",
+        "size": 0
+      },
+      {
+        "guid": "2e498d1c8094910479dc3e1b768306a4",
+        "path": "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset",
+        "size": 9266
+      },
+      {
+        "guid": "2ed57967c52645d390a89dcf8f61ba73",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexJitter.cs",
+        "size": 7113
+      },
+      {
+        "guid": "2f82989cc52547043b3bfd40a74560f6",
+        "path": "Assets/SmokeCeilingTrigger.cs",
+        "size": 321
+      },
+      {
+        "guid": "30289309b0c21224ea5b6fcc73b07d59",
+        "path": "Assets/res/ParticleSystems/Materials/ParticleFlameLicks.mat",
+        "size": 880
+      },
+      {
+        "guid": "3062613153ea47f42a262f065fec69d1",
+        "path": "Assets/res/ParticleSystems/Materials/ParticleSpray.mat",
+        "size": 1047
+      },
+      {
+        "guid": "3298d448194fe9b408788cd685afc7ac",
+        "path": "Assets/res/Cameras/Scripts",
+        "size": 0
+      },
+      {
+        "guid": "32aafb358d61bd14b9b27ed0871fe43b",
+        "path": "Assets/res/ParticleSystems/Prefabs/Steam.prefab",
+        "size": 109537
+      },
+      {
+        "guid": "3369231b1ed7ad34e84d9240a571db81",
+        "path": "Assets/res/CrossPlatformInput/Prefabs/MobileAircraftControls.prefab",
+        "size": 35230
+      },
+      {
+        "guid": "337f92480dd24675aae9e79210fb1ad9",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/20 - Input Field with Scrollbar.unity",
+        "size": 62898
+      },
+      {
+        "guid": "33de316e52741344ba3a606fc412ff68",
+        "path": "Assets/Particle System 1.prefab",
+        "size": 474737
+      },
+      {
+        "guid": "33f51eb21122c4ca6a199d561065ae30",
+        "path": "Assets/res/Editor/Water/Water4/SpecularLightingEditor.cs",
+        "size": 2017
+      },
+      {
+        "guid": "349f38d3606449708c7340d26740e1e2",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/09 - Margin Tag Example.unity",
+        "size": 26630
+      },
+      {
+        "guid": "356be060b1b95fb4bbc2fa604042df20",
+        "path": "Assets/WindManager.cs",
+        "size": 2619
+      },
+      {
+        "guid": "3587b30505d00a44c87d9c3b9d8bc35c",
+        "path": "Assets/res/ParticleSystems/Textures/ParticleFlameLickSheet.png",
+        "size": 139534
+      },
+      {
+        "guid": "37e60a97f2c87ae41b6cdc1055d78cb9",
+        "path": "Assets/res/Characters/FirstPersonCharacter/Scripts/MouseLook.cs",
+        "size": 3586
+      },
+      {
+        "guid": "37fac21d1f093d344816942d1abce94e",
+        "path": "Assets/res/Utility/TimedObjectDestructor.cs",
+        "size": 582
+      },
+      {
+        "guid": "381dcb09d5029d14897e55f98031fca5",
+        "path": "Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt",
+        "size": 187
+      },
+      {
+        "guid": "3927c0494931e26489bb05c5dab0a2a7",
+        "path": "Assets/res/2D",
+        "size": 0
+      },
+      {
+        "guid": "3979ce59e55144c89a2b3b3f8dcf7fd3",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts",
+        "size": 0
+      },
+      {
+        "guid": "3997e2241185407d80309a82f9148466",
+        "path": "Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc",
+        "size": 2843
+      },
+      {
+        "guid": "39a1fa96ad2a449b908fca29d4297a74",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/06 - Extra Rich Text Examples.unity",
+        "size": 19196
+      },
+      {
+        "guid": "39a389ab9b906044ca6259e7a7e05968",
+        "path": "Assets/res/Vehicles/Car/Scripts",
+        "size": 0
+      },
+      {
+        "guid": "3a7cedf246fca744f90cbdc9dbe41166",
+        "path": "Assets/res/Utility/TimedObjectActivator.cs",
+        "size": 7058
+      },
+      {
+        "guid": "3ac6db30e75b49b282a3564110579f27",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets",
+        "size": 0
+      },
+      {
+        "guid": "3aeb7dadc0c69d54d9e5777e9d5631f1",
+        "path": "Assets/res/PhysicsMaterials/Wood.physicmaterial",
+        "size": 468
+      },
+      {
+        "guid": "3b8cc2923726b3346be65c8b7e8c7ad6",
+        "path": "Assets/SmokeSpreadZone .prefab",
+        "size": 3664
+      },
+      {
+        "guid": "3bfa2f095c911d649bf4cb92a55ac974",
+        "path": "Assets/res/ParticleSystems/Materials/ParticleFlames.mat",
+        "size": 1049
+      },
+      {
+        "guid": "3e2e4d7b0bed4cf9ab827e9f32448f69",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/17 - Old Computer Terminal.unity",
+        "size": 19648
+      },
+      {
+        "guid": "3ea65b38d485c374caa584a03f1de571",
+        "path": "Assets/res/Vehicles/Car/Scripts/CarController.cs",
+        "size": 13921
+      },
+      {
+        "guid": "3f5b5dff67a942289a9defa416b206f3",
+        "path": "Assets/TextMesh Pro/Resources/TMP Settings.asset",
+        "size": 1683
+      },
+      {
+        "guid": "407bc68d299748449bbf7f48ee690f8d",
+        "path": "Assets/TextMesh Pro/Shaders/TMPro.cginc",
+        "size": 2277
+      },
+      {
+        "guid": "41756b3003ec2ac4aaafbfc484111da2",
+        "path": "Assets/res/Vehicles/Aircraft/Scripts",
+        "size": 0
+      },
+      {
+        "guid": "4185bc77c7194462ca3b1097ef4a5de0",
+        "path": "Assets/res/Environment/Water/Water/Scripts/PlanarReflection.cs",
+        "size": 9468
+      },
+      {
+        "guid": "42476824c1030164fa5d3f85b1fb56f0",
+        "path": "Assets/SmokeZone.cs",
+        "size": 3349
+      },
+      {
+        "guid": "42df1c7856584b6b8db9a509b6b10074",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat",
+        "size": 3188
+      },
+      {
+        "guid": "42e7f46d0e5a84171a3909479c1646ba",
+        "path": "Assets/res/Environment/Water/Water/Scripts/GerstnerDisplace.cs",
+        "size": 196
+      },
+      {
+        "guid": "4328ab209eeb42d43b2143ec88bc26d5",
+        "path": "Assets/res/Cameras",
+        "size": 0
+      },
+      {
+        "guid": "433e9c8d0293ac4429eaf19bff2b58cf",
+        "path": "Assets/res/ParticleSystems/Scripts/Explosive.cs",
+        "size": 2087
+      },
+      {
+        "guid": "43bcd35a1c0c40ccb6d472893fe2093f",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs",
+        "size": 3782
+      },
+      {
+        "guid": "4414ab7cd3d674b449d233db0d583605",
+        "path": "Assets/res/ParticleSystems/Scripts/SmokeParticles.cs",
+        "size": 440
+      },
+      {
+        "guid": "459cec5b068041e44a60a6e3b6abb0eb",
+        "path": "Assets/res/Vehicles/Car/Scripts/Mudguard.cs",
+        "size": 750
+      },
+      {
+        "guid": "46ed2a85a0b29a14eb58c6232bf65b64",
+        "path": "Assets/res/Environment/Water (Basic)/Scripts",
+        "size": 0
+      },
+      {
+        "guid": "473d6d3ec0d161b4a85e466c8c6da3fb",
+        "path": "Assets/res/ParticleSystems/Materials/ParticleSmokeMobile.mat",
+        "size": 1054
+      },
+      {
+        "guid": "476cc7d7cd9874016adc216baab94a0a",
+        "path": "Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs",
+        "size": 6677
+      },
+      {
+        "guid": "479a66fa4b094512a62b0a8e553ad95a",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Blue to Purple - Vertical.asset",
+        "size": 588
+      },
+      {
+        "guid": "48bb5f55d8670e349b6e614913f9d910",
+        "path": "Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader",
+        "size": 3497
+      },
+      {
+        "guid": "492f54f4accf00440828ffcb9e4fcc19",
+        "path": "Assets/res/Utility/CurveControlledBob.cs",
+        "size": 1969
+      },
+      {
+        "guid": "496e9216cd99176499e17ab4a9f81de6",
+        "path": "Assets/firesound.mp3",
+        "size": 486504
+      },
+      {
+        "guid": "49beb4954d4829042bc53313a27e40c5",
+        "path": "Assets/FireWindAffection.cs",
+        "size": 2835
+      },
+      {
+        "guid": "4aecb92fff08436c8303b10eab8da368",
+        "path": "Assets/TextMesh Pro/Resources/Style Sheets",
+        "size": 0
+      },
+      {
+        "guid": "4b9fbffaf2870774791e1850ec16029b",
+        "path": "Assets/res/Characters/FirstPersonCharacter/Scripts",
+        "size": 0
+      },
+      {
+        "guid": "4beb055f07aaff244873dec698d0363e",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf",
+        "size": 170760
+      },
+      {
+        "guid": "4c86a3366cd840348ebe8dc438570ee4",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Dark to Light Green - Vertical.asset",
+        "size": 609
+      },
+      {
+        "guid": "4ccf43d26c4748c792174516f4a8fcef",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text Image 1.png",
+        "size": 26169
+      },
+      {
+        "guid": "4dbf077105ba797428d118320f2a10aa",
+        "path": "Assets/res/ParticleSystems/Prefabs/HoseMobile.prefab",
+        "size": 453847
+      },
+      {
+        "guid": "4e505ad81f5b19c4cb6f445d36463955",
+        "path": "Assets/res/ParticleSystems/Textures/ParticleFlamesSheet.png",
+        "size": 302546
+      },
+      {
+        "guid": "4ee514e7e2e0afc4bb6bab47f6d686b6",
+        "path": "Assets/res/Characters",
+        "size": 0
+      },
+      {
+        "guid": "4f19c7f94c794c5097d8bd11e39c750d",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin.cs",
+        "size": 2133
+      },
+      {
+        "guid": "4f1e85c79acf49968737939ce8b445c7",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials",
+        "size": 0
+      },
+      {
+        "guid": "4f7fab0f7899d74459b4bdb93d6b182c",
+        "path": "Assets/res/Vehicles/Car",
+        "size": 0
+      },
+      {
+        "guid": "4ffcaf73b69a322478bd495510704c7d",
+        "path": "Assets/res/Environment/Water (Basic)",
+        "size": 0
+      },
+      {
+        "guid": "50f52f9274434ecfb34dd87f0836f323",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/21 - Script Example.unity",
+        "size": 6347
+      },
+      {
+        "guid": "512a49d95c0c4332bdd98131869c23c9",
+        "path": "Assets/TextMesh Pro/Resources/Sprite Assets",
+        "size": 0
+      },
+      {
+        "guid": "521b611700410be45810047f0a74e899",
+        "path": "Assets/res/Characters/ThirdPersonCharacter/Scripts/ThirdPersonUserControl.cs",
+        "size": 2876
+      },
+      {
+        "guid": "52baaeb214519f347a35cf0edfd262ff",
+        "path": "Assets/res/PhysicsMaterials/Rubber.physicmaterial",
+        "size": 453
+      },
+      {
+        "guid": "52ec835d14bd486f900952b77698b7eb",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs",
+        "size": 8548
+      },
+      {
+        "guid": "5302535af1044152a457ed104f1f4b91",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset",
+        "size": 7952
+      },
+      {
+        "guid": "53d91f98a2664f5cb9af11de72ac54ec",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs",
+        "size": 1332
+      },
+      {
+        "guid": "54e994244b4b467e8583cf2da6dcc716",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/23 - Animating Vertex Attributes.unity",
+        "size": 14217
+      },
+      {
+        "guid": "558cf2ed2f15bda43a8372c2abd7bbd0",
+        "path": "Assets/WASDPlayer.cs",
+        "size": 2390
+      },
+      {
+        "guid": "5808953df7a24274a851aa6dee52d30e",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Materials",
+        "size": 0
+      },
+      {
+        "guid": "58650e15a2607e44daa0f150e0061d89",
+        "path": "Assets/res/Utility/DragRigidbody.cs",
+        "size": 3156
+      },
+      {
+        "guid": "58cb183e16853564e9ed457f8a296db1",
+        "path": "Assets/res/Cameras/Scripts/PivotBasedCameraRig.cs",
+        "size": 815
+      },
+      {
+        "guid": "5b303ff28ad9368468a2edd759cf458d",
+        "path": "Assets/res/ParticleSystems/Textures/ParticleCloudWhite.png",
+        "size": 39067
+      },
+      {
+        "guid": "5bff2544887143f5807c7d5059d07f79",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Prefabs",
+        "size": 0
+      },
+      {
+        "guid": "5c2d84226fbbaf94e9c1451f1c39b06a",
+        "path": "Assets/res/CrossPlatformInput/Scripts/TiltInput.cs",
+        "size": 4613
+      },
+      {
+        "guid": "5cd052ce7ea5a2f438f599e02de6a390",
+        "path": "Assets/res/ParticleSystems/Shaders/PriorityParticleAdd.shader",
+        "size": 2378
+      },
+      {
+        "guid": "5cf8ae092ca54931b443bec5148f3c59",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Light to Dark Green - Vertical.asset",
+        "size": 585
+      },
+      {
+        "guid": "5d3fb8e05edcf4b41aef584ca1b0d06f",
+        "path": "Assets/res/CrossPlatformInput/Prefabs",
+        "size": 0
+      },
+      {
+        "guid": "5d44a238286f6904198ab78e914c229d",
+        "path": "Assets/res/ParticleSystems/Scripts/AfterburnerPhysicsForce.cs",
+        "size": 2946
+      },
+      {
+        "guid": "5d8238cc53530b64fbb7828c3d3bb591",
+        "path": "Assets/res/2D/Scripts/Camera2DFollow.cs",
+        "size": 1774
+      },
+      {
+        "guid": "5dd49b3eacc540408c98eee0de38e0f1",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf",
+        "size": 39676
+      },
+      {
+        "guid": "5e10fe0033fe25140aeac20446f837f0",
+        "path": "Assets/res/Editor",
+        "size": 0
+      },
+      {
+        "guid": "5eebb5849c50a2c4ea24ded96e6f3aac",
+        "path": "Assets/res/PhysicsMaterials",
+        "size": 0
+      },
+      {
+        "guid": "5fcc8a933569ca34293c109f6c1cb16e",
+        "path": "Assets/SeethroughManager.cs",
+        "size": 480
+      },
+      {
+        "guid": "5fe2257128d9401fad0790f581dc8a6f",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/08 - Improved Text Alignment.unity",
+        "size": 15890
+      },
+      {
+        "guid": "602cb87b6a29443b8636370ea0751574",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_diffuse.jpg",
+        "size": 95326
+      },
+      {
+        "guid": "6045a93fb05b9c74884821030da2c46c",
+        "path": "Assets/res/Utility/FOVKick.cs",
+        "size": 2476
+      },
+      {
+        "guid": "606db5bef0817aa449fe65b0ce59b19e",
+        "path": "Assets/res/Vehicles",
+        "size": 0
+      },
+      {
+        "guid": "60d4adad90a8b164abbb7d8ff5b4118a",
+        "path": "Assets/res/ParticleSystems/Materials/ParticleSteam.mat",
+        "size": 1019
+      },
+      {
+        "guid": "61cdcfd66de4b084ebdd784eb06a77cd",
+        "path": "Assets/res/CrossPlatformInput/Scripts",
+        "size": 0
+      },
+      {
+        "guid": "6211ebe7da050874588a120ededdd69d",
+        "path": "Assets/res/Vehicles/Aircraft",
+        "size": 0
+      },
+      {
+        "guid": "6250f98e58fe4abbaada5d84b7ca846d",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/22 - Basic Scripting Example.unity",
+        "size": 12075
+      },
+      {
+        "guid": "643c971818f68d3439e84b5d8bdafe07",
+        "path": "Assets/res/Utility/ObjectResetter.cs",
+        "size": 1604
+      },
+      {
+        "guid": "645413a00f7bd0242bbd6d0e5eb6f439",
+        "path": "Assets/res/ParticleSystems/Prefabs/ExplosionMobile.prefab",
+        "size": 454878
+      },
+      {
+        "guid": "6522f30e342599e4e9dd4cc2cc03c830",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat",
+        "size": 3069
+      },
+      {
+        "guid": "66329fe4ad8cd59478fffdc10131da1c",
+        "path": "Assets/res/Vehicles/Aircraft/Scripts/AeroplaneAudio.cs",
+        "size": 5997
+      },
+      {
+        "guid": "676b0cfcb1fc7cd43b5b42fbad15b6cb",
+        "path": "Assets/res/2D/Scripts",
+        "size": 0
+      },
+      {
+        "guid": "67aed5a9672e3804bb34630d99a96fb0",
+        "path": "Assets/Scenes",
+        "size": 0
+      },
+      {
+        "guid": "67ceb170539f78945abfc54072e3f2e1",
+        "path": "Assets/Smoke_CeilingLayer.prefab",
+        "size": 120045
+      },
+      {
+        "guid": "686ec78b56aa445795335fbadafcfaa4",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_FrameRateCounter.cs",
+        "size": 5150
+      },
+      {
+        "guid": "68e6db2ebdc24f95958faec2be5558d6",
+        "path": "Assets/TextMesh Pro/Shaders/TMP_SDF.shader",
+        "size": 10600
+      },
+      {
+        "guid": "694eef9939f180440a9d0891272eddba",
+        "path": "Assets/res/ParticleSystems/Shaders/PriorityParticleAddSoft.shader",
+        "size": 2339
+      },
+      {
+        "guid": "69a525efa7e6472eab268f6ea605f06e",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Yellow to Orange - Vertical.asset",
+        "size": 544
+      },
+      {
+        "guid": "69b69a5b0e0a85b4aa97a7edc40c37d1",
+        "path": "Assets/res/Utility/SimpleActivatorMenu.cs",
+        "size": 1113
+      },
+      {
+        "guid": "6ab70aee4d56447429c680537fbf93ed",
+        "path": "Assets/TextMesh Pro/Fonts",
+        "size": 0
+      },
+      {
+        "guid": "6ac1ce5a5adfd9f46adbf5b6f752a47c",
+        "path": "Assets/res/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs",
+        "size": 6546
+      },
+      {
+        "guid": "6e1d36c4bbd37d54f9ea183e4f5fd656",
+        "path": "Assets/res/Prototyping/Materials/YellowSmooth.mat",
+        "size": 4428
+      },
+      {
+        "guid": "6e59c59b81ab47f9b6ec5781fa725d2c",
+        "path": "Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt",
+        "size": 4469
+      },
+      {
+        "guid": "6e5c6d5e25574122a7a12dbdbbeed156",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Textures",
+        "size": 0
+      },
+      {
+        "guid": "6eb184de103d4b3f812b38561065192f",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg",
+        "size": 11341
+      },
+      {
+        "guid": "6f2c5b59b6874405865e2616e4ec276a",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01.cs",
+        "size": 2122
+      },
+      {
+        "guid": "6f947e56d54f4274896478766fef616c",
+        "path": "Assets/res/Vehicles/Aircraft/Scripts/AeroplaneAiControl.cs",
+        "size": 6090
+      },
+      {
+        "guid": "6ff581920b0c33e4baf22b1b111cdbd0",
+        "path": "Assets/NewBehaviourScript.cs",
+        "size": 6444
+      },
+      {
+        "guid": "701e577af2ba48b689972d42efb95456",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Sprites",
+        "size": 0
+      },
+      {
+        "guid": "702dcee2ac116d640bf26ad79fc9d0d4",
+        "path": "Assets/res/Environment/Water",
+        "size": 0
+      },
+      {
+        "guid": "70615243e2be4a81afaab9bf5d273d65",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/05 - Style Tags.unity",
+        "size": 28548
+      },
+      {
+        "guid": "70852dc981465ea48bb527b9e33a87fd",
+        "path": "Assets/res/Utility/WaypointCircuit.cs",
+        "size": 13276
+      },
+      {
+        "guid": "70dbfcefcc8da644680b63d8af5abcf7",
+        "path": "Assets/TutorialInfo",
+        "size": 0
+      },
+      {
+        "guid": "71398ce7fbc3a5b4fa50b50bd54317a7",
+        "path": "Assets/res/CrossPlatformInput/Scripts/MobileControlRig.cs",
+        "size": 2448
+      },
+      {
+        "guid": "723274b822865ed4d9ed2a504c0ca79d",
+        "path": "Assets/res/ParticleSystems/Scripts/FireLight.cs",
+        "size": 1155
+      },
+      {
+        "guid": "731f1baa9d144a9897cb1d341c2092b8",
+        "path": "Assets/TextMesh Pro/Resources/Fonts & Materials",
+        "size": 0
+      },
+      {
+        "guid": "732e2eebfe574ca47ba46cc3a67965fd",
+        "path": "Assets/res/ParticleSystems/Textures/ParticleBokeh.png",
+        "size": 11328
+      },
+      {
+        "guid": "73a79399807f4e8388c2cbb5494681ca",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Fonts/Anton OFL.txt",
+        "size": 4487
+      },
+      {
+        "guid": "749b9069dc4742c5bfa5c74644049926",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat",
+        "size": 2906
+      },
+      {
+        "guid": "75f9c13699df70146acf77d07b594a0f",
+        "path": "Assets/res/ParticleSystems/Textures",
+        "size": 0
+      },
+      {
+        "guid": "7631f4eff8f74ed38eb3eb9db17134e1",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Double.psd",
+        "size": 33155
+      },
+      {
+        "guid": "76b24fa8a46a2c14f9a7df1e975dc4b9",
+        "path": "Assets/res/ParticleSystems/Textures/ParticleFlare.png",
+        "size": 1526
+      },
+      {
+        "guid": "76c11bbcfddf44e0ba17d6c2751c8d84",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshSpawner.cs",
+        "size": 2780
+      },
+      {
+        "guid": "76ff537c8e1a84345868e6aeee938ab3",
+        "path": "Assets/res/Prototyping/Materials/NavyGrid.mat",
+        "size": 4516
+      },
+      {
+        "guid": "77d08210df254d845885518314593544",
+        "path": "Assets/res/ParticleSystems/Materials/ParticleFirecloud.mat",
+        "size": 1432
+      },
+      {
+        "guid": "7842343ebafbaf143931b14ff53b148a",
+        "path": "Assets/res/Characters/ThirdPersonCharacter/Scripts",
+        "size": 0
+      },
+      {
+        "guid": "790744c462254b7ba8038e6ed28b3db2",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs",
+        "size": 5999
+      },
+      {
+        "guid": "7911795df27dd464190eed77dda90191",
+        "path": "Assets/res/ParticleSystems/Materials/ParticleDuststorm.mat",
+        "size": 1041
+      },
+      {
+        "guid": "79459efec17a4d00a321bdcc27bbc385",
+        "path": "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat",
+        "size": 2889
+      },
+      {
+        "guid": "7d3269566d48b8447bb48d2259e28f8b",
+        "path": "Assets/res/CrossPlatformInput/Scripts/InputAxisScrollbar.cs",
+        "size": 353
+      },
+      {
+        "guid": "7f422cd1388b01047a58cd07c7a23d9d",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets",
+        "size": 0
+      },
+      {
+        "guid": "81154777d5417884981849c5243f6c01",
+        "path": "Assets/res/Utility/Prefabs/FramerateCounter.prefab",
+        "size": 5338
+      },
+      {
+        "guid": "81c9795a96c094f4cbde4d65546aa9b2",
+        "path": "Assets/res/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs",
+        "size": 9414
+      },
+      {
+        "guid": "82096aab38f01cb40a1cbf8629a810ba",
+        "path": "Assets/res/Prototyping/Materials/YellowGrid.mat",
+        "size": 4518
+      },
+      {
+        "guid": "830884c18cf5e7a4895ee02c2dcd8e12",
+        "path": "Assets/res/ParticleSystems/Textures/ParticleCloudBlack.png",
+        "size": 49067
+      },
+      {
+        "guid": "832dc5a2501052b4d8f685a7cda3b30b",
+        "path": "Assets/res/ParticleSystems/Textures/SplashesLargeParticle.png",
+        "size": 69684
+      },
+      {
+        "guid": "83680ab1a69f4102ac67d1459fe76e1f",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_PhoneNumberValidator.cs",
+        "size": 3521
+      },
+      {
+        "guid": "83c81407209f85e4c87c0cda8b32868e",
+        "path": "Assets/res/Characters/FirstPersonCharacter/Scripts/HeadBob.cs",
+        "size": 2235
+      },
+      {
+        "guid": "84ed36ad77dd4956b2ffe3769f759879",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/11 - The Style Tag.unity",
+        "size": 15327
+      },
+      {
+        "guid": "85187c2149c549c5b33f0cdb02836b17",
+        "path": "Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader",
+        "size": 3524
+      },
+      {
+        "guid": "8566902b50d5bfb4fb7f8b89f9cdbe8b",
+        "path": "Assets/res/Utility/DynamicShadowSettings.cs",
+        "size": 1650
+      },
+      {
+        "guid": "85ac55597b97403c82fc6601a93cf241",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Textures/Floor Tiles 1 - diffuse.jpg",
+        "size": 155648
+      },
+      {
+        "guid": "85bf3be603548374ca46f521a3aa7fda",
+        "path": "Assets/res/CrossPlatformInput/Scripts/ButtonHandler.cs",
+        "size": 922
+      },
+      {
+        "guid": "875684baf40f4d008ce806d03e2a81b2",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/13 - Soft Hyphenation.unity",
+        "size": 13939
+      },
+      {
+        "guid": "87be4190eae46cf459ae6177b8698f03",
+        "path": "Assets/res/ParticleSystems/Textures/ParticleFireballSheet.png",
+        "size": 83438
+      },
+      {
+        "guid": "8878a782f4334ecbbcf683b3ac780966",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_normal.jpg",
+        "size": 126976
+      },
+      {
+        "guid": "89a534d869bfccd49bebf7cb6fb244b6",
+        "path": "Assets/res/Cameras/Scripts/AbstractTargetFollower.cs",
+        "size": 3594
+      },
+      {
+        "guid": "89ff19d667a6a5d4bb76df1fcb718402",
+        "path": "Assets/res/ParticleSystems/Materials/ParticleAfterburner.mat",
+        "size": 1073
+      },
+      {
+        "guid": "8a2b9e2a607dd2143b58c44bc32410b4",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF",
+        "size": 73060
+      },
+      {
+        "guid": "8a89fa14b10d46a99122fd4f73fca9a2",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset",
+        "size": 7913
+      },
+      {
+        "guid": "8b29aaa3eec7468097ff07adfcf29ac9",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat",
+        "size": 3082
+      },
+      {
+        "guid": "8c19a618a0bd9844583b91dca0875a34",
+        "path": "Assets/res/Prototyping/Materials/PinkGrid.mat",
+        "size": 4516
+      },
+      {
+        "guid": "8c4969fd8ba94a68b07cf11f3e7a5137",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/24 - Surface Shader Example.unity",
+        "size": 70666
+      },
+      {
+        "guid": "8c5335f0882fe4d478883cc8c58ce906",
+        "path": "Assets/res/Characters/ThirdPersonCharacter/Scripts/AICharacterControl.cs",
+        "size": 1486
+      },
+      {
+        "guid": "8e44fe896458128418bff33ed3981421",
+        "path": "Assets/res/ParticleSystems/Textures/SplashesFineParticle.png",
+        "size": 36191
+      },
+      {
+        "guid": "8e7e8f5a82a3a134e91c54efd2274ea9",
+        "path": "Assets/TextMesh Pro/Documentation",
+        "size": 0
+      },
+      {
+        "guid": "8ef7be1c625941f7ba8ed7cc71718c0d",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs",
+        "size": 4573
+      },
+      {
+        "guid": "8f05276190cf498a8153f6cbe761d4e6",
+        "path": "Assets/TextMesh Pro/Sprites/EmojiOne.json",
+        "size": 4122
+      },
+      {
+        "guid": "8f586378b4e144a9851e7b34d9b748ee",
+        "path": "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset",
+        "size": 2256862
+      },
+      {
+        "guid": "8f7137eacd7042d5b17ef0efe5e744f5",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/04 - Word Wrapping.unity",
+        "size": 10389
+      },
+      {
+        "guid": "915950f1f73ea9e429d92b7226238623",
+        "path": "Assets/res/ParticleSystems/Scripts/Hose.cs",
+        "size": 1050
+      },
+      {
+        "guid": "91b8ba3d52e041fab2d0e0f169855539",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexColorCycler.cs",
+        "size": 3127
+      },
+      {
+        "guid": "921a3ff88856fe04ebc86b196fd8cc59",
+        "path": "Assets/res/ParticleSystems/Prefabs/Smoke.prefab",
+        "size": 111708
+      },
+      {
+        "guid": "92579f5eb6a9d1f42904459ea91da42f",
+        "path": "Assets/res/Utility",
+        "size": 0
+      },
+      {
+        "guid": "9442cda25baa4a0bb544c4d095b00caa",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/16 - Linked text overflow mode example.unity",
+        "size": 30275
+      },
+      {
+        "guid": "94b04ec3bda6b7747aa53936ef3b0ae2",
+        "path": "Assets/res/Cameras/Scripts/ProtectCameraFromWallClip.cs",
+        "size": 6066
+      },
+      {
+        "guid": "951d74f7d57bed84cb623c62436bd064",
+        "path": "Assets/res/Environment/Water/Water/Scripts/MeshContainer.cs",
+        "size": 511
+      },
+      {
+        "guid": "9529ecc3d479da5499993355e6c2cb4f",
+        "path": "Assets/res/CrossPlatformInput/Prefabs/MobileSingleStickControl.prefab",
+        "size": 13196
+      },
+      {
+        "guid": "96468c245ae8e0d4f8f1c7a7b8b0542e",
+        "path": "Assets/res/Vehicles/Car/Scripts/CarUserControl.cs",
+        "size": 905
+      },
+      {
+        "guid": "9703d53e47195aa4190acd11369ccd1b",
+        "path": "Assets/res/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs",
+        "size": 3489
+      },
+      {
+        "guid": "971f44ba24a74294294daed00507d80e",
+        "path": "Assets/res/Utility/AlphaButtonClickMask.cs",
+        "size": 1817
+      },
+      {
+        "guid": "9747140c28254be2adc582210dfb89b8",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/12 - Link Example.unity",
+        "size": 22098
+      },
+      {
+        "guid": "98c58c8dd46640c49bb5f557afafea7c",
+        "path": "Assets/res/ParticleSystems/Prefabs/TyreBurnoutSmoke.prefab",
+        "size": 111156
+      },
+      {
+        "guid": "995c36b996cecf743b2f615f37376d70",
+        "path": "Assets/SmokeExposureController.cs",
+        "size": 2717
+      },
+      {
+        "guid": "9961032f4f02c4f41997c3ea399d2f22",
+        "path": "Assets/res/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs",
+        "size": 2340
+      },
+      {
+        "guid": "997a43b767814dd0a7642ec9b78cba41",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf",
+        "size": 42376
+      },
+      {
+        "guid": "999388b68bb99b44099461bfbed94358",
+        "path": "Assets/res/CrossPlatformInput/Prefabs/MobileTiltControlRig.prefab",
+        "size": 3900
+      },
+      {
+        "guid": "9ab98b66288df7b4fa182075f2f12bd6",
+        "path": "Assets/res/CrossPlatformInput/Scripts/AxisTouchButton.cs",
+        "size": 2376
+      },
+      {
+        "guid": "9abcd5bd764646568a6ea70d00f9264c",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/19 - Masking Texture & Soft Mask.unity",
+        "size": 16596
+      },
+      {
+        "guid": "9ad269c99dcf42b7aedefd83dd5a7b9d",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat",
+        "size": 1690
+      },
+      {
+        "guid": "9b5b13b7a19cfe24b9512e7c31c32663",
+        "path": "Assets/PlayerMovement.cs",
+        "size": 1035
+      },
+      {
+        "guid": "9b886447cba80f74e820adb3c9e70c76",
+        "path": "Assets/res/Utility/ForcedReset.cs",
+        "size": 536
+      },
+      {
+        "guid": "9c0578910bbe00d43919a92c7b9893fe",
+        "path": "Assets/res/Utility/EventSystemChecker.cs",
+        "size": 542
+      },
+      {
+        "guid": "9c2c627f6fe3945b39581fc103d32251",
+        "path": "Assets/res/Editor/Water/Water4/WaterBaseEditor.cs",
+        "size": 9986
+      },
+      {
+        "guid": "9c4978ff6447f9040b84acc89b0bbdc8",
+        "path": "Assets/res/Utility/AutoMobileShaderSwitch.cs",
+        "size": 7298
+      },
+      {
+        "guid": "9ce3a3a1349a5774b94761844e652a65",
+        "path": "Assets/res/Vehicles/Car/Scripts/SkidTrail.cs",
+        "size": 538
+      },
+      {
+        "guid": "9db865986f75ee44eba89ace4646af65",
+        "path": "Assets/res/Vehicles/Car/Scripts/CarSelfRighting.cs",
+        "size": 1443
+      },
+      {
+        "guid": "9ec1e45165d1f2544bff59f5a80db8ab",
+        "path": "Assets/res/Vehicles/Car/Scripts/Suspension.cs",
+        "size": 864
+      },
+      {
+        "guid": "9ee710472a26a4947a40d3c34cba7977",
+        "path": "Assets/SmokeUIController.cs",
+        "size": 9333
+      },
+      {
+        "guid": "9eff140b25d64601aabc6ba32245d099",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs",
+        "size": 1826
+      },
+      {
+        "guid": "9f3080141f1f64197825663e067f94f8",
+        "path": "Assets/res/ParticleSystems/Materials/ParticleFirework.mat",
+        "size": 948
+      },
+      {
+        "guid": "9f93f63d068b08c459038c40fce897d8",
+        "path": "Assets/res/PhysicsMaterials/Bouncy.physicmaterial",
+        "size": 470
+      },
+      {
+        "guid": "9fc0d4010bbf28b4594072e72b8655ab",
+        "path": "Assets/Scenes/SampleScene.unity",
+        "size": 294383
+      },
+      {
+        "guid": "a00013af81304728b2be1f4309ee2433",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat",
+        "size": 2888
+      },
+      {
+        "guid": "a02a7d8c237544f1962732b55a9aebf1",
+        "path": "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader",
+        "size": 7643
+      },
+      {
+        "guid": "a05dcd8be7ec4ccbb35c26219884aa37",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_B.cs",
+        "size": 24604
+      },
+      {
+        "guid": "a0fc465d6cf04254a2938578735e2383",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png",
+        "size": 178491
+      },
+      {
+        "guid": "a1347817507220a4384f3ff6f7c24546",
+        "path": "Assets/res/Utility/AutoMoveAndRotate.cs",
+        "size": 1156
+      },
+      {
+        "guid": "a1da353243062479a9b31c85074a796b",
+        "path": "Assets/res/Environment/Water/Water/Scripts/WaterBase.cs",
+        "size": 2214
+      },
+      {
+        "guid": "a1fd2b97678961141863a6d6c5544661",
+        "path": "Assets/res/CrossPlatformInput/Scripts/PlatformSpecific",
+        "size": 0
+      },
+      {
+        "guid": "a3b997593a4f12c4c991490593f3b513",
+        "path": "Assets/res/CrossPlatformInput/CrossPlatformInputGuidelines.txt",
+        "size": 3916
+      },
+      {
+        "guid": "a3d3ef1a5bbfb4e0a910fbbe5830b1f9",
+        "path": "Assets/res/Environment/Water/Water/Scripts/Water.cs",
+        "size": 17234
+      },
+      {
+        "guid": "a4b6f99e8bc54541bbd149b014ff441c",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs",
+        "size": 1160
+      },
+      {
+        "guid": "a4d4c76e63944cba8c7d00f56334b98c",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText.cs",
+        "size": 9123
+      },
+      {
+        "guid": "a62942d9af3f36d448094c6ed1f214dd",
+        "path": "Assets/res/Cameras/Scripts/TargetFieldOfView.cs",
+        "size": 3250
+      },
+      {
+        "guid": "a6e39ced0ea046bcb636c3f0b2e2a745",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 1.prefab",
+        "size": 5797
+      },
+      {
+        "guid": "a73109742c8d47ac822895a473300c29",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark03.cs",
+        "size": 3696
+      },
+      {
+        "guid": "a8d3968294210ba4a9d2bb96dfa74a16",
+        "path": "Assets/res/Cameras/Scripts/AutoCam.cs",
+        "size": 5852
+      },
+      {
+        "guid": "a9dfad760b6e9455593192a6d869f7ed",
+        "path": "Assets/res/2D/Scripts/CameraFollow.cs",
+        "size": 3112
+      },
+      {
+        "guid": "aadd5a709a48466c887296bb5b1b8110",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat",
+        "size": 3150
+      },
+      {
+        "guid": "ac1eb05af6d391b4eb0f4c070a99f1d0",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/DropdownSample.cs",
+        "size": 507
+      },
+      {
+        "guid": "b06f0e6c1dfa4356ac918da1bb32c603",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Prefabs/Text Popup.prefab",
+        "size": 7583
+      },
+      {
+        "guid": "b246c4190f4e46ec9352fe15a7b09ce0",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Drop Shadow.mat",
+        "size": 2909
+      },
+      {
+        "guid": "b27507c5d0efbbd47ac8c1de9a1a0a35",
+        "path": "Assets/res/Utility/PlatformSpecificContent.cs",
+        "size": 2891
+      },
+      {
+        "guid": "b297a60c0ddf0ee4dabefaf158fb097d",
+        "path": "Assets/res/Vehicles/Aircraft/Scripts/AeroplaneUserControl2Axis.cs",
+        "size": 2651
+      },
+      {
+        "guid": "b43a4ef15621158419a2b639f7a98245",
+        "path": "Assets/res/Utility/Prefabs",
+        "size": 0
+      },
+      {
+        "guid": "b442d7147c128b943bee0537bd80e761",
+        "path": "Assets/res/Environment",
+        "size": 0
+      },
+      {
+        "guid": "b4c4c1106cbcf5846aeee9bf408f8fe9",
+        "path": "Assets/FlameFollower.cs",
+        "size": 3248
+      },
+      {
+        "guid": "b63e0053080646b9819789bf3bf9fa17",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Fonts",
+        "size": 0
+      },
+      {
+        "guid": "b6fecef6c92b67147b638a07ef91195b",
+        "path": "Assets/res/ParticleSystems/Prefabs/SteamMobile.prefab",
+        "size": 110968
+      },
+      {
+        "guid": "b821cfe117414d14ea5ad71c5b3c503f",
+        "path": "Assets/res/Vehicles/Aircraft/Scripts/AeroplaneUserControl4Axis.cs",
+        "size": 2498
+      },
+      {
+        "guid": "b885108f2d794c94ba9ee208e4f46d1a",
+        "path": "Assets/res/Editor/CrossPlatformInput",
+        "size": 0
+      },
+      {
+        "guid": "b99a0a5998b2736429fd2a2fd1d01c5e",
+        "path": "Assets/res/ParticleSystems/Prefabs/FireMobile.prefab",
+        "size": 338944
+      },
+      {
+        "guid": "ba2d0d2536485ce4084a900ff03c9385",
+        "path": "Assets/IJKLPlayer.cs",
+        "size": 2224
+      },
+      {
+        "guid": "ba92fb44336020f40bdf294bb66bc9da",
+        "path": "Assets/res/PhysicsMaterials/Ice.physicmaterial",
+        "size": 467
+      },
+      {
+        "guid": "bb8dfcd263ad4eb383a33d74a720be6f",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Textures/Mask Zig-n-Zag.psd",
+        "size": 38488
+      },
+      {
+        "guid": "bc1ede39bf3643ee8e493720e4259791",
+        "path": "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader",
+        "size": 7822
+      },
+      {
+        "guid": "bc3ece7fcb462f24d81a8f571ebe33de",
+        "path": "Assets/res/Characters/FirstPersonCharacter",
+        "size": 0
+      },
+      {
+        "guid": "be78420a327f9ea41bf9ebc897d52b05",
+        "path": "Assets/res/Characters/CrouchRun.png",
+        "size": 48519
+      },
+      {
+        "guid": "bf495eacf58e31146ab012aa89ac68da",
+        "path": "Assets/res/ParticleSystems/Prefabs/FireComplex.prefab",
+        "size": 817390
+      },
+      {
+        "guid": "bf6c56c7f8c75ca4c99450be5aca5ace",
+        "path": "Assets/res/Vehicles/Aircraft/Scripts/LandingGear.cs",
+        "size": 1773
+      },
+      {
+        "guid": "c10b1630d5621ec48a17223c3c102023",
+        "path": "Assets/res/ParticleSystems/Materials/ParticleGlow.mat",
+        "size": 951
+      },
+      {
+        "guid": "c1bbfafbde15c854681023b9e01e12dd",
+        "path": "Assets/res/Utility/LerpControlledBob.cs",
+        "size": 1126
+      },
+      {
+        "guid": "c2815a7ab32e42c4bb42f59caacb8ec1",
+        "path": "Assets/res/PhysicsMaterials/ZeroFriction.physicMaterial",
+        "size": 389
+      },
+      {
+        "guid": "c334973cef89a9840b0b0c507e0377ab",
+        "path": "Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc",
+        "size": 5311
+      },
+      {
+        "guid": "c3c1afeda5e545e0b19add5373896d2e",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TMPro_InstructionOverlay.cs",
+        "size": 3329
+      },
+      {
+        "guid": "c3d66a8056f9db345b1ea380aa7e815d",
+        "path": "Assets/res/ParticleSystems/Textures/ParticleFirecloud.png",
+        "size": 57357
+      },
+      {
+        "guid": "c3d7b34a3bb2d4e4b926e7e729d3d410",
+        "path": "Assets/res/2D/Scripts/Platformer2DUserControl.cs",
+        "size": 1105
+      },
+      {
+        "guid": "c3f814e1d12c45568daf3dd9a86a0e61",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/10 - Bullets & Numbered List Example.unity",
+        "size": 19166
+      },
+      {
+        "guid": "c41005c129ba4d66911b75229fd70b45",
+        "path": "Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset",
+        "size": 13441
+      },
+      {
+        "guid": "c50d77affeb31e14c9c062c282f13fc8",
+        "path": "Assets/res/ParticleSystems/Materials/ParticleSmokeWhite.mat",
+        "size": 1051
+      },
+      {
+        "guid": "c5cb22d331ef7d64796f917c6a455a32",
+        "path": "Assets/res/Utility/WaypointProgressTracker.cs",
+        "size": 6736
+      },
+      {
+        "guid": "c62479c3465024b48b42983b1b2eeaaf",
+        "path": "Assets/res/Vehicles/Car/Scripts/WheelEffects.cs",
+        "size": 2590
+      },
+      {
+        "guid": "c62b7d87755b447919138e67f8e22e0c",
+        "path": "Assets/res/Environment/Water/Water/Scripts/Displace.cs",
+        "size": 806
+      },
+      {
+        "guid": "c719e38f25a9480abd2480ab621a2949",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat",
+        "size": 4694
+      },
+      {
+        "guid": "c76d18757a194d618355f05f815cb0a1",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text UI Screenshot.png",
+        "size": 49290
+      },
+      {
+        "guid": "c7b4fd0ee66909548b47213a640927aa",
+        "path": "Assets/res/ParticleSystems/Materials",
+        "size": 0
+      },
+      {
+        "guid": "c8634e062924929664361c08745211fb",
+        "path": "Assets/res/Utility/ActivateTrigger.cs",
+        "size": 3557
+      },
+      {
+        "guid": "c8d12adcee749c344b8117cf7c7eb912",
+        "path": "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader",
+        "size": 3071
+      },
+      {
+        "guid": "c9f6d0e7bc8541498c9a4799ba184ede",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf",
+        "size": 53056
+      },
+      {
+        "guid": "cadd54e4832aeef4b9359f44cbe335cd",
+        "path": "Assets/res/Utility/SimpleMouseRotator.cs",
+        "size": 4568
+      },
+      {
+        "guid": "cc4347574b823934ba11785e25895920",
+        "path": "Assets/res/ParticleSystems/Shaders/PriorityParticleAlpha.shader",
+        "size": 2378
+      },
+      {
+        "guid": "ccbcfc705a39717429590a9f247ec30a",
+        "path": "Assets/res/ParticleSystems/Prefabs/FlareMobile.prefab",
+        "size": 349774
+      },
+      {
+        "guid": "ce51c8e33b734b4db6086586558c53a3",
+        "path": "Assets/TextMesh Pro/Examples & Extras",
+        "size": 0
+      },
+      {
+        "guid": "ce7a80d520cacc042b5fe14f373d8173",
+        "path": "Assets/res/Characters/ThirdPersonCharacter/Scripts/ThirdPersonCharacter.cs",
+        "size": 7420
+      },
+      {
+        "guid": "cf81c85f95fe47e1a27f6ae460cf182c",
+        "path": "Assets/TextMesh Pro/Shaders/TMP_Sprite.shader",
+        "size": 2673
+      },
+      {
+        "guid": "cfe1af4c37e1c3a4a99ad0720b055787",
+        "path": "Assets/ParticleRepulsion.cs",
+        "size": 1980
+      },
+      {
+        "guid": "d0603b6d5186471b96c778c3949c7ce2",
+        "path": "Assets/TextMesh Pro/Sprites",
+        "size": 0
+      },
+      {
+        "guid": "d08f91df3bd212f429df17f53ce2f364",
+        "path": "Assets/res/2D/Scripts/PlatformerCharacter2D.cs",
+        "size": 5203
+      },
+      {
+        "guid": "d1e2e7a54dcc8694ab1eca46d072f264",
+        "path": "Assets/res/Utility/CameraRefocus.cs",
+        "size": 1335
+      },
+      {
+        "guid": "d2cf87a8a7a94aa8b80dff1c807c1178",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold - OFL.txt",
+        "size": 4494
+      },
+      {
+        "guid": "d412675cfb3441efa3bf8dcd9b7624dc",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/SkewTextExample.cs",
+        "size": 6837
+      },
+      {
+        "guid": "d5bbfe17fd61a7f45ad1932a5dd14b56",
+        "path": "Assets/res/ParticleSystems/Shaders",
+        "size": 0
+      },
+      {
+        "guid": "d6d3a169ad794942a21da6a552d62f6f",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Resources",
+        "size": 0
+      },
+      {
+        "guid": "d736ce056cf444ca96e424f4d9c42b76",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventCheck.cs",
+        "size": 2664
+      },
+      {
+        "guid": "d75b8f41e959450c84ac6e967084d3e1",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat",
+        "size": 3213
+      },
+      {
+        "guid": "d82c1b31c7e74239bff1220585707d2b",
+        "path": "Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt",
+        "size": 95
+      },
+      {
+        "guid": "d8c41be67f41aa545ae053b0b927f821",
+        "path": "Assets/res/ParticleSystems/Prefabs/Afterburner.prefab",
+        "size": 224524
+      },
+      {
+        "guid": "d930090c0cd643c7b55f19a38538c162",
+        "path": "Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc",
+        "size": 3563
+      },
+      {
+        "guid": "d947636a9390f6a46a121124154e6e3f",
+        "path": "Assets/res/Cameras/Scripts/HandHeldCam.cs",
+        "size": 1160
+      },
+      {
+        "guid": "d94f228344692df4b916c671f6a625bc",
+        "path": "Assets/res/Characters/RollerBall",
+        "size": 0
+      },
+      {
+        "guid": "d963df58504b69045b8d0d746ba6f777",
+        "path": "Assets/res/Vehicles/Car/Scripts/CarAIControl.cs",
+        "size": 13589
+      },
+      {
+        "guid": "daa7e0829bc72c94babd728cc0466196",
+        "path": "Assets/res/Characters/RollerBall/Scripts/BallUserControl.cs",
+        "size": 2325
+      },
+      {
+        "guid": "db1090641b3241f6995b587eb21637bc",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scenes",
+        "size": 0
+      },
+      {
+        "guid": "db7667203062c644ea1877077e30ebd6",
+        "path": "Assets/res/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs",
+        "size": 5154
+      },
+      {
+        "guid": "dc20866c0d5e413ab7559440e15333ae",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs",
+        "size": 3094
+      },
+      {
+        "guid": "dc36b3fdc14f47ebb36fd484a67e268a",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset",
+        "size": 8026
+      },
+      {
+        "guid": "dcf956e366f26fe46bf77e61671616e9",
+        "path": "Assets/FlameParticleAudio.cs",
+        "size": 320
+      },
+      {
+        "guid": "dd561b2fbf8fb8a47a89c525585d0ef3",
+        "path": "Assets/res/Characters/RollerBall/Scripts",
+        "size": 0
+      },
+      {
+        "guid": "dd89cf5b9246416f84610a006f916af7",
+        "path": "Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader",
+        "size": 10585
+      },
+      {
+        "guid": "de2ab2b9ac93bb544b9552e49030371b",
+        "path": "Assets/res/Environment/Water/Water/Scripts/SpecularLighting.cs",
+        "size": 832
+      },
+      {
+        "guid": "dec9f46df6412a144972d9411efc1d72",
+        "path": "Assets/res/Environment/Water/Water/Scripts",
+        "size": 0
+      },
+      {
+        "guid": "dffef66376be4fa480fb02b19edbe903",
+        "path": "Assets/TextMesh Pro/Sprites/EmojiOne.png",
+        "size": 112319
+      },
+      {
+        "guid": "e004fefca5c7ba44d9c5ffd46fdee2ed",
+        "path": "Assets/res/Characters/RollerBall/Scripts/Ball.cs",
+        "size": 1836
+      },
+      {
+        "guid": "e053b0a94752146e79954ce4df1b5565",
+        "path": "Assets/res/2D/Scripts/Restarter.cs",
+        "size": 395
+      },
+      {
+        "guid": "e1b124e3a6439714b8dfa76b3074a8c0",
+        "path": "Assets/res/Environment/Water/Water",
+        "size": 0
+      },
+      {
+        "guid": "e3265ab4bf004d28a9537516768c1c75",
+        "path": "Assets/TextMesh Pro/Fonts/LiberationSans.ttf",
+        "size": 350200
+      },
+      {
+        "guid": "e32c266ee6204b21a427753cb0694c81",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TeleType.cs",
+        "size": 2820
+      },
+      {
+        "guid": "e44af8091779fcb40801d5b284353dbe",
+        "path": "Assets/res/Cameras/Scripts/FreeLookCam.cs",
+        "size": 5147
+      },
+      {
+        "guid": "e4e0d9ccee5f4950be8979268c9014e0",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs",
+        "size": 8724
+      },
+      {
+        "guid": "e52fb17f9b1e7fd48b8955f1391d3688",
+        "path": "Assets/res/PhysicsMaterials/MaxFriction.physicMaterial",
+        "size": 388
+      },
+      {
+        "guid": "e6b276ec991f467aa14ef1f3cc665993",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat",
+        "size": 3011
+      },
+      {
+        "guid": "e6b9b44320f4448d9d5e0ee634259966",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat",
+        "size": 2464
+      },
+      {
+        "guid": "e73a58f6e2794ae7b1b7e50b7fb811b0",
+        "path": "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat",
+        "size": 2975
+      },
+      {
+        "guid": "e76e6c0f81964cbda3fe0b7d26ed8060",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/15 - Inline Graphics & Sprites.unity",
+        "size": 16827
+      },
+      {
+        "guid": "e8538afcddc14efbb5d9e94b7ae50197",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs",
+        "size": 3611
+      },
+      {
+        "guid": "e9f693669af91aa45ad615fc681ed29f",
+        "path": "Assets/TextMesh Pro/Shaders",
+        "size": 0
+      },
+      {
+        "guid": "eb313119b8692f14f8efcf2cd9d37fa7",
+        "path": "Assets/NewBehaviourScript1.cs",
+        "size": 1613
+      },
+      {
+        "guid": "ebd63731409319849a64ea24c5003ccf",
+        "path": "Assets/res/Characters/Run.png",
+        "size": 53195
+      },
+      {
+        "guid": "ed1b89d39279f564ea077ad8e46f3595",
+        "path": "Assets/res/ParticleSystems/Materials/ParticleSteamMobile.mat",
+        "size": 1027
+      },
+      {
+        "guid": "ed1c797ec3736704db03a0d64d010e33",
+        "path": "Assets/res/ParticleSystems/Prefabs/DustStormMobile.prefab",
+        "size": 110543
+      },
+      {
+        "guid": "ed5290d8df18488780e2996b9b882f01",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Diagonal.psd",
+        "size": 33064
+      },
+      {
+        "guid": "efe0bf4ac872451e91612d1ae593f480",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers - OFL.txt",
+        "size": 4491
+      },
+      {
+        "guid": "f2d92c866163d104c8bfe3db771c8f85",
+        "path": "Assets/res/ParticleSystems/Materials/M_BurnedBlack.mat",
+        "size": 3678
+      },
+      {
+        "guid": "f2dcf029949142e28b974630369c8b4e",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat",
+        "size": 3081
+      },
+      {
+        "guid": "f2ec2b96de5640e42a622fc3064f1c80",
+        "path": "Assets/res/Cameras/Scripts/LookatTarget.cs",
+        "size": 2809
+      },
+      {
+        "guid": "f44946a1344df7744903cc821a3f6bb5",
+        "path": "Assets/SmokeUIBuilder.cs",
+        "size": 12215
+      },
+      {
+        "guid": "f4e195ac1e204eff960149d1cb34e18c",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo.mat",
+        "size": 3044
+      },
+      {
+        "guid": "f54d1bd14bd3ca042bd867b519fee8cc",
+        "path": "Assets/TextMesh Pro",
+        "size": 0
+      },
+      {
+        "guid": "f629c6e43dba4bf38cb74d8860150664",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Outline.mat",
+        "size": 3053
+      },
+      {
+        "guid": "f63c576739a709747a1a571260d4fabd",
+        "path": "Assets/res/ParticleSystems/Materials/ParticleSpark.mat",
+        "size": 949
+      },
+      {
+        "guid": "f67f2bac30f824d4f8270bb8bb0779df",
+        "path": "Assets/res/Editor/Water/Water4/WaterEditorUtility.cs",
+        "size": 2664
+      },
+      {
+        "guid": "f76806479d916a64aa03f8e3eba7912f",
+        "path": "Assets/res/Utility/SmoothFollow.cs",
+        "size": 1828
+      },
+      {
+        "guid": "f7ada0af4f174f0694ca6a487b8f543d",
+        "path": "Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader",
+        "size": 4355
+      },
+      {
+        "guid": "f7cfa58e417a46ea8889989684c2522e",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA.cs",
+        "size": 6846
+      },
+      {
+        "guid": "f88677df267a41d6be1e7a6133e7d227",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Textures/Brushed Metal 3.jpg",
+        "size": 28175
+      },
+      {
+        "guid": "f952c082cb03451daed3ee968ac6c63e",
+        "path": "Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset",
+        "size": 4953
+      },
+      {
+        "guid": "f970ea55f9f84bf79b05dab180b8c125",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs",
+        "size": 4314
+      },
+      {
+        "guid": "f9b4c22e15cff344ba9fc6542a58dd07",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/25 - Sunny Days Example.unity",
+        "size": 16835
+      },
+      {
+        "guid": "fade42e8bc714b018fac513c043d323b",
+        "path": "Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt",
+        "size": 269
+      },
+      {
+        "guid": "fae5d333f43a55744ab0c44fecefdcae",
+        "path": "Assets/res/ParticleSystems/Prefabs/Hose.prefab",
+        "size": 566236
+      },
+      {
+        "guid": "fb9e837aae6395d48b1182bee201f814",
+        "path": "Assets/res/Vehicles/Aircraft/Scripts/AeroplanePropellerAnimator.cs",
+        "size": 3606
+      },
+      {
+        "guid": "fbef3c704dce48f08a44612d6c856c8d",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/Default Sprite Asset.asset",
+        "size": 7862
+      },
+      {
+        "guid": "fc626cffedc907848a7b47b87aa5e34f",
+        "path": "Assets/res/ParticleSystems/Materials/ParticleSmokeBlack.mat",
+        "size": 1053
+      },
+      {
+        "guid": "fcf7219bab7fe46a1ad266029b2fee19",
+        "path": "Assets/TutorialInfo/Scripts/Readme.cs",
+        "size": 302
+      },
+      {
+        "guid": "fd09957580ac4326916010f1f260975b",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Sprites/DropCap Numbers.psd",
+        "size": 482546
+      },
+      {
+        "guid": "fdad9d952ae84cafb74c63f2e694d042",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 2.prefab",
+        "size": 5793
+      },
+      {
+        "guid": "fe393ace9b354375a9cb14cdbbc28be4",
+        "path": "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader",
+        "size": 7674
+      },
+      {
+        "guid": "fed4e78bda2b3de45954637fee164b8c",
+        "path": "Assets/res/Prototyping/Materials/PinkSmooth.mat",
+        "size": 2898
+      },
+      {
+        "guid": "ff3b0e14a61014f50be83e1a18c6d43e",
+        "path": "Assets/res/Editor/Water/Water4/PlanarReflectionEditor.cs",
+        "size": 2282
+      },
+      {
+        "guid": "ff6663d927968dc4482d24a8495316de",
+        "path": "Assets/res/ParticleSystems/Materials/ParticleSplashes.mat",
+        "size": 972
+      },
+      {
+        "guid": "fffafd711dc1dbc478a49705cfe1ce3d",
+        "path": "Assets/res/Vehicles/Car/Scripts/BrakeLight.cs",
+        "size": 589
+      }
+    ]
+  },
+  {
+    "source_file": "现实场景火焰烟雾.unitypackage",
+    "sha256": "291d344ef893c245dcde1dd425346c905d5d002f955951f408a1dc2835a5d00c",
+    "module": "mixed-reality-fire",
+    "asset_count": 258,
+    "assets": [
+      {
+        "guid": "009fbf49e77db344db366a646868e02d",
+        "path": "Assets/res/ParticleSystems/Scripts/ExplosionFireAndDebris.cs",
+        "size": 2384
+      },
+      {
+        "guid": "00c3c865782347f41b6358d9fba14b48",
+        "path": "Assets/res/CrossPlatformInput/Scripts/Joystick.cs",
+        "size": 3260
+      },
+      {
+        "guid": "01571ba68fb2dad46aa03094ab219579",
+        "path": "Assets/res/PhysicsMaterials/Metal.physicmaterial",
+        "size": 469
+      },
+      {
+        "guid": "031d08f52af1daa4f929b85221519426",
+        "path": "Assets/res/ParticleSystems/Prefabs/Explosion.prefab",
+        "size": 1015218
+      },
+      {
+        "guid": "039587c051912eb4ead9e58344c5f3ce",
+        "path": "Assets/res/ParticleSystems/Scripts/ParticleSystemMultiplier.cs",
+        "size": 819
+      },
+      {
+        "guid": "0438351a6e6422d43a09930e9be00ee9",
+        "path": "Assets/res/ParticleSystems/Prefabs/Flare.prefab",
+        "size": 349771
+      },
+      {
+        "guid": "05e2a40e5834bfd4e8e5670f53020584",
+        "path": "Assets/res/ParticleSystems/Scripts",
+        "size": 0
+      },
+      {
+        "guid": "05ec5cf00ca181d45a42ba1870e148c3",
+        "path": "Assets/res/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs",
+        "size": 9841
+      },
+      {
+        "guid": "07d0c4db854619a43992675e89c6a1c3",
+        "path": "Assets/res/FireStarter.cs",
+        "size": 383
+      },
+      {
+        "guid": "09a99b10658931c46a438c586a49ec65",
+        "path": "Assets/res/ParticleSystems/Materials/ParticleWaterSpray.mat",
+        "size": 1024
+      },
+      {
+        "guid": "0a0bf1a70bac80b4a81b7faf5a45587a",
+        "path": "Assets/EnlargeAndReduce.cs",
+        "size": 1761
+      },
+      {
+        "guid": "0ac1691131a8c844dafe8b6ace6a172a",
+        "path": "Assets/res/ParticleSystems/Scripts/ExplosionPhysicsForce.cs",
+        "size": 1202
+      },
+      {
+        "guid": "0ac312a9e7f7a8f47b9158ac268ba565",
+        "path": "Assets/res",
+        "size": 0
+      },
+      {
+        "guid": "0b84c16c0765ddd4e911334fc1486c0a",
+        "path": "Assets/res/Editor/Water/Water4",
+        "size": 0
+      },
+      {
+        "guid": "0c57dddee861e494898726155b3e45e3",
+        "path": "Assets/Resources/PXR_PlatformSetting.asset",
+        "size": 514
+      },
+      {
+        "guid": "0d2f50a8e0bb841a5aaa90ae55db8849",
+        "path": "Assets/res/Environment/Water (Basic)/Scripts/WaterBasic.cs",
+        "size": 934
+      },
+      {
+        "guid": "0f57aeb1b8dce3342bea5c28ac17db24",
+        "path": "Assets/res/CrossPlatformInput/Scripts/VirtualInput.cs",
+        "size": 4832
+      },
+      {
+        "guid": "1032d41f900276c40a9dd24f55b7d420",
+        "path": "Assets/res/Prototyping/Materials/NavySmooth.mat",
+        "size": 4399
+      },
+      {
+        "guid": "115b7971887db074ca81e8f612daa3bc",
+        "path": "Assets/res/Editor/Water",
+        "size": 0
+      },
+      {
+        "guid": "11fa60a4f5bdba144a008a674f32eb19",
+        "path": "Assets/res/Prototyping/Materials",
+        "size": 0
+      },
+      {
+        "guid": "1234dc2ea460f394eaec0d32e1428665",
+        "path": "Assets/res/ParticleSystems",
+        "size": 0
+      },
+      {
+        "guid": "13e3e45088e68834999c82ca6f025949",
+        "path": "Assets/res/ParticleSystems/Scripts/ExtinguishableParticleSystem.cs",
+        "size": 599
+      },
+      {
+        "guid": "15135e86e52ab4b038dcbd61d7549e9f",
+        "path": "Assets/res/ParticleSystems/Prefabs",
+        "size": 0
+      },
+      {
+        "guid": "153c77e0022ff3148beba89b18de3476",
+        "path": "Assets/res/Prototyping",
+        "size": 0
+      },
+      {
+        "guid": "15ee41a6e438777408647ae5fe5b340a",
+        "path": "Assets/res/CrossPlatformInput",
+        "size": 0
+      },
+      {
+        "guid": "174090ae7f9eff84abe76f0ff062efac",
+        "path": "Assets/res/CrossPlatformInput/Prefabs/CarTiltControls.prefab",
+        "size": 14707
+      },
+      {
+        "guid": "180149b1a35449044a27b451e816d2de",
+        "path": "Assets/res/ParticleSystems/Prefabs/Fireworks.prefab",
+        "size": 797768
+      },
+      {
+        "guid": "1b878b2bd27dca747855179c7ca76010",
+        "path": "Assets/res/Vehicles/Aircraft/Scripts/JetParticleEffect.cs",
+        "size": 2866
+      },
+      {
+        "guid": "1caf40fc8bebb6b43b2550c05ca791d6",
+        "path": "Assets/res/CrossPlatformInput/Scripts/TouchPad.cs",
+        "size": 4541
+      },
+      {
+        "guid": "1dfa22e5547fb4a4585ba225887d89dd",
+        "path": "Assets/res/Editor/Water/Water4/GerstnerDisplaceEditor.cs",
+        "size": 5886
+      },
+      {
+        "guid": "1ee34fdb2d383a84e9ef60c30fc2778e",
+        "path": "Assets/res/Vehicles/Aircraft/Scripts/AeroplaneControlSurfaceAnimator.cs",
+        "size": 5346
+      },
+      {
+        "guid": "1f7aa4d40edff6e48b549003cad031e1",
+        "path": "Assets/res/ParticleSystems/Prefabs/DustStorm.prefab",
+        "size": 112326
+      },
+      {
+        "guid": "1ff33f1422a3af1488f81dbb03ff60cc",
+        "path": "Assets/TutorialInfo/Scripts",
+        "size": 0
+      },
+      {
+        "guid": "20fa55eb64c5cea4aa3c71ae19c434bf",
+        "path": "Assets/res/Vehicles/Car/Scripts/CarAudio.cs",
+        "size": 9089
+      },
+      {
+        "guid": "21369fc05ef071c45bc46d02ff2cba37",
+        "path": "Assets/Flammable.cs",
+        "size": 8179
+      },
+      {
+        "guid": "2169821f0567671499a5c10104c69c24",
+        "path": "Assets/res/CrossPlatformInput/Prefabs/DualTouchControls.prefab",
+        "size": 19928
+      },
+      {
+        "guid": "2245e9dbcfc35de4cb616ffa72a0f4f6",
+        "path": "Assets/XRI/Settings/XRInteractionEditorSettings.asset",
+        "size": 498
+      },
+      {
+        "guid": "225843b6084e75440a6ea970a17c93aa",
+        "path": "Assets/res/ParticleSystems/Materials/ParticleSmokeVertlit.mat",
+        "size": 4477
+      },
+      {
+        "guid": "22bbf57ec543cee42a5aa0ec2dd9e457",
+        "path": "Assets/res/Utility/FPSCounter.cs",
+        "size": 1090
+      },
+      {
+        "guid": "235a6615124795442b98c1f03500003e",
+        "path": "Assets/res/Vehicles/Aircraft/Scripts/AeroplaneController.cs",
+        "size": 13379
+      },
+      {
+        "guid": "246cc59c7a84ea44f87f6b70acfe30c5",
+        "path": "Assets/res/Utility/FollowTarget.cs",
+        "size": 360
+      },
+      {
+        "guid": "269490de66e33a34dad45a50e3d4c168",
+        "path": "Assets/res/ParticleSystems/Textures/Spark.png",
+        "size": 871
+      },
+      {
+        "guid": "26ea534dcd83fe14c9173a52e151cce8",
+        "path": "Assets/res/ParticleSystems/Materials/ParticleFireball.mat",
+        "size": 887
+      },
+      {
+        "guid": "289b47a65b777e742b68853f6bb9209e",
+        "path": "Assets/TutorialInfo/Scripts/Editor",
+        "size": 0
+      },
+      {
+        "guid": "29014cd42b6d273408e0ceefd336c0b3",
+        "path": "Assets/res/Utility/ParticleSystemDestroyer.cs",
+        "size": 1826
+      },
+      {
+        "guid": "2909cb28371e6664b88130f37d454605",
+        "path": "Assets/res/ParticleSystems/ParticleSystemsGuidelines.txt",
+        "size": 2714
+      },
+      {
+        "guid": "2a91e8dd37cdd41efb4859b65aced7a2",
+        "path": "Assets/res/Environment/Water/Water/Scripts/WaterTile.cs",
+        "size": 1555
+      },
+      {
+        "guid": "2c32987c2bc01844a94adfb917dd677d",
+        "path": "Assets/res/ParticleSystems/Prefabs/WildFire.prefab",
+        "size": 340816
+      },
+      {
+        "guid": "2d79772cda0b4b6409070163fcab05da",
+        "path": "Assets/res/ParticleSystems/Scripts/WaterHoseParticles.cs",
+        "size": 1458
+      },
+      {
+        "guid": "2df95ad5240009f44aa4181cfab943be",
+        "path": "Assets/res/Characters/ThirdPersonCharacter",
+        "size": 0
+      },
+      {
+        "guid": "2f82989cc52547043b3bfd40a74560f6",
+        "path": "Assets/SmokeCeilingTrigger.cs",
+        "size": 321
+      },
+      {
+        "guid": "30289309b0c21224ea5b6fcc73b07d59",
+        "path": "Assets/res/ParticleSystems/Materials/ParticleFlameLicks.mat",
+        "size": 880
+      },
+      {
+        "guid": "3062613153ea47f42a262f065fec69d1",
+        "path": "Assets/res/ParticleSystems/Materials/ParticleSpray.mat",
+        "size": 1047
+      },
+      {
+        "guid": "320e36324c4df1e429caba0981287d24",
+        "path": "Assets/XR/Loaders/PXR_Loader.asset",
+        "size": 399
+      },
+      {
+        "guid": "3298d448194fe9b408788cd685afc7ac",
+        "path": "Assets/res/Cameras/Scripts",
+        "size": 0
+      },
+      {
+        "guid": "32aafb358d61bd14b9b27ed0871fe43b",
+        "path": "Assets/res/ParticleSystems/Prefabs/Steam.prefab",
+        "size": 109537
+      },
+      {
+        "guid": "3369231b1ed7ad34e84d9240a571db81",
+        "path": "Assets/res/CrossPlatformInput/Prefabs/MobileAircraftControls.prefab",
+        "size": 35230
+      },
+      {
+        "guid": "33de316e52741344ba3a606fc412ff68",
+        "path": "Assets/Particle System 1.prefab",
+        "size": 474737
+      },
+      {
+        "guid": "33f51eb21122c4ca6a199d561065ae30",
+        "path": "Assets/res/Editor/Water/Water4/SpecularLightingEditor.cs",
+        "size": 2017
+      },
+      {
+        "guid": "356be060b1b95fb4bbc2fa604042df20",
+        "path": "Assets/WindManager.cs",
+        "size": 2619
+      },
+      {
+        "guid": "3587b30505d00a44c87d9c3b9d8bc35c",
+        "path": "Assets/res/ParticleSystems/Textures/ParticleFlameLickSheet.png",
+        "size": 139534
+      },
+      {
+        "guid": "37e60a97f2c87ae41b6cdc1055d78cb9",
+        "path": "Assets/res/Characters/FirstPersonCharacter/Scripts/MouseLook.cs",
+        "size": 3586
+      },
+      {
+        "guid": "37fac21d1f093d344816942d1abce94e",
+        "path": "Assets/res/Utility/TimedObjectDestructor.cs",
+        "size": 582
+      },
+      {
+        "guid": "3927c0494931e26489bb05c5dab0a2a7",
+        "path": "Assets/res/2D",
+        "size": 0
+      },
+      {
+        "guid": "39a389ab9b906044ca6259e7a7e05968",
+        "path": "Assets/res/Vehicles/Car/Scripts",
+        "size": 0
+      },
+      {
+        "guid": "3a7cedf246fca744f90cbdc9dbe41166",
+        "path": "Assets/res/Utility/TimedObjectActivator.cs",
+        "size": 7058
+      },
+      {
+        "guid": "3aeb7dadc0c69d54d9e5777e9d5631f1",
+        "path": "Assets/res/PhysicsMaterials/Wood.physicmaterial",
+        "size": 468
+      },
+      {
+        "guid": "3b89038d9ccd02340aa8fe7ec9de5b42",
+        "path": "Assets/Resources/PXR_PICODebugger.prefab",
+        "size": 1813
+      },
+      {
+        "guid": "3b8cc2923726b3346be65c8b7e8c7ad6",
+        "path": "Assets/SmokeSpreadZone .prefab",
+        "size": 3664
+      },
+      {
+        "guid": "3bfa2f095c911d649bf4cb92a55ac974",
+        "path": "Assets/res/ParticleSystems/Materials/ParticleFlames.mat",
+        "size": 1049
+      },
+      {
+        "guid": "3ea65b38d485c374caa584a03f1de571",
+        "path": "Assets/res/Vehicles/Car/Scripts/CarController.cs",
+        "size": 13921
+      },
+      {
+        "guid": "4155f6504c3cb674986fc49faba91461",
+        "path": "Assets/Resources",
+        "size": 0
+      },
+      {
+        "guid": "41756b3003ec2ac4aaafbfc484111da2",
+        "path": "Assets/res/Vehicles/Aircraft/Scripts",
+        "size": 0
+      },
+      {
+        "guid": "4185bc77c7194462ca3b1097ef4a5de0",
+        "path": "Assets/res/Environment/Water/Water/Scripts/PlanarReflection.cs",
+        "size": 9468
+      },
+      {
+        "guid": "42e7f46d0e5a84171a3909479c1646ba",
+        "path": "Assets/res/Environment/Water/Water/Scripts/GerstnerDisplace.cs",
+        "size": 196
+      },
+      {
+        "guid": "4328ab209eeb42d43b2143ec88bc26d5",
+        "path": "Assets/res/Cameras",
+        "size": 0
+      },
+      {
+        "guid": "433e9c8d0293ac4429eaf19bff2b58cf",
+        "path": "Assets/res/ParticleSystems/Scripts/Explosive.cs",
+        "size": 2087
+      },
+      {
+        "guid": "43770d95b3fa5e644838186d908cd362",
+        "path": "Assets/XR/Settings",
+        "size": 0
+      },
+      {
+        "guid": "4414ab7cd3d674b449d233db0d583605",
+        "path": "Assets/res/ParticleSystems/Scripts/SmokeParticles.cs",
+        "size": 440
+      },
+      {
+        "guid": "44450145c5a9a0b428852cab4c357322",
+        "path": "Assets/XRI/Settings",
+        "size": 0
+      },
+      {
+        "guid": "459cec5b068041e44a60a6e3b6abb0eb",
+        "path": "Assets/res/Vehicles/Car/Scripts/Mudguard.cs",
+        "size": 750
+      },
+      {
+        "guid": "46ed2a85a0b29a14eb58c6232bf65b64",
+        "path": "Assets/res/Environment/Water (Basic)/Scripts",
+        "size": 0
+      },
+      {
+        "guid": "473d6d3ec0d161b4a85e466c8c6da3fb",
+        "path": "Assets/res/ParticleSystems/Materials/ParticleSmokeMobile.mat",
+        "size": 1054
+      },
+      {
+        "guid": "476cc7d7cd9874016adc216baab94a0a",
+        "path": "Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs",
+        "size": 6677
+      },
+      {
+        "guid": "492f54f4accf00440828ffcb9e4fcc19",
+        "path": "Assets/res/Utility/CurveControlledBob.cs",
+        "size": 1969
+      },
+      {
+        "guid": "496e9216cd99176499e17ab4a9f81de6",
+        "path": "Assets/firesound.mp3",
+        "size": 486504
+      },
+      {
+        "guid": "49beb4954d4829042bc53313a27e40c5",
+        "path": "Assets/FireWindAffection.cs",
+        "size": 2835
+      },
+      {
+        "guid": "4b9fbffaf2870774791e1850ec16029b",
+        "path": "Assets/res/Characters/FirstPersonCharacter/Scripts",
+        "size": 0
+      },
+      {
+        "guid": "4c9955d0049dd07458290f6f4932b831",
+        "path": "Assets/XRI/Settings/Resources/InteractionLayerSettings.asset",
+        "size": 596
+      },
+      {
+        "guid": "4dbf077105ba797428d118320f2a10aa",
+        "path": "Assets/res/ParticleSystems/Prefabs/HoseMobile.prefab",
+        "size": 453847
+      },
+      {
+        "guid": "4e505ad81f5b19c4cb6f445d36463955",
+        "path": "Assets/res/ParticleSystems/Textures/ParticleFlamesSheet.png",
+        "size": 302546
+      },
+      {
+        "guid": "4ee514e7e2e0afc4bb6bab47f6d686b6",
+        "path": "Assets/res/Characters",
+        "size": 0
+      },
+      {
+        "guid": "4f7fab0f7899d74459b4bdb93d6b182c",
+        "path": "Assets/res/Vehicles/Car",
+        "size": 0
+      },
+      {
+        "guid": "4ffcaf73b69a322478bd495510704c7d",
+        "path": "Assets/res/Environment/Water (Basic)",
+        "size": 0
+      },
+      {
+        "guid": "521b611700410be45810047f0a74e899",
+        "path": "Assets/res/Characters/ThirdPersonCharacter/Scripts/ThirdPersonUserControl.cs",
+        "size": 2876
+      },
+      {
+        "guid": "52baaeb214519f347a35cf0edfd262ff",
+        "path": "Assets/res/PhysicsMaterials/Rubber.physicmaterial",
+        "size": 453
+      },
+      {
+        "guid": "558cf2ed2f15bda43a8372c2abd7bbd0",
+        "path": "Assets/WASDPlayer.cs",
+        "size": 2390
+      },
+      {
+        "guid": "58650e15a2607e44daa0f150e0061d89",
+        "path": "Assets/res/Utility/DragRigidbody.cs",
+        "size": 3156
+      },
+      {
+        "guid": "58cb183e16853564e9ed457f8a296db1",
+        "path": "Assets/res/Cameras/Scripts/PivotBasedCameraRig.cs",
+        "size": 815
+      },
+      {
+        "guid": "5b05d19fca0a73e4aa88bb9c9648a2b1",
+        "path": "Assets/Resources/PXR_PicoDebuggerSO.asset",
+        "size": 506
+      },
+      {
+        "guid": "5b303ff28ad9368468a2edd759cf458d",
+        "path": "Assets/res/ParticleSystems/Textures/ParticleCloudWhite.png",
+        "size": 39067
+      },
+      {
+        "guid": "5b5c1609550962f47adcb76590347d06",
+        "path": "Assets/Resources/PXR_ProjectSetting.asset",
+        "size": 1265
+      },
+      {
+        "guid": "5c2d84226fbbaf94e9c1451f1c39b06a",
+        "path": "Assets/res/CrossPlatformInput/Scripts/TiltInput.cs",
+        "size": 4613
+      },
+      {
+        "guid": "5cd052ce7ea5a2f438f599e02de6a390",
+        "path": "Assets/res/ParticleSystems/Shaders/PriorityParticleAdd.shader",
+        "size": 2378
+      },
+      {
+        "guid": "5d3fb8e05edcf4b41aef584ca1b0d06f",
+        "path": "Assets/res/CrossPlatformInput/Prefabs",
+        "size": 0
+      },
+      {
+        "guid": "5d44a238286f6904198ab78e914c229d",
+        "path": "Assets/res/ParticleSystems/Scripts/AfterburnerPhysicsForce.cs",
+        "size": 2946
+      },
+      {
+        "guid": "5d8238cc53530b64fbb7828c3d3bb591",
+        "path": "Assets/res/2D/Scripts/Camera2DFollow.cs",
+        "size": 1774
+      },
+      {
+        "guid": "5e10fe0033fe25140aeac20446f837f0",
+        "path": "Assets/res/Editor",
+        "size": 0
+      },
+      {
+        "guid": "5eebb5849c50a2c4ea24ded96e6f3aac",
+        "path": "Assets/res/PhysicsMaterials",
+        "size": 0
+      },
+      {
+        "guid": "5fcc8a933569ca34293c109f6c1cb16e",
+        "path": "Assets/SeethroughManager.cs",
+        "size": 480
+      },
+      {
+        "guid": "6045a93fb05b9c74884821030da2c46c",
+        "path": "Assets/res/Utility/FOVKick.cs",
+        "size": 2476
+      },
+      {
+        "guid": "606db5bef0817aa449fe65b0ce59b19e",
+        "path": "Assets/res/Vehicles",
+        "size": 0
+      },
+      {
+        "guid": "60d4adad90a8b164abbb7d8ff5b4118a",
+        "path": "Assets/res/ParticleSystems/Materials/ParticleSteam.mat",
+        "size": 1019
+      },
+      {
+        "guid": "61cdcfd66de4b084ebdd784eb06a77cd",
+        "path": "Assets/res/CrossPlatformInput/Scripts",
+        "size": 0
+      },
+      {
+        "guid": "6211ebe7da050874588a120ededdd69d",
+        "path": "Assets/res/Vehicles/Aircraft",
+        "size": 0
+      },
+      {
+        "guid": "643c971818f68d3439e84b5d8bdafe07",
+        "path": "Assets/res/Utility/ObjectResetter.cs",
+        "size": 1604
+      },
+      {
+        "guid": "645413a00f7bd0242bbd6d0e5eb6f439",
+        "path": "Assets/res/ParticleSystems/Prefabs/ExplosionMobile.prefab",
+        "size": 454878
+      },
+      {
+        "guid": "66329fe4ad8cd59478fffdc10131da1c",
+        "path": "Assets/res/Vehicles/Aircraft/Scripts/AeroplaneAudio.cs",
+        "size": 5997
+      },
+      {
+        "guid": "676b0cfcb1fc7cd43b5b42fbad15b6cb",
+        "path": "Assets/res/2D/Scripts",
+        "size": 0
+      },
+      {
+        "guid": "67ceb170539f78945abfc54072e3f2e1",
+        "path": "Assets/Smoke_CeilingLayer.prefab",
+        "size": 120045
+      },
+      {
+        "guid": "694eef9939f180440a9d0891272eddba",
+        "path": "Assets/res/ParticleSystems/Shaders/PriorityParticleAddSoft.shader",
+        "size": 2339
+      },
+      {
+        "guid": "69b69a5b0e0a85b4aa97a7edc40c37d1",
+        "path": "Assets/res/Utility/SimpleActivatorMenu.cs",
+        "size": 1113
+      },
+      {
+        "guid": "6ac1ce5a5adfd9f46adbf5b6f752a47c",
+        "path": "Assets/res/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs",
+        "size": 6546
+      },
+      {
+        "guid": "6e1d36c4bbd37d54f9ea183e4f5fd656",
+        "path": "Assets/res/Prototyping/Materials/YellowSmooth.mat",
+        "size": 4428
+      },
+      {
+        "guid": "6f947e56d54f4274896478766fef616c",
+        "path": "Assets/res/Vehicles/Aircraft/Scripts/AeroplaneAiControl.cs",
+        "size": 6090
+      },
+      {
+        "guid": "6ff581920b0c33e4baf22b1b111cdbd0",
+        "path": "Assets/NewBehaviourScript.cs",
+        "size": 6444
+      },
+      {
+        "guid": "702dcee2ac116d640bf26ad79fc9d0d4",
+        "path": "Assets/res/Environment/Water",
+        "size": 0
+      },
+      {
+        "guid": "70852dc981465ea48bb527b9e33a87fd",
+        "path": "Assets/res/Utility/WaypointCircuit.cs",
+        "size": 13276
+      },
+      {
+        "guid": "70dbfcefcc8da644680b63d8af5abcf7",
+        "path": "Assets/TutorialInfo",
+        "size": 0
+      },
+      {
+        "guid": "71398ce7fbc3a5b4fa50b50bd54317a7",
+        "path": "Assets/res/CrossPlatformInput/Scripts/MobileControlRig.cs",
+        "size": 2448
+      },
+      {
+        "guid": "723274b822865ed4d9ed2a504c0ca79d",
+        "path": "Assets/res/ParticleSystems/Scripts/FireLight.cs",
+        "size": 1155
+      },
+      {
+        "guid": "732e2eebfe574ca47ba46cc3a67965fd",
+        "path": "Assets/res/ParticleSystems/Textures/ParticleBokeh.png",
+        "size": 11328
+      },
+      {
+        "guid": "75f9c13699df70146acf77d07b594a0f",
+        "path": "Assets/res/ParticleSystems/Textures",
+        "size": 0
+      },
+      {
+        "guid": "76b24fa8a46a2c14f9a7df1e975dc4b9",
+        "path": "Assets/res/ParticleSystems/Textures/ParticleFlare.png",
+        "size": 1526
+      },
+      {
+        "guid": "76ff537c8e1a84345868e6aeee938ab3",
+        "path": "Assets/res/Prototyping/Materials/NavyGrid.mat",
+        "size": 4516
+      },
+      {
+        "guid": "778523dc90753b54bbe650890671a96f",
+        "path": "Assets/Scenes",
+        "size": 0
+      },
+      {
+        "guid": "77d08210df254d845885518314593544",
+        "path": "Assets/res/ParticleSystems/Materials/ParticleFirecloud.mat",
+        "size": 1432
+      },
+      {
+        "guid": "7842343ebafbaf143931b14ff53b148a",
+        "path": "Assets/res/Characters/ThirdPersonCharacter/Scripts",
+        "size": 0
+      },
+      {
+        "guid": "7911795df27dd464190eed77dda90191",
+        "path": "Assets/res/ParticleSystems/Materials/ParticleDuststorm.mat",
+        "size": 1041
+      },
+      {
+        "guid": "7d3269566d48b8447bb48d2259e28f8b",
+        "path": "Assets/res/CrossPlatformInput/Scripts/InputAxisScrollbar.cs",
+        "size": 353
+      },
+      {
+        "guid": "81154777d5417884981849c5243f6c01",
+        "path": "Assets/res/Utility/Prefabs/FramerateCounter.prefab",
+        "size": 5338
+      },
+      {
+        "guid": "81c9795a96c094f4cbde4d65546aa9b2",
+        "path": "Assets/res/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs",
+        "size": 9414
+      },
+      {
+        "guid": "82096aab38f01cb40a1cbf8629a810ba",
+        "path": "Assets/res/Prototyping/Materials/YellowGrid.mat",
+        "size": 4518
+      },
+      {
+        "guid": "830884c18cf5e7a4895ee02c2dcd8e12",
+        "path": "Assets/res/ParticleSystems/Textures/ParticleCloudBlack.png",
+        "size": 49067
+      },
+      {
+        "guid": "832dc5a2501052b4d8f685a7cda3b30b",
+        "path": "Assets/res/ParticleSystems/Textures/SplashesLargeParticle.png",
+        "size": 69684
+      },
+      {
+        "guid": "83c81407209f85e4c87c0cda8b32868e",
+        "path": "Assets/res/Characters/FirstPersonCharacter/Scripts/HeadBob.cs",
+        "size": 2235
+      },
+      {
+        "guid": "83ff96b11b58ba340be8b6a33d751125",
+        "path": "Assets/XRI",
+        "size": 0
+      },
+      {
+        "guid": "8566902b50d5bfb4fb7f8b89f9cdbe8b",
+        "path": "Assets/res/Utility/DynamicShadowSettings.cs",
+        "size": 1650
+      },
+      {
+        "guid": "85bf3be603548374ca46f521a3aa7fda",
+        "path": "Assets/res/CrossPlatformInput/Scripts/ButtonHandler.cs",
+        "size": 922
+      },
+      {
+        "guid": "87be4190eae46cf459ae6177b8698f03",
+        "path": "Assets/res/ParticleSystems/Textures/ParticleFireballSheet.png",
+        "size": 83438
+      },
+      {
+        "guid": "89a534d869bfccd49bebf7cb6fb244b6",
+        "path": "Assets/res/Cameras/Scripts/AbstractTargetFollower.cs",
+        "size": 3594
+      },
+      {
+        "guid": "89ff19d667a6a5d4bb76df1fcb718402",
+        "path": "Assets/res/ParticleSystems/Materials/ParticleAfterburner.mat",
+        "size": 1073
+      },
+      {
+        "guid": "8c19a618a0bd9844583b91dca0875a34",
+        "path": "Assets/res/Prototyping/Materials/PinkGrid.mat",
+        "size": 4516
+      },
+      {
+        "guid": "8c5335f0882fe4d478883cc8c58ce906",
+        "path": "Assets/res/Characters/ThirdPersonCharacter/Scripts/AICharacterControl.cs",
+        "size": 1486
+      },
+      {
+        "guid": "8e44fe896458128418bff33ed3981421",
+        "path": "Assets/res/ParticleSystems/Textures/SplashesFineParticle.png",
+        "size": 36191
+      },
+      {
+        "guid": "915950f1f73ea9e429d92b7226238623",
+        "path": "Assets/res/ParticleSystems/Scripts/Hose.cs",
+        "size": 1050
+      },
+      {
+        "guid": "921a3ff88856fe04ebc86b196fd8cc59",
+        "path": "Assets/res/ParticleSystems/Prefabs/Smoke.prefab",
+        "size": 111708
+      },
+      {
+        "guid": "92579f5eb6a9d1f42904459ea91da42f",
+        "path": "Assets/res/Utility",
+        "size": 0
+      },
+      {
+        "guid": "94b04ec3bda6b7747aa53936ef3b0ae2",
+        "path": "Assets/res/Cameras/Scripts/ProtectCameraFromWallClip.cs",
+        "size": 6066
+      },
+      {
+        "guid": "951d74f7d57bed84cb623c62436bd064",
+        "path": "Assets/res/Environment/Water/Water/Scripts/MeshContainer.cs",
+        "size": 511
+      },
+      {
+        "guid": "9529ecc3d479da5499993355e6c2cb4f",
+        "path": "Assets/res/CrossPlatformInput/Prefabs/MobileSingleStickControl.prefab",
+        "size": 13196
+      },
+      {
+        "guid": "96468c245ae8e0d4f8f1c7a7b8b0542e",
+        "path": "Assets/res/Vehicles/Car/Scripts/CarUserControl.cs",
+        "size": 905
+      },
+      {
+        "guid": "9703d53e47195aa4190acd11369ccd1b",
+        "path": "Assets/res/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs",
+        "size": 3489
+      },
+      {
+        "guid": "971f44ba24a74294294daed00507d80e",
+        "path": "Assets/res/Utility/AlphaButtonClickMask.cs",
+        "size": 1817
+      },
+      {
+        "guid": "98c58c8dd46640c49bb5f557afafea7c",
+        "path": "Assets/res/ParticleSystems/Prefabs/TyreBurnoutSmoke.prefab",
+        "size": 111156
+      },
+      {
+        "guid": "9961032f4f02c4f41997c3ea399d2f22",
+        "path": "Assets/res/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs",
+        "size": 2340
+      },
+      {
+        "guid": "999388b68bb99b44099461bfbed94358",
+        "path": "Assets/res/CrossPlatformInput/Prefabs/MobileTiltControlRig.prefab",
+        "size": 3900
+      },
+      {
+        "guid": "9ab98b66288df7b4fa182075f2f12bd6",
+        "path": "Assets/res/CrossPlatformInput/Scripts/AxisTouchButton.cs",
+        "size": 2376
+      },
+      {
+        "guid": "9b5b13b7a19cfe24b9512e7c31c32663",
+        "path": "Assets/PlayerMovement.cs",
+        "size": 1035
+      },
+      {
+        "guid": "9b886447cba80f74e820adb3c9e70c76",
+        "path": "Assets/res/Utility/ForcedReset.cs",
+        "size": 536
+      },
+      {
+        "guid": "9c0578910bbe00d43919a92c7b9893fe",
+        "path": "Assets/res/Utility/EventSystemChecker.cs",
+        "size": 542
+      },
+      {
+        "guid": "9c2c627f6fe3945b39581fc103d32251",
+        "path": "Assets/res/Editor/Water/Water4/WaterBaseEditor.cs",
+        "size": 9986
+      },
+      {
+        "guid": "9c4978ff6447f9040b84acc89b0bbdc8",
+        "path": "Assets/res/Utility/AutoMobileShaderSwitch.cs",
+        "size": 7298
+      },
+      {
+        "guid": "9ce3a3a1349a5774b94761844e652a65",
+        "path": "Assets/res/Vehicles/Car/Scripts/SkidTrail.cs",
+        "size": 538
+      },
+      {
+        "guid": "9db865986f75ee44eba89ace4646af65",
+        "path": "Assets/res/Vehicles/Car/Scripts/CarSelfRighting.cs",
+        "size": 1443
+      },
+      {
+        "guid": "9ec1e45165d1f2544bff59f5a80db8ab",
+        "path": "Assets/res/Vehicles/Car/Scripts/Suspension.cs",
+        "size": 864
+      },
+      {
+        "guid": "9f3080141f1f64197825663e067f94f8",
+        "path": "Assets/res/ParticleSystems/Materials/ParticleFirework.mat",
+        "size": 948
+      },
+      {
+        "guid": "9f93f63d068b08c459038c40fce897d8",
+        "path": "Assets/res/PhysicsMaterials/Bouncy.physicmaterial",
+        "size": 470
+      },
+      {
+        "guid": "9fc0d4010bbf28b4594072e72b8655ab",
+        "path": "Assets/Scenes/SampleScene.unity",
+        "size": 213780
+      },
+      {
+        "guid": "a1347817507220a4384f3ff6f7c24546",
+        "path": "Assets/res/Utility/AutoMoveAndRotate.cs",
+        "size": 1156
+      },
+      {
+        "guid": "a1da353243062479a9b31c85074a796b",
+        "path": "Assets/res/Environment/Water/Water/Scripts/WaterBase.cs",
+        "size": 2214
+      },
+      {
+        "guid": "a1fd2b97678961141863a6d6c5544661",
+        "path": "Assets/res/CrossPlatformInput/Scripts/PlatformSpecific",
+        "size": 0
+      },
+      {
+        "guid": "a3b997593a4f12c4c991490593f3b513",
+        "path": "Assets/res/CrossPlatformInput/CrossPlatformInputGuidelines.txt",
+        "size": 3916
+      },
+      {
+        "guid": "a3d3ef1a5bbfb4e0a910fbbe5830b1f9",
+        "path": "Assets/res/Environment/Water/Water/Scripts/Water.cs",
+        "size": 17234
+      },
+      {
+        "guid": "a62942d9af3f36d448094c6ed1f214dd",
+        "path": "Assets/res/Cameras/Scripts/TargetFieldOfView.cs",
+        "size": 3250
+      },
+      {
+        "guid": "a6f4f94e4f5328948a8a5a94dc728e6f",
+        "path": "Assets/XRI/Settings/Resources",
+        "size": 0
+      },
+      {
+        "guid": "a8c588551d6db0441b7ffd3e8533fc94",
+        "path": "Assets/XR/Loaders",
+        "size": 0
+      },
+      {
+        "guid": "a8d3968294210ba4a9d2bb96dfa74a16",
+        "path": "Assets/res/Cameras/Scripts/AutoCam.cs",
+        "size": 5852
+      },
+      {
+        "guid": "a9dfad760b6e9455593192a6d869f7ed",
+        "path": "Assets/res/2D/Scripts/CameraFollow.cs",
+        "size": 3112
+      },
+      {
+        "guid": "aa9bcb5b3d5b1de4691b2afb7d67582e",
+        "path": "Assets/XR/XRGeneralSettingsPerBuildTarget.asset",
+        "size": 2425
+      },
+      {
+        "guid": "ab92fafd5aba049429805fb5b2b20ceb",
+        "path": "Assets/XR",
+        "size": 0
+      },
+      {
+        "guid": "b27507c5d0efbbd47ac8c1de9a1a0a35",
+        "path": "Assets/res/Utility/PlatformSpecificContent.cs",
+        "size": 2891
+      },
+      {
+        "guid": "b297a60c0ddf0ee4dabefaf158fb097d",
+        "path": "Assets/res/Vehicles/Aircraft/Scripts/AeroplaneUserControl2Axis.cs",
+        "size": 2651
+      },
+      {
+        "guid": "b43a4ef15621158419a2b639f7a98245",
+        "path": "Assets/res/Utility/Prefabs",
+        "size": 0
+      },
+      {
+        "guid": "b442d7147c128b943bee0537bd80e761",
+        "path": "Assets/res/Environment",
+        "size": 0
+      },
+      {
+        "guid": "b4c4c1106cbcf5846aeee9bf408f8fe9",
+        "path": "Assets/FlameFollower.cs",
+        "size": 3248
+      },
+      {
+        "guid": "b6fecef6c92b67147b638a07ef91195b",
+        "path": "Assets/res/ParticleSystems/Prefabs/SteamMobile.prefab",
+        "size": 110968
+      },
+      {
+        "guid": "b821cfe117414d14ea5ad71c5b3c503f",
+        "path": "Assets/res/Vehicles/Aircraft/Scripts/AeroplaneUserControl4Axis.cs",
+        "size": 2498
+      },
+      {
+        "guid": "b885108f2d794c94ba9ee208e4f46d1a",
+        "path": "Assets/res/Editor/CrossPlatformInput",
+        "size": 0
+      },
+      {
+        "guid": "b99a0a5998b2736429fd2a2fd1d01c5e",
+        "path": "Assets/res/ParticleSystems/Prefabs/FireMobile.prefab",
+        "size": 338944
+      },
+      {
+        "guid": "ba2d0d2536485ce4084a900ff03c9385",
+        "path": "Assets/IJKLPlayer.cs",
+        "size": 2224
+      },
+      {
+        "guid": "ba92fb44336020f40bdf294bb66bc9da",
+        "path": "Assets/res/PhysicsMaterials/Ice.physicmaterial",
+        "size": 467
+      },
+      {
+        "guid": "bc3ece7fcb462f24d81a8f571ebe33de",
+        "path": "Assets/res/Characters/FirstPersonCharacter",
+        "size": 0
+      },
+      {
+        "guid": "bf495eacf58e31146ab012aa89ac68da",
+        "path": "Assets/res/ParticleSystems/Prefabs/FireComplex.prefab",
+        "size": 817390
+      },
+      {
+        "guid": "bf6c56c7f8c75ca4c99450be5aca5ace",
+        "path": "Assets/res/Vehicles/Aircraft/Scripts/LandingGear.cs",
+        "size": 1773
+      },
+      {
+        "guid": "c10b1630d5621ec48a17223c3c102023",
+        "path": "Assets/res/ParticleSystems/Materials/ParticleGlow.mat",
+        "size": 951
+      },
+      {
+        "guid": "c1bbfafbde15c854681023b9e01e12dd",
+        "path": "Assets/res/Utility/LerpControlledBob.cs",
+        "size": 1126
+      },
+      {
+        "guid": "c2815a7ab32e42c4bb42f59caacb8ec1",
+        "path": "Assets/res/PhysicsMaterials/ZeroFriction.physicMaterial",
+        "size": 389
+      },
+      {
+        "guid": "c3d66a8056f9db345b1ea380aa7e815d",
+        "path": "Assets/res/ParticleSystems/Textures/ParticleFirecloud.png",
+        "size": 57357
+      },
+      {
+        "guid": "c3d7b34a3bb2d4e4b926e7e729d3d410",
+        "path": "Assets/res/2D/Scripts/Platformer2DUserControl.cs",
+        "size": 1105
+      },
+      {
+        "guid": "c50d77affeb31e14c9c062c282f13fc8",
+        "path": "Assets/res/ParticleSystems/Materials/ParticleSmokeWhite.mat",
+        "size": 1051
+      },
+      {
+        "guid": "c5cb22d331ef7d64796f917c6a455a32",
+        "path": "Assets/res/Utility/WaypointProgressTracker.cs",
+        "size": 6736
+      },
+      {
+        "guid": "c62479c3465024b48b42983b1b2eeaaf",
+        "path": "Assets/res/Vehicles/Car/Scripts/WheelEffects.cs",
+        "size": 2590
+      },
+      {
+        "guid": "c62b7d87755b447919138e67f8e22e0c",
+        "path": "Assets/res/Environment/Water/Water/Scripts/Displace.cs",
+        "size": 806
+      },
+      {
+        "guid": "c7b4fd0ee66909548b47213a640927aa",
+        "path": "Assets/res/ParticleSystems/Materials",
+        "size": 0
+      },
+      {
+        "guid": "c8634e062924929664361c08745211fb",
+        "path": "Assets/res/Utility/ActivateTrigger.cs",
+        "size": 3557
+      },
+      {
+        "guid": "cadd54e4832aeef4b9359f44cbe335cd",
+        "path": "Assets/res/Utility/SimpleMouseRotator.cs",
+        "size": 4568
+      },
+      {
+        "guid": "cc4347574b823934ba11785e25895920",
+        "path": "Assets/res/ParticleSystems/Shaders/PriorityParticleAlpha.shader",
+        "size": 2378
+      },
+      {
+        "guid": "ccbcfc705a39717429590a9f247ec30a",
+        "path": "Assets/res/ParticleSystems/Prefabs/FlareMobile.prefab",
+        "size": 349774
+      },
+      {
+        "guid": "ce7a80d520cacc042b5fe14f373d8173",
+        "path": "Assets/res/Characters/ThirdPersonCharacter/Scripts/ThirdPersonCharacter.cs",
+        "size": 7420
+      },
+      {
+        "guid": "cfe1af4c37e1c3a4a99ad0720b055787",
+        "path": "Assets/ParticleRepulsion.cs",
+        "size": 1980
+      },
+      {
+        "guid": "d08f91df3bd212f429df17f53ce2f364",
+        "path": "Assets/res/2D/Scripts/PlatformerCharacter2D.cs",
+        "size": 5203
+      },
+      {
+        "guid": "d1e2e7a54dcc8694ab1eca46d072f264",
+        "path": "Assets/res/Utility/CameraRefocus.cs",
+        "size": 1335
+      },
+      {
+        "guid": "d5bbfe17fd61a7f45ad1932a5dd14b56",
+        "path": "Assets/res/ParticleSystems/Shaders",
+        "size": 0
+      },
+      {
+        "guid": "d8c41be67f41aa545ae053b0b927f821",
+        "path": "Assets/res/ParticleSystems/Prefabs/Afterburner.prefab",
+        "size": 224524
+      },
+      {
+        "guid": "d947636a9390f6a46a121124154e6e3f",
+        "path": "Assets/res/Cameras/Scripts/HandHeldCam.cs",
+        "size": 1160
+      },
+      {
+        "guid": "d948646604a5c1f44ada6d373b83a0c5",
+        "path": "Assets/Resources/PXR_DebuggerPanel.prefab",
+        "size": 128203
+      },
+      {
+        "guid": "d94f228344692df4b916c671f6a625bc",
+        "path": "Assets/res/Characters/RollerBall",
+        "size": 0
+      },
+      {
+        "guid": "d963df58504b69045b8d0d746ba6f777",
+        "path": "Assets/res/Vehicles/Car/Scripts/CarAIControl.cs",
+        "size": 13589
+      },
+      {
+        "guid": "daa7e0829bc72c94babd728cc0466196",
+        "path": "Assets/res/Characters/RollerBall/Scripts/BallUserControl.cs",
+        "size": 2325
+      },
+      {
+        "guid": "db7667203062c644ea1877077e30ebd6",
+        "path": "Assets/res/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs",
+        "size": 5154
+      },
+      {
+        "guid": "dcf956e366f26fe46bf77e61671616e9",
+        "path": "Assets/FlameParticleAudio.cs",
+        "size": 320
+      },
+      {
+        "guid": "dd561b2fbf8fb8a47a89c525585d0ef3",
+        "path": "Assets/res/Characters/RollerBall/Scripts",
+        "size": 0
+      },
+      {
+        "guid": "de2ab2b9ac93bb544b9552e49030371b",
+        "path": "Assets/res/Environment/Water/Water/Scripts/SpecularLighting.cs",
+        "size": 832
+      },
+      {
+        "guid": "dec9f46df6412a144972d9411efc1d72",
+        "path": "Assets/res/Environment/Water/Water/Scripts",
+        "size": 0
+      },
+      {
+        "guid": "e004fefca5c7ba44d9c5ffd46fdee2ed",
+        "path": "Assets/res/Characters/RollerBall/Scripts/Ball.cs",
+        "size": 1836
+      },
+      {
+        "guid": "e053b0a94752146e79954ce4df1b5565",
+        "path": "Assets/res/2D/Scripts/Restarter.cs",
+        "size": 395
+      },
+      {
+        "guid": "e1b124e3a6439714b8dfa76b3074a8c0",
+        "path": "Assets/res/Environment/Water/Water",
+        "size": 0
+      },
+      {
+        "guid": "e44af8091779fcb40801d5b284353dbe",
+        "path": "Assets/res/Cameras/Scripts/FreeLookCam.cs",
+        "size": 5147
+      },
+      {
+        "guid": "e52fb17f9b1e7fd48b8955f1391d3688",
+        "path": "Assets/res/PhysicsMaterials/MaxFriction.physicMaterial",
+        "size": 388
+      },
+      {
+        "guid": "e825e4fd94e41d1458cceb0ad5c302e0",
+        "path": "Assets/XRI/Settings/Resources/XRDeviceSimulatorSettings.asset",
+        "size": 538
+      },
+      {
+        "guid": "eb313119b8692f14f8efcf2cd9d37fa7",
+        "path": "Assets/NewBehaviourScript1.cs",
+        "size": 1613
+      },
+      {
+        "guid": "ed1b89d39279f564ea077ad8e46f3595",
+        "path": "Assets/res/ParticleSystems/Materials/ParticleSteamMobile.mat",
+        "size": 1027
+      },
+      {
+        "guid": "ed1c797ec3736704db03a0d64d010e33",
+        "path": "Assets/res/ParticleSystems/Prefabs/DustStormMobile.prefab",
+        "size": 110543
+      },
+      {
+        "guid": "f2d92c866163d104c8bfe3db771c8f85",
+        "path": "Assets/res/ParticleSystems/Materials/M_BurnedBlack.mat",
+        "size": 3678
+      },
+      {
+        "guid": "f2ec2b96de5640e42a622fc3064f1c80",
+        "path": "Assets/res/Cameras/Scripts/LookatTarget.cs",
+        "size": 2809
+      },
+      {
+        "guid": "f550d5e0dcadeaa42adbef66f6d60a1e",
+        "path": "Assets/XR/Settings/PXR_Settings.asset",
+        "size": 547
+      },
+      {
+        "guid": "f63c576739a709747a1a571260d4fabd",
+        "path": "Assets/res/ParticleSystems/Materials/ParticleSpark.mat",
+        "size": 949
+      },
+      {
+        "guid": "f67f2bac30f824d4f8270bb8bb0779df",
+        "path": "Assets/res/Editor/Water/Water4/WaterEditorUtility.cs",
+        "size": 2664
+      },
+      {
+        "guid": "f76806479d916a64aa03f8e3eba7912f",
+        "path": "Assets/res/Utility/SmoothFollow.cs",
+        "size": 1828
+      },
+      {
+        "guid": "fae5d333f43a55744ab0c44fecefdcae",
+        "path": "Assets/res/ParticleSystems/Prefabs/Hose.prefab",
+        "size": 566236
+      },
+      {
+        "guid": "fb9e837aae6395d48b1182bee201f814",
+        "path": "Assets/res/Vehicles/Aircraft/Scripts/AeroplanePropellerAnimator.cs",
+        "size": 3606
+      },
+      {
+        "guid": "fc626cffedc907848a7b47b87aa5e34f",
+        "path": "Assets/res/ParticleSystems/Materials/ParticleSmokeBlack.mat",
+        "size": 1053
+      },
+      {
+        "guid": "fcf7219bab7fe46a1ad266029b2fee19",
+        "path": "Assets/TutorialInfo/Scripts/Readme.cs",
+        "size": 302
+      },
+      {
+        "guid": "fed4e78bda2b3de45954637fee164b8c",
+        "path": "Assets/res/Prototyping/Materials/PinkSmooth.mat",
+        "size": 2898
+      },
+      {
+        "guid": "ff3b0e14a61014f50be83e1a18c6d43e",
+        "path": "Assets/res/Editor/Water/Water4/PlanarReflectionEditor.cs",
+        "size": 2282
+      },
+      {
+        "guid": "ff6663d927968dc4482d24a8495316de",
+        "path": "Assets/res/ParticleSystems/Materials/ParticleSplashes.mat",
+        "size": 972
+      },
+      {
+        "guid": "fffafd711dc1dbc478a49705cfe1ce3d",
+        "path": "Assets/res/Vehicles/Car/Scripts/BrakeLight.cs",
+        "size": 589
+      }
+    ]
+  },
+  {
+    "source_file": "虚拟demo.unitypackage",
+    "sha256": "a23af55380866b2873e846f7f044f882110b2ad8a3be59a3613fcd2c8c8f8238",
+    "module": "virtual-fire-demo",
+    "asset_count": 319,
+    "assets": [
+      {
+        "guid": "000d1a33d8d2f8445bb24d7d483fc34d",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/XR Device Simulator/Scripts",
+        "size": 0
+      },
+      {
+        "guid": "001161ed66549294f91f134809744b6b",
+        "path": "Assets/Resources/moxing/wall-corner-column.fbx",
+        "size": 28064
+      },
+      {
+        "guid": "003d9fdf4b2c38748b6ef2f74c4326b7",
+        "path": "Assets/Resources/jiaju/Houseplant_4.fbx",
+        "size": 24316
+      },
+      {
+        "guid": "004f0e70ab2efb54a9d93a283d657b97",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/Starter Assets/Editor",
+        "size": 0
+      },
+      {
+        "guid": "009fbf49e77db344db366a646868e02d",
+        "path": "Assets/res/ParticleSystems/Scripts/ExplosionFireAndDebris.cs",
+        "size": 2384
+      },
+      {
+        "guid": "00c3c865782347f41b6358d9fba14b48",
+        "path": "Assets/res/CrossPlatformInput/Scripts/Joystick.cs",
+        "size": 3260
+      },
+      {
+        "guid": "013811fdd48c040339e9adc40e692381",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/XR Device Simulator/UI/Mouse/MouseMoveAround.png",
+        "size": 10824
+      },
+      {
+        "guid": "01571ba68fb2dad46aa03094ab219579",
+        "path": "Assets/res/PhysicsMaterials/Metal.physicmaterial",
+        "size": 469
+      },
+      {
+        "guid": "0161d805a3764c089bef00bfe00793f5",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset",
+        "size": 7951
+      },
+      {
+        "guid": "01820cd5d6cab46b9afde2261f687a48",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/XR Device Simulator/UI/Head",
+        "size": 0
+      },
+      {
+        "guid": "01be18b4618a17247b8d97e80787b747",
+        "path": "Assets/Resources/jiaju/Bathroom_WashingMachine.fbx",
+        "size": 21340
+      },
+      {
+        "guid": "0222bef7b2481a24e90104834b92dc01",
+        "path": "Assets/Resources/moxing/wall-low.fbx",
+        "size": 26784
+      },
+      {
+        "guid": "0265e2b6afccd49de9c1f0b3a1fb4285",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/XR Device Simulator/UI/Head/XR.png",
+        "size": 8084
+      },
+      {
+        "guid": "031d08f52af1daa4f929b85221519426",
+        "path": "Assets/res/ParticleSystems/Prefabs/Explosion.prefab",
+        "size": 1015218
+      },
+      {
+        "guid": "035a2fbf7ad400c4fb81b269e6ad4ee5",
+        "path": "Assets/Resources/jiaju/Light_Floor3.fbx",
+        "size": 20012
+      },
+      {
+        "guid": "037ba65d346be2a48ad006b9a9a3873e",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/Starter Assets/DemoAssets/Prefabs/Teleport/Snap Teleport Anchor.prefab",
+        "size": 9431
+      },
+      {
+        "guid": "039587c051912eb4ead9e58344c5f3ce",
+        "path": "Assets/res/ParticleSystems/Scripts/ParticleSystemMultiplier.cs",
+        "size": 819
+      },
+      {
+        "guid": "03a71764f1184704c9a74acb7490450e",
+        "path": "Assets/res/Environment/SpeedTree/Palm/Palm_Desktop_Atlas.tga",
+        "size": 3243941
+      },
+      {
+        "guid": "03d0538de6e24c0f819bfc9ce084dfa9",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Vertical (Color).jpg",
+        "size": 11336
+      },
+      {
+        "guid": "03ec435d4b7140e9b2d87f79136d8374",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/07 - Superscript & Subscript Example.unity",
+        "size": 10533
+      },
+      {
+        "guid": "03f9d74cec8e4b94a29d2dfd177c821b",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/18 - ScrollRect & Masking & Layout.unity",
+        "size": 276567
+      },
+      {
+        "guid": "0438351a6e6422d43a09930e9be00ee9",
+        "path": "Assets/res/ParticleSystems/Prefabs/Flare.prefab",
+        "size": 349771
+      },
+      {
+        "guid": "044ee8af2f610534e9ab32184fc305d2",
+        "path": "Assets/Resources/moxing/roof-flat-patch-large.fbx",
+        "size": 25696
+      },
+      {
+        "guid": "04972372bb86817478022c9186b1b28d",
+        "path": "Assets/Resources/moxing/border-corner.fbx",
+        "size": 25856
+      },
+      {
+        "guid": "051393f1433340841936c4987f27712e",
+        "path": "Assets/Resources/jiaju/Kitchen_Cabinet1.fbx",
+        "size": 16300
+      },
+      {
+        "guid": "051f0164facef4a4785d088b70f58237",
+        "path": "Assets/Resources/jiaju/Kitchen_Fridge.fbx",
+        "size": 22972
+      },
+      {
+        "guid": "05293ab353dc8a747a36ed129311686d",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/XR Device Simulator/Hand Expression Captures/Open Expression Capture.asset",
+        "size": 7377
+      },
+      {
+        "guid": "0626b924325d1c34cafa6b22297f4e4f",
+        "path": "Assets/res/CrossPlatformInput/Sprites/SliderHandleSprite.png",
+        "size": 1671
+      },
+      {
+        "guid": "06811a59220b432409c9f15f282ae05c",
+        "path": "Assets/Resources/moxing/border-corner-round.fbx",
+        "size": 29616
+      },
+      {
+        "guid": "069e70d8d8227dd44b58284d45059fe5",
+        "path": "Assets/Resources/jiaju/Light_CeilingSingle.fbx",
+        "size": 19436
+      },
+      {
+        "guid": "06b7fcf0693ec1341a366fe20364c557",
+        "path": "Assets/Resources/PXR_DebuggerPanel.prefab",
+        "size": 128203
+      },
+      {
+        "guid": "075a592d739b2f64590c716fa22ceecb",
+        "path": "Assets/Resources/moxing/roof-flat-corner.fbx",
+        "size": 26848
+      },
+      {
+        "guid": "07b3638c2f5db5b479ff24c2859713d4",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/Starter Assets/Scripts/XRPokeFollowAffordance.cs",
+        "size": 11390
+      },
+      {
+        "guid": "07d0c4db854619a43992675e89c6a1c3",
+        "path": "Assets/res/FireStarter.cs",
+        "size": 3561
+      },
+      {
+        "guid": "07f2b035089bca845b979d821e71e165",
+        "path": "Assets/Resources/jiaju/Kitchen_Sink.fbx",
+        "size": 23468
+      },
+      {
+        "guid": "0851605490a599b46b6ac5cb681d93ea",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/26 - Dropdown Placeholder Example.unity",
+        "size": 97009
+      },
+      {
+        "guid": "08548d5ac6b7bc64da0b332636c5cc91",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/XR Device Simulator/UI/Head/xr_hmd.png",
+        "size": 13063
+      },
+      {
+        "guid": "08572ab7713642c8a60789750f0bce5c",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/12a - Text Interactions.unity",
+        "size": 24418
+      },
+      {
+        "guid": "085a69977d7b8d14f82c02130c42a46e",
+        "path": "Assets/Resources/jiaju/Kitchen_CabinetSmall.fbx",
+        "size": 16332
+      },
+      {
+        "guid": "08e3b3e480bdad34e89854a1b2e8613c",
+        "path": "Assets/Resources/moxing/barricade-window-a.fbx",
+        "size": 26304
+      },
+      {
+        "guid": "0927d29e476ce5843b1f7d2a96943c51",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/Starter Assets/Shaders/Interactable.shadergraph",
+        "size": 97587
+      },
+      {
+        "guid": "09a99b10658931c46a438c586a49ec65",
+        "path": "Assets/res/ParticleSystems/Materials/ParticleWaterSpray.mat",
+        "size": 1024
+      },
+      {
+        "guid": "0a35b7e20f75a8540a2c14b9555078cb",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/Starter Assets/TunnelingVignette/TunnelingVignette.mat",
+        "size": 4880
+      },
+      {
+        "guid": "0aa00c0212e047047aa5a1ce93b07f49",
+        "path": "Assets/res/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD0/Fronds_2.mat",
+        "size": 1183
+      },
+      {
+        "guid": "0ac1691131a8c844dafe8b6ace6a172a",
+        "path": "Assets/res/ParticleSystems/Scripts/ExplosionPhysicsForce.cs",
+        "size": 1202
+      },
+      {
+        "guid": "0bc72db1e9dcb9647818df5a07871127",
+        "path": "Assets/res/CrossPlatformInput/Scripts/PlatformSpecific",
+        "size": 0
+      },
+      {
+        "guid": "0bcb70c83814ab241a81e0bdfd418a1a",
+        "path": "Assets/Resources/jiaju/Bathroom_Toilet.fbx",
+        "size": 22268
+      },
+      {
+        "guid": "0be0028c24f2a4c14a96b6aa39055933",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/XR Device Simulator/XR Device Controller Controls.inputactions",
+        "size": 16259
+      },
+      {
+        "guid": "0c6271a290ef75b4c97d58746c86c5b8",
+        "path": "Assets/res/CrossPlatformInput/Sprites/ButtonTimescaleFullUpSprite.png",
+        "size": 8409
+      },
+      {
+        "guid": "0cbc0856f0fb8d84a81be5dea463c369",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/Starter Assets/DemoAssets/Prefabs/UI/Scroll UI Sample.prefab",
+        "size": 44509
+      },
+      {
+        "guid": "0e296055abe42cb4eb44d77af27abb36",
+        "path": "Assets/Resources/moxing/barricade-window-c.fbx",
+        "size": 26912
+      },
+      {
+        "guid": "0e70da5c52f2a7448b710285a3ab740a",
+        "path": "Assets/Resources/moxing/wall-window-round.fbx",
+        "size": 35072
+      },
+      {
+        "guid": "0eb91f7c5312717459f2c6260b0f67b6",
+        "path": "Assets/Resources/jiaju/Light_Floor4.fbx",
+        "size": 19964
+      },
+      {
+        "guid": "0ec79c3d1dd0fb640b7f3f72ebb28f74",
+        "path": "Assets/res/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop_Atlas_Billboards_Normal.tga",
+        "size": 2388787
+      },
+      {
+        "guid": "0ed56b6928d498544a52856375f4be4c",
+        "path": "Assets/Resources/jiaju/Kitchen_Cabinet2.fbx",
+        "size": 16332
+      },
+      {
+        "guid": "0f05b658818285748815295be2fe921f",
+        "path": "Assets/Resources/jiaju/Carpet_1.fbx",
+        "size": 18044
+      },
+      {
+        "guid": "0f57aeb1b8dce3342bea5c28ac17db24",
+        "path": "Assets/res/CrossPlatformInput/Scripts/VirtualInput.cs",
+        "size": 4832
+      },
+      {
+        "guid": "0f906c94e2aa0c3488832acc1db04295",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/Starter Assets/Filters/AnyGazedAtTeleportAnchorFilter.asset",
+        "size": 1767
+      },
+      {
+        "guid": "1032d41f900276c40a9dd24f55b7d420",
+        "path": "Assets/res/Prototyping/Materials/NavySmooth.mat",
+        "size": 4399
+      },
+      {
+        "guid": "103e0a6a1d404693b9fb1a5173e0e979",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A.cs",
+        "size": 6825
+      },
+      {
+        "guid": "1092dd21af768cb499771bf88709dbbd",
+        "path": "Assets/res/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD1/Branches_0.mat",
+        "size": 1186
+      },
+      {
+        "guid": "10a227681940c44419875e70172db1a8",
+        "path": "Assets/Resources/jiaju/Houseplant_8.fbx",
+        "size": 25132
+      },
+      {
+        "guid": "10abf1be8eef148d4aa4b96b2af7a9f0",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/XR Device Simulator/UI/Controller/ControllerLeft.png",
+        "size": 25129
+      },
+      {
+        "guid": "10c49fcd9c64421db7c0133e61e55f97",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Circle.psd",
+        "size": 32696
+      },
+      {
+        "guid": "114a57f285398ec4a8db064417fcdc78",
+        "path": "Assets/Resources/jiaju/Couch_Medium2.fbx",
+        "size": 32396
+      },
+      {
+        "guid": "11fa60a4f5bdba144a008a674f32eb19",
+        "path": "Assets/res/Prototyping/Materials",
+        "size": 0
+      },
+      {
+        "guid": "125cb55b44b24c4393181402bc6200e6",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset",
+        "size": 7894
+      },
+      {
+        "guid": "1262a45e1e3e6ae46bfd0e5c7aaf6e42",
+        "path": "Assets/Resources/moxing/stairs-sides.fbx",
+        "size": 41632
+      },
+      {
+        "guid": "128e987d567d4e2c824d754223b3f3b0",
+        "path": "Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader",
+        "size": 3499
+      },
+      {
+        "guid": "12b3e6814e4e5e649ba60cc54096fddf",
+        "path": "Assets/XR/Loaders/PXR_PTLoader.asset",
+        "size": 401
+      },
+      {
+        "guid": "1312ae25639a4bae8e25ae223209cc50",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventHandler.cs",
+        "size": 9303
+      },
+      {
+        "guid": "138f1f2819605c74e97c7852907602f6",
+        "path": "Assets/Resources/moxing/gutter-vertical-bottom.fbx",
+        "size": 28432
+      },
+      {
+        "guid": "139237a044d8e4255b40bb472c842087",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/XR Device Simulator/UI/Head/MoveRotateTool.png",
+        "size": 15421
+      },
+      {
+        "guid": "1392f805216c47742996d4742c80721c",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/Starter Assets/Prefabs/Controllers/XR Controller Left.prefab",
+        "size": 27332
+      },
+      {
+        "guid": "13e3e45088e68834999c82ca6f025949",
+        "path": "Assets/res/ParticleSystems/Scripts/ExtinguishableParticleSystem.cs",
+        "size": 599
+      },
+      {
+        "guid": "14305397b55fd2148ab7fcbdcbb60a50",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/Starter Assets/TunnelingVignette",
+        "size": 0
+      },
+      {
+        "guid": "147ae308eec018b40a7b312ae58f44c7",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/Starter Assets/Models/UniversalController.fbx",
+        "size": 317024
+      },
+      {
+        "guid": "14aa93acbb234d16aaef0e8b46814db6",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/DropCap Numbers.asset",
+        "size": 9803
+      },
+      {
+        "guid": "14af1242b4be8e2458dd5bee35c06ae5",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/Starter Assets/DemoAssets/Settings/GazeTeleportAnchorFilter.asset",
+        "size": 1761
+      },
+      {
+        "guid": "14e910c1fb9c7514a8106ffd25f1d892",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/XR Device Simulator/UI/Mouse/MouseR.png",
+        "size": 13952
+      },
+      {
+        "guid": "14eb328de4b8eb245bb7cea29e4ac00b",
+        "path": "Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader",
+        "size": 12000
+      },
+      {
+        "guid": "15135e86e52ab4b038dcbd61d7549e9f",
+        "path": "Assets/res/ParticleSystems/Prefabs",
+        "size": 0
+      },
+      {
+        "guid": "151dc8976fc55744b9ec4338edc1ddcb",
+        "path": "Assets/XR/Loaders/PXR_Loader.asset",
+        "size": 399
+      },
+      {
+        "guid": "153c77e0022ff3148beba89b18de3476",
+        "path": "Assets/res/Prototyping",
+        "size": 0
+      },
+      {
+        "guid": "16177da2e3254cee91944756d5f8ddd3",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/Benchmark (Floating Text).unity",
+        "size": 11380
+      },
+      {
+        "guid": "165f651a8b2bae84a9ae7d22beefe86f",
+        "path": "Assets/Resources/moxing/border-corner-diagonal.fbx",
+        "size": 25888
+      },
+      {
+        "guid": "167848806c592fc4d85e55b0ef6e3d3f",
+        "path": "Assets/Resources/jiaju/Table_RoundLarge.fbx",
+        "size": 23388
+      },
+      {
+        "guid": "16fba6d30ed741d4a9fdd6e79ee2f3ac",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/Starter Assets/DemoAssets/Audio/Button Pop.wav",
+        "size": 51580
+      },
+      {
+        "guid": "1713155dc4dd14e65b554e9690db4a5b",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/XR Device Simulator/UI",
+        "size": 0
+      },
+      {
+        "guid": "172f40c874b35fc42a66d568a70f9867",
+        "path": "Assets/res/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD1",
+        "size": 0
+      },
+      {
+        "guid": "174090ae7f9eff84abe76f0ff062efac",
+        "path": "Assets/res/CrossPlatformInput/Prefabs/CarTiltControls.prefab",
+        "size": 14707
+      },
+      {
+        "guid": "17689808316e14280ad508a625c4c88f",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/XR Device Simulator/UI/General/Gripper.png",
+        "size": 3154
+      },
+      {
+        "guid": "177f60e6b21ff774093004ca330b2241",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/XR Device Simulator/UI/Head/HMD_d.png",
+        "size": 11463
+      },
+      {
+        "guid": "17c263f6077f14b218b13656aacd9551",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/XR Device Simulator/UI/Controller/ControllerRight.png",
+        "size": 25056
+      },
+      {
+        "guid": "17c350171f7a3ca479f830547c66d187",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg",
+        "size": 273488
+      },
+      {
+        "guid": "17d565bb4a7744b41b7e4dc7e3a09e35",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/Starter Assets/DemoAssets/Sprites/Asset.png",
+        "size": 1419
+      },
+      {
+        "guid": "180149b1a35449044a27b451e816d2de",
+        "path": "Assets/res/ParticleSystems/Prefabs/Fireworks.prefab",
+        "size": 797768
+      },
+      {
+        "guid": "18214e9d6af6248559d501391856f1c7",
+        "path": "Assets/res/Environment/TerrainAssets/SurfaceTextures/CliffAlbedoSpecular.psd",
+        "size": 1069654
+      },
+      {
+        "guid": "1835e4537efbdd94b93c2dd136860f1d",
+        "path": "Assets/res/CrossPlatformInput/Sprites",
+        "size": 0
+      },
+      {
+        "guid": "18789729524e2584cb481572b253a15c",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/Starter Assets/Presets",
+        "size": 0
+      },
+      {
+        "guid": "18dc0cd2c080841dea60987a38ce93fa",
+        "path": "Assets/UniversalRenderPipelineGlobalSettings.asset",
+        "size": 1183
+      },
+      {
+        "guid": "18ddb545287c546e19cc77dc9fbb2189",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/XR Device Simulator/XR Device Simulator.prefab",
+        "size": 14780
+      },
+      {
+        "guid": "19d7ece9e3def3745a0f6e75d984fdf6",
+        "path": "Assets/res/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD0/Leaves_3.mat",
+        "size": 1182
+      },
+      {
+        "guid": "1a7eb92a01ed499a987bde9def05fbce",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_DigitValidator.cs",
+        "size": 726
+      },
+      {
+        "guid": "1aa938306cf99e444af1897e41d0d7d6",
+        "path": "Assets/res/SerialDataReader.cs",
+        "size": 2865
+      },
+      {
+        "guid": "1b5941935a555324bbc711bf9779ffd3",
+        "path": "Assets/FireComplex.prefab",
+        "size": 703034
+      },
+      {
+        "guid": "1b8d251f9af63b746bf2f7ffe00ebb9b",
+        "path": "Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf",
+        "size": 694398
+      },
+      {
+        "guid": "1bec6045fd4fae541bbc51f0c2070084",
+        "path": "Assets/PolygonStarter/Models",
+        "size": 0
+      },
+      {
+        "guid": "1caf40fc8bebb6b43b2550c05ca791d6",
+        "path": "Assets/res/CrossPlatformInput/Scripts/TouchPad.cs",
+        "size": 4541
+      },
+      {
+        "guid": "1cb3f0c5c8637644dae1816a674f7e10",
+        "path": "Assets/res/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD0/Fronds_2.mat",
+        "size": 1183
+      },
+      {
+        "guid": "1cdc5b506b1a4a33a53c30669ced1f51",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg",
+        "size": 150089
+      },
+      {
+        "guid": "1d566884c7697a34291c7c2cd476aae2",
+        "path": "Assets/新建材质.mat",
+        "size": 3685
+      },
+      {
+        "guid": "1d56a2d39cfbb49149abbf0076259327",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/XR Device Simulator/UI/Head/Movement.png",
+        "size": 8801
+      },
+      {
+        "guid": "1d88a33e403394940a5caf12d2102cd8",
+        "path": "Assets/Resources/moxing/stairs-sides-short.fbx",
+        "size": 41920
+      },
+      {
+        "guid": "1e3b057af24249748ff873be7fafee47",
+        "path": "Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader",
+        "size": 3549
+      },
+      {
+        "guid": "1eaf51d54d8ace94ab90c36945e40180",
+        "path": "Assets/XR/XRGeneralSettingsPerBuildTarget.asset",
+        "size": 2525
+      },
+      {
+        "guid": "1f62bdd0e59688d4bb754afe89fa2f5a",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/Starter Assets/DemoAssets/Prefabs/Climb/Single Floor Ladder.prefab",
+        "size": 13831
+      },
+      {
+        "guid": "1f7aa4d40edff6e48b549003cad031e1",
+        "path": "Assets/res/ParticleSystems/Prefabs/DustStorm.prefab",
+        "size": 112326
+      },
+      {
+        "guid": "1fb251d1b88b0f94f8daeca0e2de6c32",
+        "path": "Assets/Resources/jiaju/Chair_2.fbx",
+        "size": 21468
+      },
+      {
+        "guid": "1fbc4e410d66d804aaf31b4c25b16ffc",
+        "path": "Assets/res/Environment/SpeedTree/Conifer/Thumb_Conifer_Desktop.jpg",
+        "size": 77875
+      },
+      {
+        "guid": "1fc32ae467a30574388a2c415b5a23bc",
+        "path": "Assets/Resources/moxing/roof-flat-center.fbx",
+        "size": 27504
+      },
+      {
+        "guid": "1fd2d76932c26264391ed9d190d10977",
+        "path": "Assets/Resources/jiaju/Couch_Small2.fbx",
+        "size": 23644
+      },
+      {
+        "guid": "206c9d8f8383aac4f86d3970eee20acf",
+        "path": "Assets/Resources/jiaju/Bathroom_Sink.fbx",
+        "size": 23036
+      },
+      {
+        "guid": "20c65bc5a7d28f54c9ca69569d77706d",
+        "path": "Assets/res/Environment/SpeedTree/Palm/Palm_Desktop_Atlas_Normal.tga",
+        "size": 2467270
+      },
+      {
+        "guid": "20da5218bfb258e469fc26194e0f421f",
+        "path": "Assets/Resources/jiaju/Trashcan_Green.fbx",
+        "size": 31596
+      },
+      {
+        "guid": "21256c5b62f346f18640dad779911e20",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextInfoDebugTool.cs",
+        "size": 30811
+      },
+      {
+        "guid": "2169821f0567671499a5c10104c69c24",
+        "path": "Assets/res/CrossPlatformInput/Prefabs/DualTouchControls.prefab",
+        "size": 19928
+      },
+      {
+        "guid": "21a509e1d3cd49978623fa564adb6f02",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/03 - Line Justification.unity",
+        "size": 24596
+      },
+      {
+        "guid": "21b01056ea59b814f9ae15d8e6bb3aac",
+        "path": "Assets/res/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD1/Leaves_3.mat",
+        "size": 1182
+      },
+      {
+        "guid": "21df2d6c0cbf59745b4faeddc3ac0d10",
+        "path": "Assets/Resources/jiaju/Table_RoundSmall.fbx",
+        "size": 25356
+      },
+      {
+        "guid": "22262639920f43d6be32430e4e58350d",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat",
+        "size": 3798
+      },
+      {
+        "guid": "225843b6084e75440a6ea970a17c93aa",
+        "path": "Assets/res/ParticleSystems/Materials/ParticleSmokeVertlit.mat",
+        "size": 4477
+      },
+      {
+        "guid": "22a2fba786ad4c40ac0ba09f0b933100",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/14 - Multi Font & Sprites.unity",
+        "size": 14912
+      },
+      {
+        "guid": "22ad01d0c7be1e8419c5923ac831817c",
+        "path": "Assets/Resources/jiaju/Light_Floor2.fbx",
+        "size": 20780
+      },
+      {
+        "guid": "22bbf57ec543cee42a5aa0ec2dd9e457",
+        "path": "Assets/res/Utility/FPSCounter.cs",
+        "size": 1090
+      },
+      {
+        "guid": "243e06394e614e5d99fab26083b707fa",
+        "path": "Assets/TextMesh Pro/Resources",
+        "size": 0
+      },
+      {
+        "guid": "246cc59c7a84ea44f87f6b70acfe30c5",
+        "path": "Assets/res/Utility/FollowTarget.cs",
+        "size": 360
+      },
+      {
+        "guid": "24b0dc2d1d494adbbec1f4db26b4cf83",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs",
+        "size": 4881
+      },
+      {
+        "guid": "251716609f634449bfe8ce75c0ed78fe",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/02 - Multi-line TextMesh Pro.unity",
+        "size": 10445
+      },
+      {
+        "guid": "262d3a10eb96f2845be383d892f2f66f",
+        "path": "Assets/Resources/jiaju/Column_Round3.fbx",
+        "size": 24492
+      },
+      {
+        "guid": "269490de66e33a34dad45a50e3d4c168",
+        "path": "Assets/res/ParticleSystems/Textures/Spark.png",
+        "size": 871
+      },
+      {
+        "guid": "26ea534dcd83fe14c9173a52e151cce8",
+        "path": "Assets/res/ParticleSystems/Materials/ParticleFireball.mat",
+        "size": 887
+      },
+      {
+        "guid": "27024f5809f4a4347b9cd7f26a1bdf93",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/Starter Assets/Prefabs/Interactors/Poke Interactor.prefab",
+        "size": 9292
+      },
+      {
+        "guid": "275d38f87faaf6c44984c2835b285172",
+        "path": "Assets/FireComplex 2.prefab",
+        "size": 703042
+      },
+      {
+        "guid": "2787a46a4dc848c1b4b7b9307b614bfd",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs",
+        "size": 1353
+      },
+      {
+        "guid": "27b7629e54b332449bfa3a4065ffe17a",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/Starter Assets/Models/BlinkVisual.fbx",
+        "size": 34416
+      },
+      {
+        "guid": "27c5945ad36f6f147bc402250679a228",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/Starter Assets/Presets/XRI Default Continuous Move.preset",
+        "size": 5305
+      },
+      {
+        "guid": "283f897e4925411ebbaa758b4cb13fc2",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg",
+        "size": 71537
+      },
+      {
+        "guid": "286fc9021c370b045bc368c7b804a19f",
+        "path": "Assets/Resources/moxing/wall-window-wide-round.fbx",
+        "size": 35376
+      },
+      {
+        "guid": "29014cd42b6d273408e0ceefd336c0b3",
+        "path": "Assets/res/Utility/ParticleSystemDestroyer.cs",
+        "size": 1826
+      },
+      {
+        "guid": "29031fbada571ca428b4f0b2e24cd0e1",
+        "path": "Assets/Resources/jiaju/NightStand_3.fbx",
+        "size": 19420
+      },
+      {
+        "guid": "2909cb28371e6664b88130f37d454605",
+        "path": "Assets/res/ParticleSystems/ParticleSystemsGuidelines.txt",
+        "size": 2714
+      },
+      {
+        "guid": "290d158031622c645aa55f8bd981be12",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/XR Device Simulator/UI/Hands/hand.png",
+        "size": 11255
+      },
+      {
+        "guid": "2a40f3b156b87924f9872b9e83cc3072",
+        "path": "Assets/Resources/PXR_PICODebugger.prefab",
+        "size": 1813
+      },
+      {
+        "guid": "2a7c8ca0feac7cc44a5c225164ef311d",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/XR Device Simulator/Hand Expression Captures/Fist Expression Capture.asset",
+        "size": 6583
+      },
+      {
+        "guid": "2ac8cf212df6445e8aebbe3cb832e993",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/01-  Single Line TextMesh Pro.unity",
+        "size": 10375
+      },
+      {
+        "guid": "2b46b029d8dc37049aebb484e79998ff",
+        "path": "Assets/res/Environment/SpeedTree/Conifer/ConiferBark_Normal.tga",
+        "size": 4202514
+      },
+      {
+        "guid": "2b5e9ae96c5644d8bae932f8b4ca68a2",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Quad.psd",
+        "size": 34433
+      },
+      {
+        "guid": "2ba4fe1ffa86ff246b6dfc8a3b144bd9",
+        "path": "Assets/Scenes/新建材质.mat",
+        "size": 3654
+      },
+      {
+        "guid": "2bcb00d145ec17e4cad096cedfd84138",
+        "path": "Assets/res/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD0/Leaves_3.mat",
+        "size": 1182
+      },
+      {
+        "guid": "2c0b1e62b5409f6468554bb2f297badc",
+        "path": "Assets/res/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD2",
+        "size": 0
+      },
+      {
+        "guid": "2c116325e19b8a04d916864cc540ec2d",
+        "path": "Assets/res/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas.tga",
+        "size": 4109148
+      },
+      {
+        "guid": "2c1c27ec8c3b75a4c80a795adc9ca788",
+        "path": "Assets/res/Environment/SpeedTree/Broadleaf/BroadleafBark.tga",
+        "size": 4201546
+      },
+      {
+        "guid": "2c320a5fc5501af439ea7c036f542fb2",
+        "path": "Assets/Resources/jiaju/Shelf_Small3.fbx",
+        "size": 15164
+      },
+      {
+        "guid": "2c32987c2bc01844a94adfb917dd677d",
+        "path": "Assets/res/ParticleSystems/Prefabs/WildFire.prefab",
+        "size": 340816
+      },
+      {
+        "guid": "2c3e7ff9ab352b74da862a5a8779b276",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/Starter Assets/Presets/XRI Default XR UI Input Module.preset",
+        "size": 4359
+      },
+      {
+        "guid": "2c528fec5d95e4ac28cf46399b887662",
+        "path": "Assets/res/Environment/TerrainAssets/BillboardTextures/GrassFrond01AlbedoAlpha.psd",
+        "size": 224213
+      },
+      {
+        "guid": "2cafdba7b82e9e741807006b244ef6be",
+        "path": "Assets/Resources/jiaju/Light_Floor1.fbx",
+        "size": 20028
+      },
+      {
+        "guid": "2ce5c55e85304b819a1826ecbc839aa5",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Diagonal (Color).jpg",
+        "size": 11688
+      },
+      {
+        "guid": "2d190fb891a5afb47b4265e5c40cd8a3",
+        "path": "Assets/res/Environment/SpeedTree/Conifer/Materials/ConiferBark.mat",
+        "size": 3731
+      },
+      {
+        "guid": "2d687537154440a3913a9a3c7977978c",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/CameraController.cs",
+        "size": 10637
+      },
+      {
+        "guid": "2d79772cda0b4b6409070163fcab05da",
+        "path": "Assets/res/ParticleSystems/Scripts/WaterHoseParticles.cs",
+        "size": 1458
+      },
+      {
+        "guid": "2dba76bcd277dda4aac65db443969648",
+        "path": "Assets/Resources/PXR_ProjectSetting.asset",
+        "size": 1368
+      },
+      {
+        "guid": "2e16046ebcbcb6742a86569d82e56cce",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/Starter Assets/DemoAssets/Prefabs/Interactables/Cube.prefab",
+        "size": 9949
+      },
+      {
+        "guid": "2e498d1c8094910479dc3e1b768306a4",
+        "path": "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset",
+        "size": 9266
+      },
+      {
+        "guid": "2ea572d587ee60f44bd5baa3bc2d6503",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/Starter Assets/DemoAssets/Prefabs/Climb/Climb Sample.prefab",
+        "size": 9757
+      },
+      {
+        "guid": "2ed57967c52645d390a89dcf8f61ba73",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexJitter.cs",
+        "size": 7113
+      },
+      {
+        "guid": "2ed984a58a974166bf92c82a74380454",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/Starter Assets/DemoAssets/Prefabs/Interactables/Cylinder.prefab",
+        "size": 13011
+      },
+      {
+        "guid": "2f8349570a152884fb6cf7ebdc8c18b3",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/Starter Assets/DemoAssets/Sprites/Circle_60x60 Outline 4.png",
+        "size": 4796
+      },
+      {
+        "guid": "2fd3e07afe5b461490fb8e314976b1b0",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/Starter Assets/Prefabs/Interactors/Direct Interactor.prefab",
+        "size": 6959
+      },
+      {
+        "guid": "300d8beedc19cfc42a12866de4103d82",
+        "path": "Assets/Resources/jiaju/Bathroom_Shower1.fbx",
+        "size": 25884
+      },
+      {
+        "guid": "30289309b0c21224ea5b6fcc73b07d59",
+        "path": "Assets/res/ParticleSystems/Materials/ParticleFlameLicks.mat",
+        "size": 880
+      },
+      {
+        "guid": "30586af2d47849140b2d533bb6f75eaa",
+        "path": "Assets/res/Environment/SpeedTree/Broadleaf/Broadleaves_Desktop_Spec.tga",
+        "size": 590888
+      },
+      {
+        "guid": "3062613153ea47f42a262f065fec69d1",
+        "path": "Assets/res/ParticleSystems/Materials/ParticleSpray.mat",
+        "size": 1047
+      },
+      {
+        "guid": "306f8f570579fb3448d141a63029ef94",
+        "path": "Assets/res/Environment/SpeedTree/Broadleaf/Broadleaves_Desktop.tga",
+        "size": 1148808
+      },
+      {
+        "guid": "308cc8b73722e43eab64c228a76560a6",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/XR Device Simulator/UI/Mouse/MouseR_d.png",
+        "size": 8840
+      },
+      {
+        "guid": "310ef0f38fe364cc986d05acdbdf1183",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/XR Device Simulator/UI/Controller/ControllerOverlayLinesRight.png",
+        "size": 10696
+      },
+      {
+        "guid": "313311e0a33683a47b1f9d2a382cbd06",
+        "path": "Assets/Resources/jiaju/Light_Icosahedron2.fbx",
+        "size": 72492
+      },
+      {
+        "guid": "319dafa5c80f29f428dc1e0d03f04177",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/Starter Assets/DemoScene.unity",
+        "size": 272933
+      },
+      {
+        "guid": "31bb803a87bc16a4f8153da2e9086604",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/Starter Assets/Scripts",
+        "size": 0
+      },
+      {
+        "guid": "325ab76a5ca41b54c82378d06a427652",
+        "path": "Assets/Resources/jiaju/Window_Round3.fbx",
+        "size": 17580
+      },
+      {
+        "guid": "32aafb358d61bd14b9b27ed0871fe43b",
+        "path": "Assets/res/ParticleSystems/Prefabs/Steam.prefab",
+        "size": 109537
+      },
+      {
+        "guid": "330465b99207b814889fc141df98261b",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0",
+        "size": 0
+      },
+      {
+        "guid": "333cd59d8ab223a41ba1366d8f953593",
+        "path": "Assets/Resources/moxing/border-corner-small.fbx",
+        "size": 25872
+      },
+      {
+        "guid": "3369231b1ed7ad34e84d9240a571db81",
+        "path": "Assets/res/CrossPlatformInput/Prefabs/MobileAircraftControls.prefab",
+        "size": 35230
+      },
+      {
+        "guid": "337f92480dd24675aae9e79210fb1ad9",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/20 - Input Field with Scrollbar.unity",
+        "size": 62898
+      },
+      {
+        "guid": "349f38d3606449708c7340d26740e1e2",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/09 - Margin Tag Example.unity",
+        "size": 26630
+      },
+      {
+        "guid": "34c140c3ca9d7ff4b88ec245f549faa1",
+        "path": "Assets/Resources/jiaju/Light_Stand1.fbx",
+        "size": 19900
+      },
+      {
+        "guid": "34d2758af9e0a2b4690fbcfcad0285d6",
+        "path": "Assets/res/Environment/SpeedTree/Conifer/Conifer_Needles_Desktop.tga",
+        "size": 1079644
+      },
+      {
+        "guid": "34f03838a812f0e41b1e3da17ff4038e",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/Starter Assets/Models",
+        "size": 0
+      },
+      {
+        "guid": "34f07406286974e4ca236867d8d58b51",
+        "path": "Assets/res/Environment/SpeedTree/Broadleaf/BroadleafBark_Normal.tga",
+        "size": 4202514
+      },
+      {
+        "guid": "3549fdaf258e11846b85a316c16c699c",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/Starter Assets/DemoAssets/Prefabs/Interactables/Blaser.prefab",
+        "size": 18308
+      },
+      {
+        "guid": "355b3169750599e4f957a9d54675c3fa",
+        "path": "Assets/res/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD2/Leaves_3.mat",
+        "size": 1182
+      },
+      {
+        "guid": "356be060b1b95fb4bbc2fa604042df20",
+        "path": "Assets/WindManager.cs",
+        "size": 2619
+      },
+      {
+        "guid": "3587b30505d00a44c87d9c3b9d8bc35c",
+        "path": "Assets/res/ParticleSystems/Textures/ParticleFlameLickSheet.png",
+        "size": 139534
+      },
+      {
+        "guid": "36627c1adbc0ad843b1722a1fb00e973",
+        "path": "Assets/Resources/jiaju/Table_RoundSmall2.fbx",
+        "size": 28524
+      },
+      {
+        "guid": "36dc78de14390f74fb9031be4516e061",
+        "path": "Assets/Resources/jiaju/Kitchen_2Drawers.fbx",
+        "size": 18268
+      },
+      {
+        "guid": "371fa5d370f67534696194100d17bfad",
+        "path": "Assets/res/Environment/SpeedTree/Broadleaf/Cap_02_Normal.tga",
+        "size": 1050642
+      },
+      {
+        "guid": "37fac21d1f093d344816942d1abce94e",
+        "path": "Assets/res/Utility/TimedObjectDestructor.cs",
+        "size": 582
+      },
+      {
+        "guid": "381dcb09d5029d14897e55f98031fca5",
+        "path": "Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt",
+        "size": 187
+      },
+      {
+        "guid": "3861c298d39c60c44b16920421444875",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/XR Device Simulator/Hand Expression Captures/Grab Expression Capture.asset",
+        "size": 7306
+      },
+      {
+        "guid": "386b8cba413345a4aa05a66c98fe9c62",
+        "path": "Assets/Resources/moxing/wall-corner-round.fbx",
+        "size": 26896
+      },
+      {
+        "guid": "388cb625f9bdf7444b7b2df5b64a84c6",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/Starter Assets/Shaders",
+        "size": 0
+      },
+      {
+        "guid": "390f8b79522c0b141bfab559054aca2d",
+        "path": "Assets/Resources/moxing/plating-detailed-wide.fbx",
+        "size": 27664
+      },
+      {
+        "guid": "3979ce59e55144c89a2b3b3f8dcf7fd3",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts",
+        "size": 0
+      },
+      {
+        "guid": "3993d18363e0e97449297b0b59eb30db",
+        "path": "Assets/Resources/moxing/roof-flat-side.fbx",
+        "size": 25824
+      },
+      {
+        "guid": "3997e2241185407d80309a82f9148466",
+        "path": "Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc",
+        "size": 2843
+      },
+      {
+        "guid": "39a1fa96ad2a449b908fca29d4297a74",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/06 - Extra Rich Text Examples.unity",
+        "size": 19196
+      },
+      {
+        "guid": "39baceec69bb1ee4fb4194d50e1a6d10",
+        "path": "Assets/res/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD0/Branches_0.mat",
+        "size": 1248
+      },
+      {
+        "guid": "3a7cedf246fca744f90cbdc9dbe41166",
+        "path": "Assets/res/Utility/TimedObjectActivator.cs",
+        "size": 7058
+      },
+      {
+        "guid": "3aad042fcb57b4bed9d9a46b932df060",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/XR Device Simulator/UI/General/Locked.png",
+        "size": 5673
+      },
+      {
+        "guid": "3ac6db30e75b49b282a3564110579f27",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets",
+        "size": 0
+      },
+      {
+        "guid": "3ad9b87dffba344c89909c6d1b1c17e1",
+        "path": "Assets/TutorialInfo/Scripts/Editor",
+        "size": 0
+      },
+      {
+        "guid": "3aeb7dadc0c69d54d9e5777e9d5631f1",
+        "path": "Assets/res/PhysicsMaterials/Wood.physicmaterial",
+        "size": 468
+      },
+      {
+        "guid": "3af66bbc34ea9024e8df58ca92e79dbf",
+        "path": "Assets/Resources/jiaju/Houseplant_1.fbx",
+        "size": 23324
+      },
+      {
+        "guid": "3b2e62babc5249f42921c2cd027852cd",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/XR Device Simulator/UI/Hands/Hand_Thumb.png",
+        "size": 6530
+      },
+      {
+        "guid": "3bf2bbbc8bf6c674dbdd7e7bed3467bd",
+        "path": "Assets/res/Environment/SpeedTree/Palm/Palm_Desktop Materials",
+        "size": 0
+      },
+      {
+        "guid": "3bfa2f095c911d649bf4cb92a55ac974",
+        "path": "Assets/res/ParticleSystems/Materials/ParticleFlames.mat",
+        "size": 1049
+      },
+      {
+        "guid": "3c3753c0178041447889f1743a49b7ff",
+        "path": "Assets/Resources/moxing/gutter-vertical.fbx",
+        "size": 27184
+      },
+      {
+        "guid": "3ce213c1f32595b4888e78a36e017d3e",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/Starter Assets/Scripts/PlatformUnderstanding.cs",
+        "size": 3776
+      },
+      {
+        "guid": "3d8675433a508ec47b8f895201eacf20",
+        "path": "Assets/res/CrossPlatformInput/Sprites/ButtonSpacebarSprite.png",
+        "size": 3471
+      },
+      {
+        "guid": "3dc82647157f5fb4d9b4bade4825b42d",
+        "path": "Assets/res/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD1",
+        "size": 0
+      },
+      {
+        "guid": "3df3e1220f2164f448701a6de8084f92",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/Starter Assets/Prefabs/Interactors/Left_NearFarInteractor.prefab",
+        "size": 21923
+      },
+      {
+        "guid": "3e07eccb5e6f459d886de95044adb1d9",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/Starter Assets/DemoAssets/Prefabs/Teleportation Environment.prefab",
+        "size": 18444
+      },
+      {
+        "guid": "3e27d9cfd3a59af4ebdf7444f6f57620",
+        "path": "Assets/res/Environment/SpeedTree/Palm/PalmFrond_Spec.tga",
+        "size": 925832
+      },
+      {
+        "guid": "3e2e4d7b0bed4cf9ab827e9f32448f69",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/17 - Old Computer Terminal.unity",
+        "size": 19648
+      },
+      {
+        "guid": "3e41d2c82fc9f6c418a463c8004dfae9",
+        "path": "Assets/Samples/XR Interaction Toolkit",
+        "size": 0
+      },
+      {
+        "guid": "3ec238cb3e80e274c844d7b56f585392",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/Starter Assets/DemoAssets/AffordanceThemes/InteractionColor.asset",
+        "size": 2650
+      },
+      {
+        "guid": "3f5b5dff67a942289a9defa416b206f3",
+        "path": "Assets/TextMesh Pro/Resources/TMP Settings.asset",
+        "size": 1683
+      },
+      {
+        "guid": "3f66eeca8ac36914e9ec9a716a9d9f73",
+        "path": "Assets/res/CrossPlatformInput/Scripts",
+        "size": 0
+      },
+      {
+        "guid": "407bc68d299748449bbf7f48ee690f8d",
+        "path": "Assets/TextMesh Pro/Shaders/TMPro.cginc",
+        "size": 2277
+      },
+      {
+        "guid": "40c91c076121db5428401b8a542959ee",
+        "path": "Assets/Resources/moxing/wall-doorway-wide-square.fbx",
+        "size": 26688
+      },
+      {
+        "guid": "41232aac50fb25a40b390906295f9aa6",
+        "path": "Assets/res/Environment/SpeedTree/Conifer/Conifer_Desktop_Atlas_Specular.tga",
+        "size": 751235
+      },
+      {
+        "guid": "42541a22bf6270741bd05ac5ca0fccd4",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/Starter Assets/DemoAssets",
+        "size": 0
+      },
+      {
+        "guid": "42df1c7856584b6b8db9a509b6b10074",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat",
+        "size": 3188
+      },
+      {
+        "guid": "433e9c8d0293ac4429eaf19bff2b58cf",
+        "path": "Assets/res/ParticleSystems/Scripts/Explosive.cs",
+        "size": 2087
+      },
+      {
+        "guid": "43b12856afb7b9746a7fdd23df09445d",
+        "path": "Assets/Resources/jiaju/Shelf_Large.fbx",
+        "size": 16844
+      },
+      {
+        "guid": "43bcd35a1c0c40ccb6d472893fe2093f",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs",
+        "size": 3782
+      },
+      {
+        "guid": "43ce62dcf96aad9468e6e69f10ebe70c",
+        "path": "Assets/Resources/jiaju/Bathroom_Toilet2.fbx",
+        "size": 21020
+      },
+      {
+        "guid": "440eb36db91ca410f800ff3cfe43572f",
+        "path": "Assets/res/Environment/TerrainAssets/SurfaceTextures/GrassRockyAlbedo.psd",
+        "size": 815166
+      },
+      {
+        "guid": "4414ab7cd3d674b449d233db0d583605",
+        "path": "Assets/res/ParticleSystems/Scripts/SmokeParticles.cs",
+        "size": 440
+      },
+      {
+        "guid": "4539eb30e895bbb41b5eae6df2dde978",
+        "path": "Assets/res/Utility",
+        "size": 0
+      },
+      {
+        "guid": "4549a879ac40de046bfac582e28fabe6",
+        "path": "Assets/Resources/moxing/wall-doorway-square.fbx",
+        "size": 26656
+      },
+      {
+        "guid": "45cab4c9b31009748999eec1556926b3",
+        "path": "Assets/res/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas_Specular.tga",
+        "size": 1700779
+      },
+      {
+        "guid": "46160e8fc1456bc4d9fb3de64ba88c31",
+        "path": "Assets/res/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD1/Branches_0.mat",
+        "size": 1248
+      },
+      {
+        "guid": "469edab27ab6d004d84af2c4a851bd7f",
+        "path": "Assets/res/Environment/SpeedTree/Conifer/Conifer_Desktop.spm",
+        "size": 2199965
+      },
+      {
+        "guid": "46c1c422ff6897f49a404b012dc924d3",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/Starter Assets/DemoAssets/Models/Primitive_Torus_Cut.fbx",
+        "size": 27856
+      },
+      {
+        "guid": "46eb6018243e60f49bdffddf3db07cbb",
+        "path": "Assets/Resources/jiaju/Bathroom_ToiletPaper.fbx",
+        "size": 22524
+      },
+      {
+        "guid": "473d6d3ec0d161b4a85e466c8c6da3fb",
+        "path": "Assets/res/ParticleSystems/Materials/ParticleSmokeMobile.mat",
+        "size": 1054
+      },
+      {
+        "guid": "476cc7d7cd9874016adc216baab94a0a",
+        "path": "Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs",
+        "size": 6677
+      },
+      {
+        "guid": "479a66fa4b094512a62b0a8e553ad95a",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Blue to Purple - Vertical.asset",
+        "size": 588
+      },
+      {
+        "guid": "48bb5f55d8670e349b6e614913f9d910",
+        "path": "Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader",
+        "size": 3497
+      },
+      {
+        "guid": "48e4b8ac17052674bb119fa5c7107753",
+        "path": "Assets/Resources/moxing/gutter-vertical-wall.fbx",
+        "size": 27136
+      },
+      {
+        "guid": "492f54f4accf00440828ffcb9e4fcc19",
+        "path": "Assets/res/Utility/CurveControlledBob.cs",
+        "size": 1969
+      },
+      {
+        "guid": "49b611e658efbf443b686a4036f74fe3",
+        "path": "Assets/res/CrossPlatformInput/Sprites/ButtonArrowOverSprite.png",
+        "size": 8229
+      },
+      {
+        "guid": "4a5f76f9ea8c80547973ab01877f9567",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/Starter Assets/Scripts/ControllerAnimator.cs",
+        "size": 2969
+      },
+      {
+        "guid": "4aecb92fff08436c8303b10eab8da368",
+        "path": "Assets/TextMesh Pro/Resources/Style Sheets",
+        "size": 0
+      },
+      {
+        "guid": "4b3a15cbafc058c4cb3ae79b3e9aabc2",
+        "path": "Assets/Resources/jiaju/Bathroom_Towel.fbx",
+        "size": 20620
+      },
+      {
+        "guid": "4be3be66568680049a366b2084bdc9dd",
+        "path": "Assets/Resources/moxing/barricade-doorway-b.fbx",
+        "size": 26480
+      },
+      {
+        "guid": "4be5b19d42487c24f830c4ee36849a95",
+        "path": "Assets/res/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD1/Branches_0.mat",
+        "size": 1186
+      },
+      {
+        "guid": "4beb055f07aaff244873dec698d0363e",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf",
+        "size": 170760
+      },
+      {
+        "guid": "4c86a3366cd840348ebe8dc438570ee4",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Dark to Light Green - Vertical.asset",
+        "size": 609
+      },
+      {
+        "guid": "4ccf43d26c4748c792174516f4a8fcef",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text Image 1.png",
+        "size": 26169
+      },
+      {
+        "guid": "4d6c994b9ad45b847bc67ec5f857fc78",
+        "path": "Assets/res/Environment/SpeedTree/Palm/PalmBark_Detail.tga",
+        "size": 1045388
+      },
+      {
+        "guid": "4db017495c69e8140a56a0e2b669e3f8",
+        "path": "Assets/res/CrossPlatformInput/Sprites/ButtonArrowUpSprite.png",
+        "size": 8376
+      },
+      {
+        "guid": "4dbf077105ba797428d118320f2a10aa",
+        "path": "Assets/res/ParticleSystems/Prefabs/HoseMobile.prefab",
+        "size": 453847
+      },
+      {
+        "guid": "4dd2e41114c62b44fbd334ca5b314352",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/Starter Assets/Scripts/RotationAxisLockGrabTransformer.cs",
+        "size": 2109
+      },
+      {
+        "guid": "4e505ad81f5b19c4cb6f445d36463955",
+        "path": "Assets/res/ParticleSystems/Textures/ParticleFlamesSheet.png",
+        "size": 302546
+      },
+      {
+        "guid": "4e56ee2eb322f684c81dd3c5d9a3a00e",
+        "path": "Assets/Resources/moxing/wall-corner-column-bottom.fbx",
+        "size": 26384
+      },
+      {
+        "guid": "4e7f6b26d1152884bb2f8d966380df92",
+        "path": "Assets/Resources/jiaju/Trashcan_Small2.fbx",
+        "size": 22380
+      },
+      {
+        "guid": "4eb43321e418951499417cda6141b31a",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/XR Device Simulator/UI/Head/HMD.png",
+        "size": 9918
+      },
+      {
+        "guid": "4f19c7f94c794c5097d8bd11e39c750d",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin.cs",
+        "size": 2133
+      },
+      {
+        "guid": "4f1d9b9de9e4c1d4c80ad03ebe19f36a",
+        "path": "Assets/Resources/jiaju/Spoon.fbx",
+        "size": 17900
+      },
+      {
+        "guid": "4f1e85c79acf49968737939ce8b445c7",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials",
+        "size": 0
+      },
+      {
+        "guid": "4f62c7b7418ee024aa16285921e63d56",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/Starter Assets/Scripts/PermissionsManager.cs",
+        "size": 6470
+      },
+      {
+        "guid": "4f6e3bc92efbf964591ba2ccb2d45fd1",
+        "path": "Assets/Resources/jiaju/Chair_4.fbx",
+        "size": 18508
+      },
+      {
+        "guid": "4f7b6e4d9c721834e97d07d4cd95bf74",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/Starter Assets/DemoAssets/Prefabs/GazeActivationZone.prefab",
+        "size": 2030
+      },
+      {
+        "guid": "4f9d71771b07cb6438e0d35b038b43a7",
+        "path": "Assets/res/Environment/TerrainAssets/SurfaceTextures",
+        "size": 0
+      },
+      {
+        "guid": "50f52f9274434ecfb34dd87f0836f323",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/21 - Script Example.unity",
+        "size": 6347
+      },
+      {
+        "guid": "50fd2900c114efa4eb999a28954665b4",
+        "path": "Assets/Resources/moxing/roof-flat-patch.fbx",
+        "size": 25680
+      },
+      {
+        "guid": "512a49d95c0c4332bdd98131869c23c9",
+        "path": "Assets/TextMesh Pro/Resources/Sprite Assets",
+        "size": 0
+      },
+      {
+        "guid": "51de975a91c8faa48a7c9f0cdda9a3f7",
+        "path": "Assets/Resources/jiaju/Window_Large1.fbx",
+        "size": 17228
+      },
+      {
+        "guid": "521327bdbcb341f782d36f02cab76cb0",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/Starter Assets/DemoAssets/Prefabs/Interactables/Torus.prefab",
+        "size": 12940
+      },
+      {
+        "guid": "52baaeb214519f347a35cf0edfd262ff",
+        "path": "Assets/res/PhysicsMaterials/Rubber.physicmaterial",
+        "size": 453
+      },
+      {
+        "guid": "52ec835d14bd486f900952b77698b7eb",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs",
+        "size": 8548
+      },
+      {
+        "guid": "5302535af1044152a457ed104f1f4b91",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset",
+        "size": 7952
+      },
+      {
+        "guid": "53d91f98a2664f5cb9af11de72ac54ec",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs",
+        "size": 1332
+      },
+      {
+        "guid": "5410adf0b914f49438506b7dd0022773",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/XR Device Simulator/UI/General/Look.png",
+        "size": 6733
+      },
+      {
+        "guid": "541ed11e270c6994ca5910042c7e04da",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/Starter Assets/DemoAssets/Prefabs/UI/Icon Toggle.prefab",
+        "size": 10514
+      },
+      {
+        "guid": "5485e2f56028a3c4cb54f5caa167377e",
+        "path": "Assets/res/CrossPlatformInput/Sprites/ButtonThumbstickOverSprite.png",
+        "size": 8099
+      },
+      {
+        "guid": "54c1f4ebd92eaaa438a3ff6205b7f458",
+        "path": "Assets/Resources/jiaju/Light_Icosahedron.fbx",
+        "size": 35212
+      },
+      {
+        "guid": "54e994244b4b467e8583cf2da6dcc716",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/23 - Animating Vertex Attributes.unity",
+        "size": 14217
+      },
+      {
+        "guid": "54ee8e39b634b6d45aae528b6b24e879",
+        "path": "Assets/res/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD1/Branches_0.mat",
+        "size": 1186
+      },
+      {
+        "guid": "558cf2ed2f15bda43a8372c2abd7bbd0",
+        "path": "Assets/WASDPlayer.cs",
+        "size": 2390
+      },
+      {
+        "guid": "55a4ebf4499a836428be3a6031940407",
+        "path": "Assets/Resources/jiaju/Kitchen_Oven.fbx",
+        "size": 26556
+      },
+      {
+        "guid": "55e2334423fefa34fb4916f6780413d3",
+        "path": "Assets/res/Environment/SpeedTree/Broadleaf/Cap_01_Normal.tga",
+        "size": 1050642
+      },
+      {
+        "guid": "55f7614a1d331d14bb631965514937d8",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/Starter Assets/Presets/XRI Default Right Controller InputActionManager.preset",
+        "size": 2716
+      },
+      {
+        "guid": "56686f82f64b0af4688a89676403a500",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/Starter Assets/DemoAssets/Prefabs/UI/Icon Button.prefab",
+        "size": 11559
+      },
+      {
+        "guid": "56ddd3da8d69a12429f5af730e3d679d",
+        "path": "Assets/XR/Settings/PXR_Settings.asset",
+        "size": 560
+      },
+      {
+        "guid": "57225f817366f704fb9b710e3865030d",
+        "path": "Assets/res/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD1/Fronds_2.mat",
+        "size": 1183
+      },
+      {
+        "guid": "576dd66e488bebb409b1ce2e8b675c1c",
+        "path": "Assets/Resources/moxing/wall-window-wide-square-detailed.fbx",
+        "size": 33056
+      },
+      {
+        "guid": "579a84533ec1ecc498bdc2cc489d2e79",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/Starter Assets/DemoAssets/Prefabs/UI",
+        "size": 0
+      },
+      {
+        "guid": "57df284b8a7c87b4894ac5f9c86e0be9",
+        "path": "Assets/res/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD2/Branches_1.mat",
+        "size": 1248
+      },
+      {
+        "guid": "5808953df7a24274a851aa6dee52d30e",
+        "path": "Assets/TextMesh Pro/Examples & Extras/Materials",
+        "size": 0
+      },
+      {
+        "guid": "580f0f8d1061d3e438803034cd6138ad",
+        "path": "Assets/Resources/moxing/roof-flat-corner-inner.fbx",
+        "size": 26048
+      },
+      {
+        "guid": "5833e680dc0f7ae47aec6b4286570484",
+        "path": "Assets/Samples/XR Interaction Toolkit/3.4.0/Starter Assets/TunnelingVignette/TunnelingVignetteHemisphere.fbx",
+        "size": 55932
+      },
+      {
+        "guid": "58650e15a2607e44daa0f150e0061d89",
+        "path": "Assets/res/Utility/DragRigidbody.cs",
+        "size": 3156
+      },
+      {
+        "guid": "58a059b07b093a745b47c2191525ddce",
+        "path": "Assets/res/Environment/TerrainAssets/SurfaceTextures/MudRockyNormals.bmp",
+        "size": 3145782
+      },
+      {
+        "guid": "58cd5a53d0e51b847adb4c64b2fd6766",
+        "path": "Assets/Resources/jiaju/Carpet_Round.fbx",
+        "size": 18044
+      }
+    ]
+  }
+]
